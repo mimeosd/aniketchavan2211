@@ -1,0 +1,22 @@
+#  Git & Github
+#1 Introduction of Git    
+   
+   Git is a version control system for tracking changes in 
+   computer files and cordinating work on those files among 
+   multiple people.
+  
+   Github is a provider of Internet hosting for software 
+   deveploment and version control using Git. It offers the 
+   distributed version control and source code management
+   functionality of Git.
+
+   Bitbucket is a Git based source code repository hosting
+   service. Bitbucked offers both commercial plans and tree
+   accounts with an unlimited number of private repositories.
+ 
+   Gitlab is a open - core company that provides Gitlab a 
+   DevOps software package that combines the ability to 
+   develop, secure, and operate software in a single
+   applaiction. 
+
+#2  
