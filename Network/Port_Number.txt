@@ -8,20 +8,28 @@
   |  23  |      telnet      |
   |  25  |       SMTP       |    
   |  42  | WINS Replications|
-  |  43  |
-  |  49  |
-  |  53  |
-  | 67-68|
-  |  69  |
-  |  70  |
-  |  79  | 
-  |  80  |
-  |  88  |
-  |  102 |
-  |  110 |
-  |  113 |
-  |  119 |
-  |  123 |
+  |  43  |       WHOIS      |
+  |  49  |      TACACS      |
+  |  53  |       DNS        |
+  | 67-68|    DHCP/BOOTP    |
+  |  69  |      TFTP        |
+  |  70  |     Gopher       |
+  |  79  |     Finger       |
+  |  80  |       HTTP       |
+  |  88  |      Kerberos    |
+  |  102 |     MS Exchange  |
+  |  110 |       POP3       |
+  |  113 |      Ident       |
+  |  119 |     NNTP(Usemet) |
+  |  123 |       NTP        |
+  | 554  |       RTSP       |
+  |546-547|       DHCPv6    |
+  |  560 |     rmonitor     |   
+  |  563 |    NNTP over SSL |
+  |  587 |       SMTP       | 
+  |  591 |      Filemaker   | 
+  |  593 | Microsoft DCOM   |
+  |  631 | Internet Printing|
   |      |
   |      |
   |      |
@@ -45,7 +53,14 @@
   |      |
   |      |
   |      |
-  |
+  |      |
+  |      |
+  |      |
+  |      |
+  |      |
+  |      |
+  |      |
+  |      |
   |
   |
   |
