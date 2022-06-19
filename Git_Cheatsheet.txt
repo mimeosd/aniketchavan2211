@@ -1,4 +1,4 @@
-#  Git & Github
+#                          Git & Github
 #1 Introduction of Git    
    
    Git is a version control system for tracking changes in 
@@ -53,6 +53,24 @@
     ".git" directory with subdirectories for object, 
     refs/heads, refs/tags, and template files.
 
+    #Setup for SSH for Git 
+     
+     ssh-keygen - {you can create a new public and private 
+                   key pair with the following command, Enter 
+                   and re-enter a passphrase when prompted, or 
+                   leave it empty.
+
+     eval "$(ssh-agent -s)" - {Add you SSH key to the ssh-agent. 
+                               Notice that you'll need te 
+                               replace id_rsa in the command 
+                               with the name of your private key 
+                               file}
+     
+     ssh-add ~/.ssh/id_rsa  - {Key}
+
+     check online : https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+    
 #4 Staging Area
    Unlike the other systems, Git has something called the 
    "staging area" or "index". This is an intermediate area 
@@ -122,4 +140,80 @@
    
    git rm --cached (filename) - {File only remove from staging 
                                  area}
-#10 
+#10 Checking Status
+    
+    Displays paths that have differences between the index file 
+    and the current HEAD commit, paths that have differences 
+    between the working tree and the index file, and paths 
+    in the working tree that are not tracked by Git 
+    (and are not ignored by gitignore).
+   
+    git status - {Show the working tree status}  
+
+    git status -s - {short for git status}
+    
+#11 Ignoring files and directory
+  
+    A gitignore file specifies intentionally untracked files 
+    that Git should ignore. Files already tracked by Git are 
+    not affected; see the NOTES below for details.
+    
+    gitignore - {Specifies intentionally untracked files to 
+                 ignore}
+
+#12 Branches 
+ 
+    A branch represents an independent line of development. 
+    Branches serve as an abstraction for the edit/stage/commit 
+    process. You can think of them as a way to request a brand 
+    new working directory, staging area, and project history. 
+    New commits are recorded in the history for the current 
+    branch, which results in a fork in the history of the project.
+    
+    git branch --list - {Listing a branches}
+
+    git branch (branch_name) - {Creating a branch}
+    
+    git branch -d (branch_name) - {Deleting a branch}
+
+#13 Github 
+
+    GitHub, Inc. is a provider of Internet hosting for software 
+    development and version control using Git. It offers the 
+    distributed version control and source code management 
+    (SCM) functionality of Git, plus its own features. 
+    It provides access control and several collaboration 
+    features such as bug tracking, feature requests, 
+    task management, continuous integration, and wikis for 
+    every project.
+
+#14 Remote Repository
+   
+    Remote repositories are versions of your project that are 
+    hosted on the Internet or network somewhere. 
+    You can have several of them, each of which generally is 
+    either read-only or read/write for you.
+
+#15 Pushing repo from local repository to remote repository
+ 
+    The git push command is used to upload local repository 
+    content to a remote repository. Pushing is how you transfer 
+    commits from your local repository to a remote repo.
+
+    git push (origin master) -  {origin is by default remote and 
+                                 master is by default branch}
+
+#16 Pulling repo form remote repository to local repository
+ 
+    The git pull command is used to fetch and download content 
+    from a remote repository and immediately update the 
+    local repository to match that content.    
+    
+    git pull - {by default}
+
+#17 Cloning repo 
+    
+    The git clone command is used to copy an existing Git 
+    repository from a server to the local machine.
+    
+#18 
