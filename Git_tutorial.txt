@@ -19,4 +19,107 @@
    develop, secure, and operate software in a single
    applaiction. 
 
-#2  
+#2 Your Identity
+   
+   Configuring Name & Email in Git
+   
+   "git config" that lets you get and set configuration
+    variables that control all aspects of how Git looks and 
+    operates.
+
+   The first thing you should do when you install Git is to set 
+   your username and email address.
+
+    >_ git config --global user.name "Username"
+    >_ git config --global user.email "Email"
+
+   you need to do this only if you pass the "--global" option,
+   because then Git will always use that infomation for anything
+   you do on that system.
+  
+   Checking the Username & Email:
+    
+    >_ git config --global user.name 
+    >_ git config --global user.email
+
+#3 Initializing Git Repository or Reinitializing an exiting one 
+    
+   git init - {create an empty Git repository or reinitialize an 
+               exiting one.}  
+   
+   Description
+    
+    This command creates an empty Git repository basically a 
+    ".git" directory with subdirectories for object, 
+    refs/heads, refs/tags, and template files.
+
+#4 Staging Area
+   Unlike the other systems, Git has something called the 
+   "staging area" or "index". This is an intermediate area 
+   where commits can be formatted and reviewed before 
+   completing the commit.
+     
+   Working Directory > UnModified > Modified > Staging Area > 
+   
+   Remote Repository 
+
+#5 Git Add Command
+   
+   The git add command adds content from the working directory
+   into the staging area (or “index”) for the next commit. 
+   When the git commit command is run, by default it only looks
+   at this staging area, so git add is used to craft what 
+   exactly you would like your next commit snapshot to look like.
+   
+   git add -A - {stages all}
+
+   git add . - {stages new and modified, without deleted}
+  
+   git add -u - {stages modified and deleted,without new}
+
+#6 Git Checkout Command
+
+   Updates files in the working tree to match the version in 
+   the index or the specified tree. If no pathspec was given, 
+   git checkout will also update HEAD to set the specified 
+   branch as the current branch.
+  
+   git checkout - {switch branches or restore working tree files}
+  
+   git checkout -f - {all}
+
+#7 Git Logs 
+ 
+   List commits that are reachable by following the parent 
+   links from the given commit(s), but exclude commits that are 
+   reachable from the one(s) given with a ^ in front of them. 
+   The output is given in reverse chronological order by default
+
+   git log - {show commit logs}
+
+   git log -p -(number of commit) - {to see recently commits}
+
+#8 Git Diff
+
+   Show changes between the working tree and the index or a 
+   tree, changes between the index and a tree, changes between 
+   two trees, changes resulting from a merge, changes between 
+   two blob objects, or changes between two files on disk.
+
+   git diff - {show changes between commits,commit and working 
+               tree, etc}
+
+   git diff --staged - {comparing working to staging area}
+
+#9 Removing File
+
+   The git rm command is used to remove files from the staging
+   area and working directory for Git. It is similar to git 
+   add in that it staged a removal of a file for the next commit
+   
+   git rm (filename) - {Remove files from the working tree and from the 
+             staging area}
+   
+   git rm --cached (filename) - {File only remove from staging 
+                                 area}
+#10 
