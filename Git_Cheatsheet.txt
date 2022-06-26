@@ -106,7 +106,7 @@
   
    git checkout -f - {all}
 
-#7 Git Logs 
+#7 Git Logs Command 
  
    List commits that are reachable by following the parent 
    links from the given commit(s), but exclude commits that are 
@@ -117,7 +117,7 @@
 
    git log -p -(number of commit) - {to see recently commits}
 
-#8 Git Diff
+#8 Git Diff Command
 
    Show changes between the working tree and the index or a 
    tree, changes between the index and a tree, changes between 
@@ -215,5 +215,3 @@
     
     The git clone command is used to copy an existing Git 
     repository from a server to the local machine.
-    
-#18 
