@@ -9,5 +9,5 @@ This repository contain my own personal project & learning new things which I wi
 - 💬 Ask me about Cybersecurity | Ethical Hacking | Penetration Testing | Python | Web Development | 
 - 📫 About me :
      Email: aniketchavan2211@gmail.com
-     Instagram: aniket_chavan_2211
-     Twitter: Aniket86002211
+     Instagram: @aniket_chavan_2211
+     Twitter: @Aniket86002211
