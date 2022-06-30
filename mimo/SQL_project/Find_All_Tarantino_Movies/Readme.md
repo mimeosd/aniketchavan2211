@@ -1,4 +1,4 @@
-## Find All Tarantino Movies 
+# Find All Tarantino Movies 
 
  Using a `movies` table, we'll search for the 
  title and release dates of movies directed
