@@ -8,5 +8,5 @@
 - 🤔 I’m looking for help with `Cybersecurity professional`  `Enthusiasts`  `Experts`  `Ethical Hacker`  `Bug Hunter`  `Penetration Tester`  
 - 💬 Ask me about `Cybersecurity`  `Ethical Hacking`  `Penetration Testing`  `Python`  `Web Development`
 - 📫 About me :  Email: `aniketchavan2211@gmail.com`
-     Instagram: `@aniket_chavan_2211`
-     Twitter: `@Aniket86002211`
+     Instagram: [`@aniket_chavan_2211`](https://www.instagram.com/aniket_chavan_2211/)
+     Twitter: [`@Aniket86002211`](https://mobile.twitter.com/Aniket86002211)
