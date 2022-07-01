@@ -1,16 +1,15 @@
-
 # Shell
-
 ## What is a Kernal?
  > The Computer Programs that allocate the system resource and 
  > coordinate all the details of the computer's internals is
  > is called the operating system or the kernal. Users 
  > communicate with the OS through a program called the Shell.
-
+![Kernal](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Kernel.jpg)
 ## What is a Shell?
  > The Shell is a Command Line Interpreter.It translates 
  > commands entered by the user and converts them into a 
  > language that is understood by the kernal.
+![Shell](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Shell.jpg)
  
 ## What is a Shell Script?
  > The Basic concept of a shell script is a list of commands.
