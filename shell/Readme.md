@@ -1,3 +1,4 @@
+![Shell file extension](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/sh.png)
 # Shell
 ## What is a Kernal?
  > The Computer Programs that allocate the system resource and 
