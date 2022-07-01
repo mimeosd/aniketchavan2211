@@ -1,11 +1,16 @@
-#1 Introduction to Command Prompt 
+
+## Introduction to Command Prompt 
  
   In CLI(Command Line Interface) also known as CUI(Command User
   Interface)or Terminal(SHELL),the user has to type all the commands using the 
   keyword to interact with the computer.There is only text in
   CLI.
 
+<<<<<<< HEAD
 #2 Basic Commands and Operations Regarding Files, Folders & Locations 
+=======
+## Basic Commands and Operations Regarding Files, Folders & Locations 
+>>>>>>> 3b3baa7543ba491219dd40582e7a14dcd22b4fc7
   
   dir - directory {to list directory & Files}
   cd [location/directory/path] - change directory {used to change 
@@ -23,7 +28,7 @@
   move [filename] [directory] - {used to move files to folders}
   rmdir [foldername/directory] - {to delete a folder }
   
-#3 Start & Stop Tasks and Services using CMD
+## Start & Stop Tasks and Services using CMD
   
   Task - Apps
   Service - System process
@@ -35,7 +40,7 @@
   netstop [pid]- {stop service}
   driverquery - {opening list of installed drivers}
 
-#4 Getting Information about system and Programs using CMD
+## Getting Information about system and Programs using CMD
   wmic > /output:[path] - {to get name, version,...}
   wmic > cpu - detailed description
   vol D: 
@@ -44,7 +49,7 @@
   getmac - {used to show mac address}
   systeminfo
 
-#5 Managing User Account
+## Managing User Account
 
   net user - {To check/list accounts}
   net user [username] /add - {to add accounts}
@@ -54,7 +59,7 @@
   net user [Administrator/Guest] /active:no
   net user "username"* {for password}
  
-#6 Hide & Encrypt files
+## Hide & Encrypt files
   
   attrib +h +r +s - {for hiding files} 
   attrib -h -r -s - {for unhiding files}
@@ -64,7 +69,7 @@
   cipher /rekey - {for update efs key}
   assoc.[extension] - {to know the about installed extension}
   
-#7 Creating & Exporting files using CMD (Admin Privileges needed)
+## Creating & Exporting files using CMD (Admin Privileges needed)
    
   tasklist > [filename.extension] - {to save in file} 
   echo [type_text] > [filename.extension] - {to save text in file}
@@ -73,14 +78,14 @@
   type [filename.ext] - {to create new files}
   type nul > [filename.extension]
   
-#8 USB disk format,boot & label(rename) (Admin privileges needed)
+## USB disk format,boot & label(rename) (Admin privileges needed)
    
   diskpart > list disk > select disk [number] > clean
     create partition primary > select partition [number] > format fs=ntfs quick > active > assign > exit - {format and 
       creating partition in disk drive}
   label [drive letter:] [rename] - {rename a disk drive}
   
-#9 Wireless Commands (Admin privileges)
+## Wireless Commands (Admin privileges)
   
   netsh wlan show profile - {showing wifi connected}
   netsh wlan show all - {all info in detailed}
@@ -88,7 +93,7 @@
   netsh wlan set hostednetwork mode=allow ssid=LINE key=[password]
    =>netsh wlan start hostednetwork - {creating hotspot in laptop}
   
-#10 Networking Commands (Admin privileges)
+## Networking Commands (Admin privileges)
   
   hostname - {to know the device name}
   ipconig - {to show ip address}
@@ -98,8 +103,7 @@
   netstat - {to check network statistics}
   nslookup - {to get ip address of any domain}
   
-#11 Customization CMD Prompt Window Color changing,Resizing &
-#     Title Commands (Admin Privileges needed)
+## Customization CMD Prompt Window Color changing,Resizing & Title Commands (Admin Privileges needed)
    
   Change properties by Right click on Title Bar and Properties 
   will appear
@@ -109,7 +113,7 @@
   title - Title Bar 
   prompt [text]
   
-#12 Best Utility Commands (Admin Privileges needed)
+## Best Utility Commands (Admin Privileges needed)
   
   tree - {Listing the directories and Shb-directories}
   date - {to change date}
@@ -118,25 +122,25 @@
   shutdown -s -t [000 in seconds] - {shutdown}
   shutdown -r -t [000 in seconds] - {restart}
   
-#13 Stars Wars Impressive Commands (Admin Privileges)
+## Stars Wars Impressive Commands (Admin Privileges)
   
   enable telnet client by opening contol panel > Programs >
    Windows Features on and off > enable telnet client
   telnet towel.blinkenlights.nl.
  
-#14 Batch scripting 
+## Batch scripting 
   
-  #What's a batch file?
+  ### What's a batch file?
   > The definition of a batch file as it used in a Windows/DOS 
     environment is a text file that contains a series of
     commands that executed in sequence for Windows for perform 
     and operation.
 
-  #Why is it called a batch file?
+  #### Why is it called a batch file?
   > It's called a batch file because it "batches" a sequence
     of commands that would normally have to be ran one at times.
 
-  #How do you execute a batch file?
+  #### How do you execute a batch file?
   > You can run a batch file two ways. Create a shortcut
     the batch file or create your own batch file and save
     it to your desktop or somewhere in the files structure 
@@ -145,7 +149,7 @@
     line simply by trying the filename and extension,
     e.g. batchfile.bat, and pressing enter.
   
-  #Batch File Commands 
+  ### Batch File Commands 
 
   The purpose of batch files in run many DOS Commands at once
   sometimes pausing to allow the administrator to interact 
@@ -155,7 +159,7 @@
   is a list of the important commands that are used and their 
   definition.
   
-  #Commands
+  ### Commands
   
   echo - {Display text on the screen.}
   echo off - {hides the text that is normally output.} 
@@ -168,16 +172,16 @@
   for/in/do - {This commands lets you specify files}
   title - {edit the title of the window} 
   
-  #Batch Files: Creating and Executing
+  ### Batch Files: Creating and Executing
   
-  # Using Notepad and Wordpad
+  #### Using Notepad and Wordpad
   
     Notepad or Wordpad is what used to create batch files.These
     text editors are used to type out your batch file because 
     it is easiest way to type out the commands and to edit 
     your batch file after it has been created.
   
-  # Creating the batch file in Windows
+  #### Creating the batch file in Windows
   
     Once either Notepad or Wordpad is open you can start typing
     your batch file. Here is an example of a batch file typed
@@ -226,7 +230,7 @@
  
          
     Here is a batch files for creating and delete user account  
-#   ADD USER
+###   ADD USER
     1. In the notepad type Command NET USER [USER1] [123] /ADD, 
        where USER1 is the username a that you want to create an 
        123 is a password for the user want to create an 123 is a 
@@ -239,7 +243,7 @@
        file with BAT extension. For example CREATEUSER.BAT, Make  
        sure you specify the filename and extension between"".
     
-#   DELETE USER
+###   DELETE USER
     1. In the notepad type command NET [USER1] [123] /ADD,where 
        USER1 is the user name that you want to create and 123 
        is the password for the user account.
@@ -251,7 +255,7 @@
        file with.BAT extension. For example CREATE USER.BAT.
        Make sure you specify the filename and extension between.
        
-#   Commands 
+###   Commands 
     1.echo - {to display text in terminal}
     2.@echo off - {to hide unwanted text in terminal, 
                    adding @ will also hide path}
@@ -263,7 +267,7 @@
     8.cls - {clear previous commands}
     9.exit /b - {for exiting the terminal}
 
-#15 New GUI Command Line   
+## 15 New GUI Command Line   
     
     Powercmd - {Software provides a GUI for terminal}
 
