@@ -13,6 +13,8 @@
 ![Shell](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Shell.jpg)
  
 ## What is a Shell Script?
+ > ![shell scripting](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/script.png)
+ >
  > The Basic concept of a shell script is a list of commands.
  > which are listed in the order of execution. A good shell
  > script will have comments preceded by # sign, describing the
