@@ -1,6 +1,6 @@
 
 # Shell
-
+![Kernal](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Kernel.jpg)
 ## What is a Kernal?
  > The Computer Programs that allocate the system resource and 
  > coordinate all the details of the computer's internals is
