@@ -5,8 +5,7 @@
   keyword to interact with the computer.There is only text in
   CLI.
 
-#2 Basic Commands and Operations Regarding Files, Folders &
-#   Locations 
+#2 Basic Commands and Operations Regarding Files, Folders & Locations 
   
   dir - directory {to list directory & Files}
   cd [location/directory/path] - change directory {used to change 
