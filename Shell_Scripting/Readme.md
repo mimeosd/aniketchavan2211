@@ -65,37 +65,7 @@
  > which are listed in the order of execution. A good shell
  > script will have comments preceded by # sign, describing the
  > steps.
-
-### Types of Shell
- 
-   - C Shell (csh)
-    Ideal for learners comfortable with the C programming 
-    language.Mostly Network Admins use this shell.
- 
-   - Korn Shell (ksh)
-    This highly interactive shell is generally used to automate
-    a wide variety of operating system and system adminstrative 
-    tasks.
-
-   - Bourne Shell (sh) or Bourne Again Shell (bash)
-    Versatile and easy to learn, most widely taught and learnt 
-    shell for scripting and interfacing purposes.
- 
-   - Z Shell (zsh)
-    The Z shell is a Unix shell that can be used as an 
-    interactive login shell and as a command interpreter for 
-    shell scripting.
-
-   - Tenex Shell (tcsh) 
-    Tcsh offers multiple options, including a command-line 
-    editor, job control, spellcheck support, configurable 
-    command-line completion, a modernized history mechanism, 
-    and more.
-
-   - Friendly Interactive Shell (fish)
-    Fish includes various options, such as syntax highlighting, 
-    fancy tab completion, auto-complete suggestions, and more.
-
+    
 ### Commands and Utilities
 
   Like the word, "commands" itself says you have to follow
@@ -145,5 +115,30 @@
 
  "date" command prints current date and time on console/output
  or screen.
+
+### Types of Shell 
+
+ In Unix, there are two major types of shells.
+  - Bourne shell
+  - C shell
+
+#### Bourne Shell
+  Bourne shell again consists of the following subcategories:
+  - Bourne shell (sh)
+  - Korn shell (ksh)
+  - Bourne Again shell (bash)
+  - POSIX shell (sh)
+  
+ Bourne shell is usually installed as `/bin/sh`
+ on most versions of Unix.
+
+
+
+
+
+
+
+
+
 
 
