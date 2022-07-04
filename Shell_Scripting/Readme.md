@@ -165,9 +165,72 @@ In Bourne-type shell, the `$` character is the default prompt.
  Vi editor is used for editing an existing file
  or to create a new file from scratch.
  
+ In vi editor we have to give certain commands
+ to execute the task such as editing or creating.
 
+ Let us see how to create a file in vi editor
+ `vi filename`
+ Example, 
+ `vi file1`
 
+ It will create a new file with the name file1.
 
+ `vi -R filename` or `view filename`
+ Opens an existing file in the read-only mode.
+ example, `$vi -R file1` or `$view file1`.
+
+ After executing the command you will notice
+ a strange symbol called tilde `~` appending
+ at each line.
+
+ A tilde represents an unused line.
+ If it does not a appear at the start then there
+ is space, tab, or some other non-view able
+ character.
+
+ While working with vi editor we will go through
+ two different ways:
+ - Command mode
+ - Insert mode
+ 
+ Vi always starts in command mode
+ In this mode, you can more the cursor and 
+ cut, copy, paste the text.
+
+ You can open this mode in vi editor and 
+ it only understands commands.
+
+ Command mode also saves the changes you have
+ made to the file.
+ 
+ So no need to save the file manually, again
+ and again, it automatically saves after 
+ every change.
+
+ In insert mode, the user can insert text in
+ a file.
+ So for inserting text in insert mode simply
+ type `i`.
+ 
+ If you want to go back to command mode
+ press `Esc key`.
+
+ `Note:` > If you are not sure which mode you 
+ > are in press the Esc key twice; this will
+ > take you to the command mode.
+
+ You open a file using the vi editor.
+ start by typing some characters and then
+ come to the command mode to understand the
+ difference.
+
+ let's see commands to save file
+ `:w` this is command will save the file but
+ keep it open.
+ 
+ `:wq` will save the file and quit.
+
+ 
 
 
 
