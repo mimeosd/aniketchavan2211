@@ -150,6 +150,24 @@ In Bourne-type shell, the `$` character is the default prompt.
  But, Shell script make our work easy and faster.
 
 
+### Vi Editor
+
+ For every programming language, we have an 
+ editor where we can write programs, commands
+ and edit it.
+
+ Vi is one of the best screen- oriented text 
+ edition.
+ Vi enables us to edit lines in context with
+ the other lines in a file.
+ VIM is the latest version of vi and it stand
+ Vi Improved.
+ Vi editor is used for editing an existing file
+ or to create a new file from scratch.
+ 
+
+
+
 
 
 
