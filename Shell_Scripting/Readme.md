@@ -1,24 +1,23 @@
-![Shell file extension](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/sh.png)
 
 ## What is Unix?
 
- > Unix is a portable, multitasking, multiuser, time-sharing 
- > operating system OS).
+  Unix is a portable, multitasking, multiuser, time-sharing 
+  operating system OS).
  
- > The Unix opearting system is a set of programs that act as a
- > link between the computer and the user.
-
- > Unix was originally deveploped in 1969 by a group of 
- > employees at AT&T.
-
- > Unix was first programmed in assembly language but was 
- > reprogrammed in C in 1973.
+  The Unix opearting system is a set of programs that act as a
+  link between the computer and the user.
+ 
+  Unix was originally deveploped in 1969 by a group of 
+  employees at AT&T.
+ 
+  Unix was first programmed in assembly language but was 
+  reprogrammed in C in 1973.
 
 ## Operating System
 
- > The programs that assign the system resources and coordinate
- > all the details of the computer's internal is called the
- > operating system or the kernal.
+  The programs that assign the system resources and coordinate
+  all the details of the computer's internal is called the
+  operating system or the kernal.
 
 ## Design Of Unix
 
@@ -45,7 +44,7 @@
 ![Kernal](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Kernel.jpg)
 
 ### What is a Shell?
- 
+![Shell script file](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/sh.png)
  > The shell is the utility that processes your requests.
  > Basically, when you type in a command, the shell interprets 
  > the command and calls the program that you want.
@@ -99,24 +98,24 @@
 
 ### Commands and Utilities
 
- > Like the word, "commands" itself says you have to follow
- > as per the given instructions.
- >
- > There are various commands and utilities which you can make
- > use of in your days to days activities.
- >
- > cp, mv, cat and grep, etc are a few examples of commands and
- > utilities.
+  Like the word, "commands" itself says you have to follow
+  as per the given instructions.
+ 
+  There are various commands and utilities which you can make
+  use of in your days to days activities.
+ 
+  cp, mv, cat and grep, etc are a few examples of commands and
+  utilities.
 
 ### Files and Directories
 
- > We all know the use of files an directories, we use it to store
- > data according to their type.
- > 
- > All files are then organised into directories.
- > 
- > These directories are further organised into a tree-like
- > structure called the filesystem.
+  We all know the use of files an directories, we use it to store
+  data according to their type.
+  
+  All files are then organised into directories.
+  
+  These directories are further organised into a tree-like
+  structure called the filesystem.
 
 ## Shell Programming 
 
@@ -142,7 +141,7 @@
  
  The shell reads inputs after you press Enter Key
 
- $date
+ `$date`
 
  "date" command prints current date and time on console/output
  or screen.
