@@ -234,7 +234,7 @@ In Bourne-type shell, the `$` character is the default prompt.
 
  let's see how to exit 
  
- To get out form the vi press `q`.
+ To get out form the vi press `:q`.
  If you want to close the vi without saving 
  then enter `:q!`.
   
