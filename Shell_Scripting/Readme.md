@@ -215,7 +215,8 @@ In Bourne-type shell, the `$` character is the default prompt.
  If you want to go back to command mode
  press `Esc key`.
 
- `Note:` > If you are not sure which mode you 
+ `Note:` 
+ > If you are not sure which mode you 
  > are in press the Esc key twice; this will
  > take you to the command mode.
 
@@ -225,12 +226,18 @@ In Bourne-type shell, the `$` character is the default prompt.
  difference.
 
  let's see commands to save file
+ 
  `:w` this is command will save the file but
  keep it open.
  
  `:wq` will save the file and quit.
 
+ let's see how to exit 
  
+ To get out form the vi press `q`.
+ If you want to close the vi without saving 
+ then enter `:q!`.
+  
 
 
 
