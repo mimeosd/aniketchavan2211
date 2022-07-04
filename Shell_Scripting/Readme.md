@@ -138,8 +138,9 @@ In Bourne-type shell, the `$` character is the default prompt.
   The C Shell (csh or the improved version,(tcsh)
   is a Unix Shell created by Bill Joy.
 
-  The different C type shells C shell (csh)
-  TENEX/TOPS C Shell (tcsh)
+  The different C type shells
+ - C shell (csh)
+ - TENEX/TOPS C Shell (tcsh)
 
  ***Shell script are set of commands to be executed
  in a sequential manner in the terminal.***
