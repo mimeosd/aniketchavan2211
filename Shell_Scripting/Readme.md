@@ -225,6 +225,8 @@ In Bourne-type shell, the `$` character is the default prompt.
  come to the command mode to understand the
  difference.
 
+### Save && Exit command 
+
  let's see commands to save file
  
  `:w` this is command will save the file but
