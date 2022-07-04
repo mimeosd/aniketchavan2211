@@ -14,7 +14,7 @@
   reprogrammed in C in 1973.
 
 ## Operating System
-
+![Operating System](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/operating-system.png)
   The programs that assign the system resources and coordinate
   all the details of the computer's internal is called the
   operating system or the kernal.
