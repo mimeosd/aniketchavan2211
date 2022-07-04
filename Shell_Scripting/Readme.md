@@ -132,9 +132,21 @@
  Bourne shell is usually installed as `/bin/sh`
  on most versions of Unix.
 
+In Bourne-type shell, the `$` character is the default prompt.
 
+#### C Shell
+  The C Shell (csh or the improved version,(tcsh)
+  is a Unix Shell created by Bill Joy.
 
+  The different C type shells C shell (csh)
+  TENEX/TOPS C Shell (tcsh)
 
+ ***Shell script are set of commands to be executed
+ in a sequential manner in the terminal.***
+
+ It is very difficult to execute a set of 
+ commands, again and again, one after another.
+ But, Shell script make our work easy and faster.
 
 
 
