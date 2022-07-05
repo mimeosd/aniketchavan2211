@@ -72,10 +72,31 @@
 
 ## Downloading & Installing Kali Linux
   First Download ISO file from below link 
+ 
   This is Official Kali Linux Page
-  Download ISO file from here 
-  Choose your Platform  
-  [ Offical Kali Linux  ](kali.org)    
 
+  Download ISO file from here 
+  [ Offical Kali Linux  ](kali.org) 
+
+  Choose your Platform
+  - Bare Metals 
+  - Virtual Machines
+  - ARM
+  - Mobile
+  - Cloud 
+  - Containers
+  - Live Boot
+  - WSL (Windows Subsystem for Linux
+
+
+  Every platform has different Installation 
+  mostly used as Virtual Machine 
   
-         
+  It basically run as virtual OS.
+  This will not affect your Host OS Which has your Personal Data, etc
+  And Kali is mostly used for Penetration testing, Network uses
+  so it perfered to install and run as virtual OS rather than Host OS.
+  
+  Watch Videos on Youtube for installation.
+
+
