@@ -28,7 +28,7 @@
   - It is Quite unfamiliar.
 
 ## Terminologies
-  `kernel` : The kernel is a computer program
+  `Kernel` : The kernel is a computer program
     that is the core of a computer's operating
     systems with complete controls over 
     everything in the system,It manages 
@@ -55,7 +55,20 @@
      a program that provides the user with
      a simple command-line interface.
 
+   `Console` : In the case of window OS, the 
+     "console" performs the same operation performed
+     by the terminal so we can say for Windows
+     OS, the console is the alias name for 
+     the terminal.
 
+   `Shell Scripting` : As shell can also take 
+     commands as input form file we can write 
+     these command in a file and can execute 
+     them in shell to avoid this respective work.
+     These files are called shell scripts or 
+     Shell Programs. Shell script are similar
+     to the batch file in MS-DOS, Each shell script
+     is saved with `.sh` file extension eg: `myscript.sh`
     
 
   
