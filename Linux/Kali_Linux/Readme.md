@@ -69,7 +69,13 @@
      Shell Programs. Shell script are similar
      to the batch file in MS-DOS, Each shell script
      is saved with `.sh` file extension eg: `myscript.sh`
-    
+
+## Downloading & Installing Kali Linux
+  First Download ISO file from below link 
+  This is Official Kali Linux Page
+  Download ISO file from here 
+  Choose your Platform  
+  [ Offical Kali Linux  ](kali.org)    
 
   
          
