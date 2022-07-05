@@ -1,4 +1,5 @@
-![News Quote](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/mimo/Web_Deveplment/html/News_Quote/News_Quote.jpg)
+![News Quote]( https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/News%20Quote.jpg)
+
 ## News Quote - Newspaper Quote
 
  Let's use your knowledge on styling text to fine-tune the 
