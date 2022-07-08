@@ -3,7 +3,21 @@
 ## Python Basics
 
 ### Kilometer Converter
- Have
+ Have you ever tried to convert miles into 
+ kilometres or the other way around?
+
+ We'll make it easier by building a converter  
+ app to solve this problem for good.
+
+ ```
+ miles = 500
+ kilometers = miles * 1.609344
+ print (kilometers)
+```
+ Console :
+```
+ 804.672 
+```
 
 ## Types and Comparison
 
