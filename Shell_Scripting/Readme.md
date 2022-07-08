@@ -29,42 +29,42 @@
 
 ### What is a Kernel?
 
- > The kernel is the heart of the operating system.
- >
- > It interacts with the hardware.
- >
- > The kernel manages other tasks like memory management, task
- > schedduling, and file management.
- >
- > The Computer Programs that allocate the system resource and 
- > coordinate all the details of the computer's internals is
- > is called the operating system or the kernal. 
- >
- > Users communicate with the OS through a program called the Shell.
+  The kernel is the heart of the operating system.
+ 
+  It interacts with the hardware.
+ 
+  The kernel manages other tasks like memory management, task
+  schedduling, and file management.
+ 
+  The Computer Programs that allocate the system resource and 
+  coordinate all the details of the computer's internals is
+  is called the operating system or the kernal. 
+ 
+  Users communicate with the OS through a program called the Shell.
 ![Kernal](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Kernel.jpg)
 
 ### What is a Shell?
 ![Shell script file](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/sh.png)
- > The shell is the utility that processes your requests.
- > Basically, when you type in a command, the shell interprets 
- > the command and calls the program that you want.
- > 
- > C shell, Bourne shell and korn shell are the most famous shells
- > which are available with most of the Unix variants.
- >
- > The Shell is a Command Line Interpreter.It translates 
- > commands entered by the user and converts them into a 
- > language that is understood by the kernal.
- >
- > ![Shell](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Shell.jpg)
+  The shell is the utility that processes your requests.
+  Basically, when you type in a command, the shell interprets 
+  the command and calls the program that you want.
+  
+  C shell, Bourne shell and korn shell are the most famous shells
+  which are available with most of the Unix variants.
+ 
+  The Shell is a Command Line Interpreter.It translates 
+  commands entered by the user and converts them into a 
+  language that is understood by the kernal.
+ 
+  ![Shell](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Shell.jpg)
  
 ### What is a Shell Script?
- > ![shell scripting](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/script.png)
- >
- > The Basic concept of a shell script is a list of commands.
- > which are listed in the order of execution. A good shell
- > script will have comments preceded by # sign, describing the
- > steps.
+  ![shell scripting](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/script.png)
+ 
+  The Basic concept of a shell script is a list of commands.
+  which are listed in the order of execution. A good shell
+  script will have comments preceded by # sign, describing the
+  steps.
     
 ### Commands and Utilities
 
