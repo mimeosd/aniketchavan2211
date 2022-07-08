@@ -15,14 +15,15 @@
 
  
 ##  What about Oh My Zsh?
-    Oh My Zsh is a delightful, open source, community-driven 
-    framework for managing your Zshconfiguration.It comes bundled
-    with thousands of helpful functions, helpers, plugins, themes
-    , and a few thing that make you shout..
+ 
+   Oh My Zsh is a delightful, open source, community-driven 
+   framework for managing your Zshconfiguration.It comes bundled
+   with thousands of helpful functions, helpers, plugins, themes
+   , and a few thing that make you shout..
 
-    Oh my Zsh is a community driven (with 1,300+ contribution)
-    framework for managing your zsh configuration: plugins, git
-    , OS X, brew, themes and much more.
+   Oh my Zsh is a community driven (with 1,300+ contribution)
+   framework for managing your zsh configuration: plugins, git
+   , OS X, brew, themes and much more.
 
 ## Advantages of ZSH over BASH
 
