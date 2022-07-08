@@ -1,4 +1,4 @@
-![Apartment Hunt Image](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/mimo/SQL_project/Apartment_Hunt/Apartment_Hunt.jpg)
+![Apartment Hunt Image](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Apartment-Hunt.png)
 # Apartment Hunt
 
  With so many apartments to took at, 
