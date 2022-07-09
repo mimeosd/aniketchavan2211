@@ -136,5 +136,18 @@
 
 
 
+# Basic Operations & Commands
+# Important Operations & Commands | Understanding Environment 
+# Text Logs Related Commands | Text Processing Operations in Kali
+# Getting System info in Linux | Gathering Specifications in Kali
+# Users & Groups in Kali Linux 
+# File Permission in Kali Linux 
+# Networking Commands in Linux | Network Management in Kali Linux
+# Package in Linux | Tool Packages in Kali Linux
+# SSH Server in Kali Linux 
+
+
+
+
 
  
