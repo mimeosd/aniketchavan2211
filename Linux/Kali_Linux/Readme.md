@@ -86,7 +86,7 @@
   - Cloud 
   - Containers
   - Live Boot
-  - WSL (Windows Subsystem for Linux
+  - WSL (Windows Subsystem for Linux)
 
 
   Every platform has different Installation 
