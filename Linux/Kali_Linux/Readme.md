@@ -105,9 +105,34 @@
  Penetration testing platform for Android devices
  based on Kali Linux
 
+ ***Kali Linux Rootless***
+ 
+ Install Kali NetHunter on any stock, 
+ unrooted Android device without voiding the 
+ warranty.
 
-
-
+ Installation :     
+ Open termux and type :      
+ Allow Termux app Storage Permission :
+ ```
+ termux-setup-storage  
+ ``` 
+ Installing wget Package for Downloading Kali :
+ ```
+ pkg install wget
+ ``` 
+ Downloading kali from Kali Database :
+ ```
+ wget -O install-nethunter-termux https://offs.ec/2MceZWr 
+ ```
+ Change Permission to execute the install-nethunter-termux v:
+ ```
+ chmod +x install-nethunter-termux
+ ```
+ Install Shell Script to Install Kali NetHunter :
+ ```
+ ./install-nethunter-termux  
+ ```
 
 
 
