@@ -133,8 +133,11 @@
  ```
  ./install-nethunter-termux  
  ```
-
-
+ ***Usage:***
+ Commands - To 
+ `nethunter` - To start Kali Linux Command Line Interface
+ `nethunter kex passwd` - configure the KeX password (only needed before 1st use)
+ `nethunter kex &` - start Kali NetHunter Desktop Experience user sessions
 
 # Basic Operations & Commands
 # Important Operations & Commands | Understanding Environment 
