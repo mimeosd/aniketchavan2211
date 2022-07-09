@@ -121,11 +121,11 @@
  ```
  pkg install wget
  ``` 
- Downloading kali from Kali Database :
+ Downloading Kali from Kali Database :
  ```
  wget -O install-nethunter-termux https://offs.ec/2MceZWr 
  ```
- Change Permission to execute the install-nethunter-termux v:
+ Change Permission to execute the install-nethunter-termux :
  ```
  chmod +x install-nethunter-termux
  ```
