@@ -299,13 +299,185 @@ In Bourne-type shell, the `$` character is the default prompt.
    `/root/home`
    
 
+## Storing data in Shell Scripting
+  
+ Varaibles are the names you give to store 
+ data/values.
 
+ The value assigned could be a number, text,
+ filename, device, or any other type of data.
+ 
+ There are certain rules to create varaibles.
 
+ The name of a varaible can contain only
+ letters (a to z or A to Z), numbers (0 to 9)
+ or the underscore character (_).
 
+ Unix Shell varaible will have their names
+ in UPPERCASE.
+ 
+ A variables should not start with numbers.
 
+ For examples,
+ ```
+ VAR_1
+ STUDENTS
+ _VAR
+ ```
+ These are examples of valid varaible names.
+ ```
+ 2_VAR
+ -VARIABLE
+ VAR1-VAR2
+ VAR-A!
+ 
+ These are examples of invalid varaibles names.
+ The reason you cannot use the other characters
+ such as !,*,or - is that these characters have
+ Special meaning for the shell.
+ 
+ Variable are defined as:
+ ```
+ variable_name=variable_value
+ ``
+ Here, varaible_name is the name of the variable.
 
+ Variable_value will be the value you assigned
+ to the varaible.
 
+ "=" sign puts the value in the variable.
 
+ Let's see an example,
+ ```
+ VAR1="Joy mil"
+ VAR2=20
+ ```
+ VAR1 & VAR2 are the variable names
+ Remember text should always be written in 
+ between double-quote(" ").
+
+ Variable can only hold one value.
+ The value assigned to a variables can be used
+ anywhere in the code by calling it with 
+ the variable name.
+ 
+ To access the value stored in a variable.
+
+ To access the value stored in a variable 
+ prefix it with the $(dollar sign).
+
+ For example, the following script will 
+ access the value of defined variable 
+ VAR1 and print it.
+ ```
+ #!/bin/sh
+ VAR1="Joy mill"
+ echo $VAR1
+ ```
+ The above script will produce the following
+ value 
+ ```
+ Joy mill
+ ```
+
+ What are read-only variable?
+ In shell script, we can mark variable as read
+ -only variables using read-only command.
+ 
+ The purpose of using the read-only command is
+ it value cannot be changed.
+ 
+ For example, the following scripts generates
+ an error while trying to change the value 
+ of VAR1
+ ```
+ #!/bin/sh
+ VAR1="Joy mil"
+ readonly VAR1
+ VAR1="loy"
+ ```
+ The above script will generate the following result
+ ```
+ /bin/sh: VAR1:This variable is read-only
+ ```
+ Thus VAR1 value cannot be changed.
+ 
+ Unsetting or deleting variable means to
+ remove the variable.
+
+ Once you unset a variable you cannot access
+ the value stored in a variable.
+
+ Syntax to unset the defined variable is:
+ ```
+ unset variable_name
+ ```
+ The below command unsets the value of a defined
+ variable.
+ Here is a simple example that how the command
+ works.
+ ```
+ #!/bin/sh
+ VAR1="Joy mil"
+ unset VAR1
+ echo $VAR1
+ ```
+ The above examples does not print anything
+ Remember you cannot use the unset command to
+ unset a variable that are marked read-only.
+
+ In shell script, there are three types of
+ variable :
+ - Local Variable
+ - Environment Variable
+ - Shell Variable
+
+ ***Local Variables*** :
+ A local variable is a variable that is present
+ within the current instance of the shell.
+ Program started by the shell cannot access the local 
+ variable.
+
+ ***Environment Variables*** :
+ Variables that are available to any process 
+ started by the shell are called Environment
+ Variables.
+ It can be accessed by the Current shell and 
+ also by it subshells 
+ Some program need environment variables in
+ order to function correctly.
+
+ ***Shell Variables*** :
+ A shell Variables is a special variable that 
+ is set by the shell and is required by the shell
+ in order to function correctly.
+ Some of these variable are environment variables
+ whereas others are local variables.
+ 
+ There are some variables that are reserved for
+ specific function are called specific variables.
+
+ `$0` - It shows the name of the shell we are working on.     
+ `$n` - It will print the nth argument provided to the bash script.Its range is from 0-9.    
+ `$#` - It shows the value of the total number of the command-line argument passed.    
+ `$*` - It stores the complete set of positional as a single string.        
+ `$@` - It is an array-like construct of all positional parameters. {$1,$2,$3...}.    
+ `$?` - It is shows the exits status of recently used command.   
+ `$$` - It shows the process ID of the current shell in which it is executed.   
+ `$!` - It shows the process ID of the recently executed command.   
+
+ For a example, the $character represents the process ID 
+ number, or PID, of the current shell
+
+ ```
+ $echo $$
+ ```
+ The above command writes the ID of the current
+ shell :
+ 29949
+ Similarly, we can use other special variables
+ in our program.
+ 
 
 
 
