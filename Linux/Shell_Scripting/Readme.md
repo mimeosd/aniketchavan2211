@@ -510,6 +510,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  NAME01="Joy"
  NAME02="Ray"
  NAME03="Clay"
+ ```
 
  Here we created 5 different variables to 
  store 5 names of students.
