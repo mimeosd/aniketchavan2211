@@ -479,6 +479,155 @@ In Bourne-type shell, the `$` character is the default prompt.
  in our program.
  
 
+## Arrays
+
+ Arrays in the shell script are similar to other
+ languages.
+
+ A variable in the shell can hold a single value
+ They are called scalar variables.
+ 
+ What if we want to store more than one value.
+ 
+ For string multiple values shell supports a
+ different type of variable called an array
+ variable.
+
+ Array avoids creating a new name for each 
+ variable, you can use a single array 
+ variable that stores multiple variables.
+
+ Any variables can be used as an array.
+ 
+ The size of the array has no limit.
+
+ Suppose we want to create an array of students
+ as a set of variables.
+
+ Let's create this using a scalar variables.
+
+ ```
+ NAME01="Joy"
+ NAME02="Ray"
+ NAME03="Clay"
+
+ Here we created 5 different variables to 
+ store 5 names of students.
+
+ It will be lengthy creating individual variables.
+ 
+ Instead, we can use array variables.
+
+ To store multiple values the simplest way is
+ to create an array variable.
+
+ Let's create an array variable.
+
+ Arrray_name[index]=value
+ 
+ Here array_name is the name of the array.
+ 
+ index is the index of the item in the array that
+ we want to set.
+
+ In shell script index number starts from 0
+ value is the values we want to set for 
+ that item.
+
+ Example of array variables: 
+ ```
+ NAME[0]="Joy"
+ NAME[1]="Ray"
+ NAME[2]="John"
+ NAME[3]="Sam"
+ NAME[4]="Clay"
+ ```
+
+ Here NAME is the array_name 
+ 0,1,2,3,4 are the index number that array.
+ Names of students are the values.
+
+ We can execute code in two-ways.Syntax if we
+ want to execute code in ksh shell:
+ `set -A array_name value1 value2... valuen`
+ 
+ For executing bash shell syntax will be.
+ `array_name=(value1...valuen)`
+
+### Accessing array values 
+
+ We saw how to create arrays.
+ 
+ Now let's learn how to use arrays
+
+ Syntax:
+ ```
+ ${array_name[index]}
+ ```
+
+ array_name is the name of the array.
+ 
+ Remember name should not contain space index
+ is the value to be accessed.
+
+ For, example
+ ```
+ NAME[0]="Joy"
+ NAME[1]="Ray"
+ NAME[2]="John"
+ NAME[3]"Clay"
+ echo "First Index: ${NAME[0]}"
+ echo "Second Index: ${NAME[1]}"
+ ```
+ 
+ echo command is used to display the text.
+
+ To display text use "" (double quotes).
+
+ The output of the above snippet will be
+
+ Output:
+ ```
+ $./test.sh
+ First Index: Joy
+ Second Index: Ray
+ ```
+ 
+ As the assigned value for 0 is joy, therefore,
+ it will print joy and for it will print Ray
+
+ You can access all the items in an array in
+ one of the following ways.
+ ${array_name[*]}
+ ${array_name[@]}
+
+ Let's have a look at this snippet code.
+ ```
+ NAME[0]="Joy"
+ NAME[1]="Ray"
+ NAME[2]="John"
+ NAME[3]="Sam"
+ NAME[4]="Clay"
+ echo "First Index: ${NAME[*]}"
+ echo "Second Index: ${NAME[@]}"
+ ```
+
+ The output of the above code will be:
+ Output:
+ $./test.sh
+ First Method: Joy Ray John Sam Clay
+ Second Method: Joy Ray John Sam Clay
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
