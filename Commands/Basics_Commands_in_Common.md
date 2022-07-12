@@ -15,4 +15,15 @@
 
 ## PowerShell
 
+ `dir` : for Checking current directory items.   
+ `dir | ft` : for filter current directory items.    
+ `cd, cd\, cd ..` : changing dircetory opeartions.    
+ `xcopy` : for copying opeartions.      
+ `move` : for moving opeartions.        
+ `md, mkdir` : for creating a folder.     
+ `rmdir` : for removing a folder.      
+ `del` : deleting a files.      
+ `type nul>` (filename) : for exporting files).      
+ `pwd` : for checking current location.
+
 ## Mac Terminal (OS X)
