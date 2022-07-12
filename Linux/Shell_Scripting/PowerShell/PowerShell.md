@@ -75,21 +75,21 @@
  executable file. You can use the alias instead of the command
  name in any Windows Powershell commands.
 
----------------------------------------------------------------
- Powershell(cmdlet)|  Powershell(alias)
- Get-ChildItem     |  gci, dir, ls
- Test-Conncetion   |  ping 
- ping              |  ping 
- Get-Content       |  gc, type, cat
- Get-Command       |  gcm 
- Get-Help          |  help, man
- Clear-Host        |  cls, clear
- Copy-Item         |  cpi, copy, cp
- Move-Item         |  mi, move, mv
- Remove-Item       |  ri, del, erase, rmdir, rd, rm
- Rename-Item       |  mi, ren, mv
- Get-Location      |  gi, cd, pwd
----------------------------------------------------------------
+
+| Powershell(cmdlet)|  Powershell(alias) |
+|-------------------|----------------- |
+| Get-ChildItem     |  gci, dir, ls |
+| Test-Conncetion   |  ping |
+| ping              |  ping |
+| Get-Content       |  gc, type, cat|
+| Get-Command       |  gcm |
+| Get-Help          |  help, man|
+| Clear-Host        |  cls, clear|
+| Copy-Item         |  cpi, copy, cp|
+| Move-Item         |  mi, move, mv|
+| Remove-Item       |  ri, del, erase, rmdir, rd, rm|
+| Rename-Item       |  mi, ren, mv|
+| Get-Location      |  gi, cd, pwd|
 
 ### Pipeline
 
