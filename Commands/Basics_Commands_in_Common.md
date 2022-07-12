@@ -1,4 +1,4 @@
-# Commands in Common Use :  
+# Common Commands :  
 ## Linux:
  
  `ls` - Listing all files / directories in current directory.       
