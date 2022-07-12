@@ -13,6 +13,17 @@
 
 ## Windows Command Prompt
 
+  echo - Display text on the screen.
+  echo off - hides the text that is normally output.
+  start - run a file with its default application.
+  rem - inserts a comments line in the progarm.
+  mkdir/rmdir - Make / Remove Directory
+  del - delete a files or file
+  copy - copy a file or files
+  copy con - allows to type in
+  for/in/do - This commands lets you specify files
+  title - edit the title of the window
+
 ## PowerShell
 
  `dir` : for Checking current directory items.   
