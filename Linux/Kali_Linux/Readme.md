@@ -161,11 +161,43 @@
  you might want to run `sudo apt install -y 
  kali-linux-default` as well.
 
-
-
-
-
 # Basic Operations & Commands
+
+ `who` - display user.   
+ `whoami` - prints login user.    
+ `users` - display all users on machine.  
+ `groups` - display groups in machine
+ `uname` - display type of machine.             
+ `uname -r` - (recursive) prints version of OS.   
+ `uname -a` - (all) prints all info.   
+ `ls` - listing directories and Files.   
+ `ls -l` - (long listing) display directories.    
+  and files with permissions, users, owner, 
+  date and much more.     
+ `ls -R` - display Directories with 
+ sub-directories and files inside them.    
+ `ls -a` - display hidden Directories and Files.     
+ `cd` - change directory [cd (path/location/directory)].   
+ `cd ..` - Back one directory.    
+ `cd ../../` - this will take you 2 back or 
+ top directories from file system tree.    
+ `cd /` - take you to root directory.    
+ `cd ~` - change directory home directory.         
+ `cd $HOME` - change directory home directory.   
+ `clear` - clear the terminal screen.   
+ `man` - manual [man (command)].   
+ `pwd` - print working directory, display where are you
+  in file system, which directory are in.      
+ `whereis` - locate or find the directories or files.    
+ `&&` - This will execute multiple commands one by one in sequencial manner. [ls && pwd]      
+ `apt update -y && apt upgrade -y` - update list and upgrades and install packages -y means yes and -n means no.   
+ `pkg update -y && pkg upgrade -y` - update & upgrades packages.            
+ `su` - superuser/Administrator/poweruser/rootuser has full access to machine, by you will login as superuser.     
+ `sudo` - superuser do command or operation will done by super user privileges.    
+ `touch` - To create any type of blank file [touch (file1.txt)].   
+ `cat` - display the file content on terminal screen [cat files.txt].   
+ `` -
+ `` - 
 # Important Operations & Commands | Understanding Environment 
 # Text Logs Related Commands | Text Processing Operations in Kali
 # Getting System info in Linux | Gathering Specifications in Kali
