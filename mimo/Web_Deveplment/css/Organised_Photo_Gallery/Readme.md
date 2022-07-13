@@ -1,4 +1,4 @@
-## Oranganised Photo Gallery
+## Organised Photo Gallery
 
  Let's apply our knowledge about paddings and margins by styling
  the overview page of a photography website.
