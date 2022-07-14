@@ -1,4 +1,4 @@
-# Python Projects {Pro}
+# Python Projects { Pro }
 
 ## Python Basics
 
@@ -9,13 +9,13 @@
  We'll make it easier by building a converter  
  app to solve this problem for good.
 
- ```
+ ```python
  miles = 500
  kilometers = miles * 1.609344
  print (kilometers)
 ```
  Console :
-```
+```python
  804.672 
 ```
 
