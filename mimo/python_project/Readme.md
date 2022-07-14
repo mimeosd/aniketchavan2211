@@ -7,6 +7,16 @@
  a traveler's location as part of a journaling
  app 
 
+ Snippet :
+ ```python 
+ #!/bin/python 
+
+ country = "USA"
+ state = "Florida"
+ city = "Miami"
+ continent = "North America"
+ ```
+
 ### Smart Light Switch 
  Let's create a smart light switch that switches
  the lights off it's daytime and on if it's nightmare.
