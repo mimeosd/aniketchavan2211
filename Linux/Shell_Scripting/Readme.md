@@ -288,7 +288,7 @@ In Bourne-type shell, the `$` character is the default prompt.
    
    Example,
    
-   ```
+   ```bash
    #!/bin/bash 
    #script start here
    pwd
@@ -319,17 +319,18 @@ In Bourne-type shell, the `$` character is the default prompt.
  A variables should not start with numbers.
 
  For examples,
- ```
+ ```shell
  VAR_1
  STUDENTS
  _VAR
  ```
  These are examples of valid varaible names.
- ```
+ ```bash
  2_VAR
  -VARIABLE
  VAR1-VAR2
  VAR-A!
+ ```
  
  These are examples of invalid varaibles names.
  The reason you cannot use the other characters
@@ -337,7 +338,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  Special meaning for the shell.
  
  Variable are defined as:
- ```
+ ```shell
  variable_name=variable_value
  ``
  Here, varaible_name is the name of the variable.
@@ -348,7 +349,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  "=" sign puts the value in the variable.
 
  Let's see an example,
- ```
+ ```shell
  VAR1="Joy mil"
  VAR2=20
  ```
@@ -369,14 +370,14 @@ In Bourne-type shell, the `$` character is the default prompt.
  For example, the following script will 
  access the value of defined variable 
  VAR1 and print it.
- ```
+ ```shell
  #!/bin/sh
  VAR1="Joy mill"
  echo $VAR1
  ```
  The above script will produce the following
  value 
- ```
+ ```shell
  Joy mill
  ```
 
@@ -390,14 +391,14 @@ In Bourne-type shell, the `$` character is the default prompt.
  For example, the following scripts generates
  an error while trying to change the value 
  of VAR1
- ```
+ ```shell
  #!/bin/sh
  VAR1="Joy mil"
  readonly VAR1
  VAR1="loy"
  ```
  The above script will generate the following result
- ```
+ ```shell
  /bin/sh: VAR1:This variable is read-only
  ```
  Thus VAR1 value cannot be changed.
@@ -409,14 +410,14 @@ In Bourne-type shell, the `$` character is the default prompt.
  the value stored in a variable.
 
  Syntax to unset the defined variable is:
- ```
+ ```shell
  unset variable_name
  ```
  The below command unsets the value of a defined
  variable.
  Here is a simple example that how the command
  works.
- ```
+ ```shell
  #!/bin/sh
  VAR1="Joy mil"
  unset VAR1
@@ -469,7 +470,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  For a example, the $character represents the process ID 
  number, or PID, of the current shell
 
- ```
+ ```bash
  $echo $$
  ```
  The above command writes the ID of the current
@@ -506,7 +507,7 @@ In Bourne-type shell, the `$` character is the default prompt.
 
  Let's create this using a scalar variables.
 
- ```
+ ```shell
  NAME01="Joy"
  NAME02="Ray"
  NAME03="Clay"
@@ -536,7 +537,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  that item.
 
  Example of array variables: 
- ```
+ ```bash
  NAME[0]="Joy"
  NAME[1]="Ray"
  NAME[2]="John"
@@ -562,7 +563,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  Now let's learn how to use arrays
 
  Syntax:
- ```
+ ```bash
  ${array_name[index]}
  ```
 
@@ -572,7 +573,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  is the value to be accessed.
 
  For, example
- ```
+ ```bash
  NAME[0]="Joy"
  NAME[1]="Ray"
  NAME[2]="John"
@@ -588,7 +589,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  The output of the above snippet will be
 
  Output:
- ```
+ ```bash
  $./test.sh
  First Index: Joy
  Second Index: Ray
@@ -603,7 +604,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  ${array_name[@]}
 
  Let's have a look at this snippet code.
- ```
+ ```bash
  NAME[0]="Joy"
  NAME[1]="Ray"
  NAME[2]="John"
