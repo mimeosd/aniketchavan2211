@@ -71,12 +71,66 @@
  libraries, a powerful and far better Linux 
  terminal than Windows CLI.
 
- 
+ **Linux by design is a Kernel, not a Operating
+ System.**
 
+ `Kernel` :
+ It is the primary part of an operating system.
+ For a system to start working. the kernel is the
+ very first part of your operating system that 
+ gets loaded into the RAM.
 
+ It is the core interface between a computer's
+ hardware and it's process aka application to
+ use the hardware.
 
+ **What does an Operating system provide?**
+ Operating system come with several tools and 
+ service (such as a desktop, a clock, an application
+ menu, and more). It includes the kernel as well
+ as part of it.
 
+ There are many companies like Red Hat, Cononical
+ , SuSE which provide support for their customized
+ Linux kernel-based operating systems.
 
+ Let's take a look at the top four ways in which 
+ you can use Linux to take your business to 
+ the next level.
+
+ 1. **Portability**: Linux is a portable OS. You can
+ run it on any hardware without fear of
+ encountering any compatibility, Installation,
+ or support issues. The OS supports high-end
+ and low-end systems equally well.
+
+ 2. **Application Support** :Linux has a software
+ repository that allows users to download and 
+ install commands in shell or Linux Terminal,
+ and it can run Windows applications too.
+
+ 3. **Multi-User** :Linux has user spaces, where
+ each space has its own data, application, and
+ information.
+ Multiple users can access the same Linux machine
+ at the same time, a feature that not even Windows 
+ or macOS can boost.
+
+ 4. **Adaptable**: Since Linux is open source,
+ you can tweak the system as you please, and 
+ since it's free, you can use any type of hardware.
+
+ Like any other operating system, Linux has a 
+ set of software that functions differently.
+ The components are :
+
+ 1. **Kernel** : The kernel is the heart of this 
+ Operating Systems. It manages the communication
+ between the software and the devices.
+
+ 2. **System Tools** : Linux has a set of system 
+ tools that are exclusive to certain functions.
+ These simple commands are free to everyone.
 
 
 
