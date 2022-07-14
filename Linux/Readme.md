@@ -39,5 +39,48 @@
   can enter commands by trying them on the keyword and results
   will be returned in the form of text too.
 
+## Why Linux ?
+
+ Although Linux offers high security and stability,
+ users initially disliked the interface because
+ it was not very user-friendly. But this was 
+ not the case for them.
+
+ With regular updates and feedback from users,
+ Linux become much more appealing.
+
+ Every supercomputer runs on Linux!, Linux
+ runs all 500 of the world's fastest supercomputers.
+ It's a default choice when it comes to supercomputers.
+
+ Linux is everywhere!
+
+ There are many reasons why Linux is so popular
+ among different fields. Here are a few,
+
+ - **It's Free**:There is no cost for using Linux 
+ OS (Desktop or Server distro) and related 
+ applications.
+ - **More Choice**: You can't beat Linux here.
+ There are over 600 Linux distros and about 500
+ in active development.
+
+ - **Developers Friend**: Developers love Linux.
+ It supports almost all the major programming
+ languages you can think of. A rich set of native
+ libraries, a powerful and far better Linux 
+ terminal than Windows CLI.
 
  
+
+
+
+
+
+
+
+
+
+
+
+
