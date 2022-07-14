@@ -340,7 +340,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  Variable are defined as:
  ```shell
  variable_name=variable_value
- ``
+ ```
  Here, varaible_name is the name of the variable.
 
  Variable_value will be the value you assigned
