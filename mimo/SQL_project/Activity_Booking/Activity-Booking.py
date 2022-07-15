@@ -4,7 +4,7 @@
 import sqlite3
 
 # Connect to database
-conn = sqlite3.connect('Activity_Booking.db')
+conn = sqlite3.connect('Activity-Booking.db')
 
 # Create a cursor
 c = conn.cursor()
@@ -23,16 +23,11 @@ activities = [
 # Inserting record into the table
 # c.executemany("INSERT INTO activity VALUES (?,?,?)", activities)
 
-print ("---------------------------------------------")
-
 # Query
-c.execute("SELECT description, price FROM activity WHERE type <> 'water'")
+c.execute("SELECT description, price FROM activity WHERE type <>'water'")
 
 # Fetch
 print (c.fetchall())
-
-print ("---------------------------------------------")
-
 
 # Show All Values from Table
 # for activity in activities:

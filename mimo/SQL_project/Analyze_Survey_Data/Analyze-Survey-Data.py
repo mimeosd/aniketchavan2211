@@ -29,6 +29,12 @@ c.execute("SELECT DISTINCT platform FROM survey WHERE satisfaction  BETWEEN 4 AN
 # Fetch
 print (c.fetchall())
 
+# Display Table
+# print ("-----------------------")
+# print ("Show Table")
+# for survey in survey_table:
+#   print (survey)
+
 # Commitng to Database
 conn.commit()
 
