@@ -4,15 +4,14 @@
 import sqlite3
 
 # Creating Connection to movies database file with sqlite3
-conn = sqlite3.connect('movies.db')
+conn = sqlite3.connect('Find-All-Tarantino-Movies.db')
 
 # Creating Cursor
 c = conn.cursor()
 
 # Creating Table
-#c.execute(...)
+# c.execute("CREATE TABLE movies( title text, year integer, director text)")
 
-# Inserting Values in Table
 # Creating List and putting values in list and tuples
 movie_list = [
 		('Rushmore', 1998, 'Wes Anderson'),
@@ -23,17 +22,13 @@ movie_list = [
 				]
 
 # Inserting values in Table
-#c.executemany("INSERT INTO movies VALUES(?,?,?)", movie_list)
+# c.executemany("INSERT INTO movies VALUES(?,?,?)", movie_list)
 
 # Query
 c.execute("SELECT title, year FROM movies WHERE director = 'Tarantino'")
 
 # Creating Variable to prints Query
-print (" Query:  ")
 movieshow = print (c.fetchall())
-
-#Adding Space
-print ("  ")
 
 # Displaying All Values
 # print (" Show Table: All ")
