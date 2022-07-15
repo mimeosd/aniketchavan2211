@@ -28,7 +28,9 @@ movie_list = [
 c.execute("SELECT title, year FROM movies WHERE director = 'Tarantino'")
 
 # Creating Variable to prints Query
-movieshow = print (c.fetchall())
+movieshow = c.fetchall()
+for movie in movieshow:
+  print (movie)
 
 # Displaying All Values
 # print (" Show Table: All ")

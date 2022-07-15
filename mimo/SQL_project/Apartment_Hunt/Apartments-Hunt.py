@@ -7,7 +7,7 @@ conn = sqlite3.connect('Apartment-Hunt.db')
 c = conn.cursor()
 
 # Inserting Values
-apartments = [ 
+apartments = [
 		('EcoStay', 30),
 		('The View', 100),
 		('Sunny Place', 53),
@@ -15,7 +15,7 @@ apartments = [
 	     ]
 #c.executemany("INSERT INTO apartment VALUES (?,?)", apartments)
 
-# Query 
+# Query
 c.execute("SELECT * FROM apartment ORDER BY square_meters DESC")
 
 
