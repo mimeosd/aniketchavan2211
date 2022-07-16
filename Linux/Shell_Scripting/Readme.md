@@ -721,8 +721,50 @@ In Bourne-type shell, the `$` character is the default prompt.
  Output :
  `b % a : 0`
 
+ **Equality and Not Equality**
+ ```shell
+ #!/bin/sh
+ a=10
+ b=20
+ if [$a == $b] #Equality
+ then
+ echo "a is equal to b"
+ fi
+ if [$a != $b] #Not Equality
+ then
+ echo "a is not equal to b"
+ fi
 
+ It will check the conditions and will prints
+ if the condition is true.Here 10 is not equal
+ to 20.
+ 
+ Output :
+ `a is not equal to b`
 
+ Bourne shell supports relational operators
+ that are specific to numeric values.
 
+ These operates do not work for string values
+ unless their value is numeric.
+ ```shell
+ a=10
+ b=20
+ `-eq`(equal): checks, whether two operands are
+ equal or not if yes, then the condition
+ becomes true.
+ Example :
+ `[$a -eq $b]` is not true.
+ `-ne`(not equal): checks, whether the values
+ of two operands are equal or not if values 
+ are not equal, then the condition becomes true.
+
+ Example:
+ `[$a -ne $b]` is true
+
+ `-gt`(greater than): checks, whether the value
+ of the left operand is greater than the value
+ of night open if yes, then the condition
+ becomes true.
 
 
