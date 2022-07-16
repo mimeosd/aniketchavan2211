@@ -132,9 +132,20 @@
  tools that are exclusive to certain functions.
  These simple commands are free to everyone.
 
+ 3. **Shell** : The shell is the utility that
+ processes your requests. Basically, when you type in a command, the 
+ shell interprets the command and calls the 
+ program that you want.
 
+ 4. **Files and Directories** : In Linux, all files
+ are organised into directories. Directories
+ can have nested directories inside them, wich
+ in turn have their own files, and so on, In 
+ this way, an entire file system can be made
+ up of hierarchical directories.
 
-
-
-
-
+ Linux is the prefect choice when you need
+ to run highly available, reliable, and critical
+ workloads in a cloud computing environment.
+ Wide support for devices, varied use cases,
+ and systems.
