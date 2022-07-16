@@ -14,7 +14,7 @@
   reprogrammed in C in 1973.
 
 ## Operating System
-![Operating System](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/operating-system.png)
+
   The programs that assign the system resources and coordinate
   all the details of the computer's internal is called the
   operating system or the kernal.
@@ -44,7 +44,7 @@
 ![Kernal](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Kernel.jpg)
 
 ### What is a Shell?
-![Shell script file](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/sh.png)
+
   The shell is the utility that processes your requests.
   Basically, when you type in a command, the shell interprets 
   the command and calls the program that you want.
@@ -56,10 +56,8 @@
   commands entered by the user and converts them into a 
   language that is understood by the kernal.
  
-  ![Shell](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Shell.jpg)
  
 ### What is a Shell Script?
-  ![shell scripting](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/script.png)
  
   The Basic concept of a shell script is a list of commands.
   which are listed in the order of execution. A good shell
