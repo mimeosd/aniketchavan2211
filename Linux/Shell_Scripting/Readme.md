@@ -734,7 +734,8 @@ In Bourne-type shell, the `$` character is the default prompt.
  then
  echo "a is not equal to b"
  fi
-
+ ```
+ 
  It will check the conditions and will prints
  if the condition is true.Here 10 is not equal
  to 20.
