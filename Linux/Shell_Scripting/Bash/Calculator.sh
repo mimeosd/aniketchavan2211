@@ -6,7 +6,6 @@ bold=`echo -en "\e[1m"`
 normal=`echo -en "\e[0m"`;
 
 echo "${aqua}        Calculator  "
-echo
 echo $normal
 # Taking Input & Output from User
 echo "Input First Number for Operation : "
@@ -14,10 +13,9 @@ read first_number
 echo "Input Second Number for Operation : "
 read second_number
 
-echo you entered $first_number and $second_number
-
 # Chosing the Operation
 echo "Enter number to choose Operation"
+
 echo "1. Addition"
 echo "2. Substraction"
 echo "3. Multiplication"
