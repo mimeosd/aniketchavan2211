@@ -618,17 +618,108 @@ In Bourne-type shell, the `$` character is the default prompt.
  First Method: Joy Ray John Sam Clay
  Second Method: Joy Ray John Sam Clay
  
+### Basic Shell Operates
+ Operaters in programming language operate on
+ variables following are the operators:
+ - Arithmetic Operators
+ - Relational Operators
+ - Boolean Operators
+ - String Operators
+ - File Test Operators
 
+ Arithmetic operators consist of basic calculations
+ like addition, substraction, division,
+ multiplication, etc.
 
+ Bourne shell does not perform simple arithmetic
+ operations but it uses external programs,
+ either awk or expr.
 
+ There are some conditions that should be considered
+ while using arithmetic operators.
+ - There must be space between operators and 
+ the expression.
+ - The complete expression should be enclosed
+ between '', called the inverted commas.
+ - For multiplication use \ on * symbol.
 
+ **Addition**
+ Assume variable `a` holds `10` and variable
+ `b` holds `20`.
+ ```shell
+ a=10
+ b=20
+ val='expr $a + $b'
+ echo "a + b : $val"
+ ```
 
+ It will add the values of variable `a` and `b`
+ and store it in `val` and print.
 
+ Output :
+ `a+b : 30`
 
+ **Subtraction**
+ Assume variable `a` holds `10` and variable
+ `b` holds `20`.
+ ```shell
+ #!/bin/sh
+ a=10
+ b=20
+ val='expr $a - $b'
+ echo "a - b : $val"
+ ```
 
+ It will substract the values of variable `a`
+ and `b` and store it in Val and print it.
 
+ Output :
+ `a - b : -10`
 
+ Multiplication
+ ```shell
+ #!/bin/sh
+ a=10
+ b=20
+ val='expr $a \* $b'
+ echo "a * b : $val"
+ ```
 
+ It will multiply the values of variable `a` and
+ `b` store it in val and print.
+ 
+ Output :
+ `a * b : 200`
+
+ **Division**
+ ```shell
+ #!/bin/sh
+ a=10
+ b=20
+ val='expr $b / $a'
+ echo "b * a : $val"
+ ```
+
+ It will divide the values of variable `a` and 
+ `b` and store it in `val` and print it.
+
+ Output :
+ `b/a:2`
+ **Modulus**
+ ```shell
+ #!/bin/sh
+ a=10
+ b=20
+ val='expr $b % $a'
+ echo "$b % $a"
+ ```
+
+ It will substract the values of variable `a`
+ and `b` and returns remainder and will print
+ it.
+ 
+ Output :
+ `b % a : 0`
 
 
 
