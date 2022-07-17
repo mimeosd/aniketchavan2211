@@ -167,15 +167,15 @@ In Bourne-type shell, the `$` character is the default prompt.
  to execute the task such as editing or creating.
 
  Let us see how to create a file in vi editor
- `vi filename`
+ `vim filename`
  Example, 
- `vi file1`
+ `vim file1`
 
  It will create a new file with the name file1.
 
- `vi -R filename` or `view filename`
+ `vim -R filename` or `view filename`
  Opens an existing file in the read-only mode.
- example, `$vi -R file1` or `$view file1`.
+ example, `$vim -R file1` or `$view file1`.
 
  After executing the command you will notice
  a strange symbol called tilde `~` appending
@@ -223,7 +223,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  come to the command mode to understand the
  difference.
 
-### Save && Exit command 
+#### Save && Exit command 
 
  let's see commands to save file
  
