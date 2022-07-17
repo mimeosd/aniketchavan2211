@@ -931,9 +931,52 @@ In Bourne-type shell, the `$` character is the default prompt.
  time Especially when the value of the single
  variable depends on multiple statements.
 
+ So we will use case..esac statement.   
+ The basic syntax of case..esac is to give an
+ expression to execute different statements
+ based on that value. The interpreter checks
+ each case until the match is found. If nothing
+ matches, a default condition will be used.
+ Syntax :
+ ```shell
+ case $word in
+ pattern1)
+ statements to be executed if pattern 1 matches
+ ;;
+ pattern2)
+ statements to be executed if pattern 2 matches
+ ;;
+ Default condition to be executed.
+ ;;
+ esac
 
+ Here the string word is compared with every
+ pattern until the match is found.
+ The statement following the matching pattern
+ executes. If no matches are found, the case
+ statement exits without performing any action.
 
+ There is no maximum pattern but the minimum
+ is one.
 
+ The command;; indicates that the program flow
+ should jump to the end of the entire case
+ statement.
+ Example :
+ ```shell
+ #!/bin/sh
+ FRUIT="kiwi"
+ case"$FRUIT" in
+ "apple") echo "Apple pie is quite tasty."
+ ;;
+ "banana") echo "1 like banana nut bread."
+ ;;
+ "kiwi") echo "New Zealand is famous for kiwi."
+ ;;
+ esac
 
-
-
+ Here the variable FRUIT has value kiwi
+ Therefore it will check all cases until kiwi
+ is found.
+ Output :
+ ```New Zealand is famous for kiwi.```
