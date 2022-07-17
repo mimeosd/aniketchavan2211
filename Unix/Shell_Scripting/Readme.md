@@ -896,7 +896,9 @@ In Bourne-type shell, the `$` character is the default prompt.
  Second, if condition will check whether variable
  a is not equal to b.   
  Output :
- `a is not equal to b`
+ ```sh
+ a is not equal to b
+ ```
 
  2. if..else statement
  If the condition is not true then it will 
@@ -924,8 +926,10 @@ In Bourne-type shell, the `$` character is the default prompt.
  echo "a is not equal to b"
  fi
  ```
- Output :
- `a is equal to b`
+ Output :  
+ ```shell
+ a is equal to b
+ ```
 
  We can use if..elif statement but not all the
  time Especially when the value of the single
@@ -977,6 +981,8 @@ In Bourne-type shell, the `$` character is the default prompt.
  ```
  Here the variable FRUIT has value kiwi
  Therefore it will check all cases until kiwi
- is found.
- Output :
- ```New Zealand is famous for kiwi.```
+ is found.         
+ Output :        
+ ```
+ New Zealand is famous for kiwi.
+ ```
