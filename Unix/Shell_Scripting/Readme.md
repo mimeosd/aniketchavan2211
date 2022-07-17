@@ -795,12 +795,12 @@ In Bourne-type shell, the `$` character is the default prompt.
  Boolean values consist of true or false.
 
  Shell supports the following operators:
- - `-!`(logical negation)
+ - `-!` : (logical Negation)  
  It inverts the true condition into false and
  vice versa.     
  (!false) the output will be true.    
 
- - `-O` : It is logical OR.
+ - `-O` : (logical OR)   
  If one of the operands is true, then the 
  condition becomes true.
 
@@ -819,7 +819,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  Output
  `10 -lt 100 -O 20 -gt 100 : returns true`
 
- - `-a` : It is logical AND 
+ - `-a` : (logical AND)      
  If both the operands are true, then the 
  condition becomes true otherwise false.
  For example,
