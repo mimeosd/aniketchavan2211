@@ -751,21 +751,96 @@ In Bourne-type shell, the `$` character is the default prompt.
  ```shell
  a=10
  b=20
+ ```
  `-eq`(equal): checks, whether two operands are
  equal or not if yes, then the condition
- becomes true.
+ becomes true.     
  Example :
- `[$a -eq $b]` is not true.
+ `[$a -eq $b]` is not true.     
+ 
  `-ne`(not equal): checks, whether the values
  of two operands are equal or not if values 
  are not equal, then the condition becomes true.
-
- Example:
- `[$a -ne $b]` is true
+ Example:    
+ `[$a -ne $b]` is true        
 
  `-gt`(greater than): checks, whether the value
  of the left operand is greater than the value
  of night open if yes, then the condition
- becomes true.
+ becomes true.    
+ Example:
+ `[$a -gt $b]` is not true
+
+ `-lt` (less than) : checks, whether the value
+ of the left operand is less than the value 
+ of right operand: if yes, then the condition
+ becomes true.   
+ Example:
+ `[$a -lt $b]` is true
+
+ -ge (greater than) : checks, whether the value
+ of the left operand is greater than or equal
+ to the value of right operand; if yes, then 
+ the condition becomes true.
+ Example:
+ `[$a -ge $b]` is not true
+
+ -le (less than equal to): checks, whether the
+ value of the left operand is less than or equal
+ to the value of right operand; if yes, then
+ the condition becomes true.
+ Example:
+ `[$a -le $b]` is true
+
+ Boolean values consist of true or false.
+
+ Shell supports the following operators:
+ - -!(logical negation)
+ It inverts the true condition into false and
+ vice versa.     
+ (!false) the output will be true.    
+
+ - -O : It is logical OR.
+ If one of the operands is true, then the 
+ condition becomes true.
+
+ For example,
+ ```shell
+ if [$a -lt 100 -O $b -gt 100]
+   then
+   echo "$a -lt 100 -O $b -gt 100: return true"
+   else 
+   echo "$a -lt 100 -O $b -gt 100: returns false"
+ fi
+ ```
+
+ - -lt indicates less than and -gt indicates
+ greater than.
+ Output
+ `10 -lt 100 -O 20 -gt 100 : returns true`
+
+ - -a : It is logical AND 
+ If both the operands are true, then the 
+ condition becomes true otherwise false.
+ For example,
+ ```shell
+ if [$a -lt 100 -a $b -gt 15]
+ then
+ echo "$a -lt 100 -a $b -gt 15: returns true"
+ else
+ echo "$a -lt 100 -a $b -gt 15: returns false"
+ fi
+
+ Output:
+ `10 -lt 100 -a 20 -gt 15: returns true`
+
+
+
+
+
+
+
+
+
 
 
