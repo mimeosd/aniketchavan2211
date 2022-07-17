@@ -834,7 +834,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  Output:
  `10 -lt 100 -a 20 -gt 15: returns true`
 
-### Decision Making
+## Decision Making
 
  In a shell script, you have to use control
  statements that allow your code to make the
