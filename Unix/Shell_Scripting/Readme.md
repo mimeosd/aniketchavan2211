@@ -752,40 +752,40 @@ In Bourne-type shell, the `$` character is the default prompt.
  a=10
  b=20
  ```
- `-eq`(equal): checks, whether two operands are
+ `-eq`(**equal**): checks, whether two operands are
  equal or not if yes, then the condition
  becomes true.     
  Example :
  `[$a -eq $b]` is not true.     
  
- `-ne`(not equal): checks, whether the values
+ `-ne`(**not equal**): checks, whether the values
  of two operands are equal or not if values 
  are not equal, then the condition becomes true.
  Example:    
  `[$a -ne $b]` is true        
 
- `-gt`(greater than): checks, whether the value
+ `-gt`(**greater than**): checks, whether the value
  of the left operand is greater than the value
  of night open if yes, then the condition
  becomes true.    
  Example:
  `[$a -gt $b]` is not true
 
- `-lt` (less than) : checks, whether the value
+ `-lt` (**less than**) : checks, whether the value
  of the left operand is less than the value 
  of right operand: if yes, then the condition
  becomes true.   
  Example:
  `[$a -lt $b]` is true
 
- -ge (greater than) : checks, whether the value
+ `-ge` (**greater than**) : checks, whether the value
  of the left operand is greater than or equal
  to the value of right operand; if yes, then 
  the condition becomes true.
  Example:
  `[$a -ge $b]` is not true
 
- -le (less than equal to): checks, whether the
+ `-le` (**less than equal to**): checks, whether the
  value of the left operand is less than or equal
  to the value of right operand; if yes, then
  the condition becomes true.
@@ -795,12 +795,12 @@ In Bourne-type shell, the `$` character is the default prompt.
  Boolean values consist of true or false.
 
  Shell supports the following operators:
- - -!(logical negation)
+ - `-!`(logical negation)
  It inverts the true condition into false and
  vice versa.     
  (!false) the output will be true.    
 
- - -O : It is logical OR.
+ - `-O` : It is logical OR.
  If one of the operands is true, then the 
  condition becomes true.
 
@@ -819,7 +819,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  Output
  `10 -lt 100 -O 20 -gt 100 : returns true`
 
- - -a : It is logical AND 
+ - `-a` : It is logical AND 
  If both the operands are true, then the 
  condition becomes true otherwise false.
  For example,
@@ -830,7 +830,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  else
  echo "$a -lt 100 -a $b -gt 15: returns false"
  fi
-
+ ```
  Output:
  `10 -lt 100 -a 20 -gt 15: returns true`
 
