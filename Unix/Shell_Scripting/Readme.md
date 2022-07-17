@@ -834,9 +834,102 @@ In Bourne-type shell, the `$` character is the default prompt.
  Output:
  `10 -lt 100 -a 20 -gt 15: returns true`
 
+### Decision Making
 
+ In a shell script, you have to use control
+ statements that allow your code to make the
+ correct decision.
 
+ Shell script supports control statements
+ that are used to perform different actions
+ based on different condition.
 
+ There are two control statements :
+ - if..else statement
+ - case..esac statement
+
+ **If-Else Statement**
+ Let's take thd example of voting.
+ In a process of voting one can vote only if
+ he/she is of age 21 or above.
+
+ If you are 21 or above you are eligible else
+ you are not eligible to vote.
+
+ Unix shell supports the following forms
+ of if..else statements.       
+ - if..fi statement
+ - if..else..fi statement
+ - if..elif..else..fi statement
+
+ 1. if..fi statement:
+ This statement will execute if the specified
+ condition is true.
+
+ Syntax:
+ ```shell
+ if [expression]
+ then 
+ statement
+ fi
+
+ Example:
+ ```shell
+ a=20
+ b=20
+ if [$a == $b]
+ then
+ echo "a is equal to b"
+ fi
+ if [$a != $b]
+ then
+ echo "a is not equal to b"
+ fi
+ ```
+
+ First we initialised two variables `a` and `b`.
+ if condition will check whether variable a
+ is equal to b.   
+ If the condition is true then it will print
+ "a is equal to b"
+ 
+ Second, if condition will check whether variable
+ a is not equal to b.   
+ Output :
+ `a is not equal to b`
+
+ 2. if..else statement
+ If the condition is not true then it will 
+ execute else statement.
+ Syntax:
+ ```shell
+ if [expression]
+ then
+ statement
+ else
+ statement
+ fi
+ ```
+
+ Example:
+ ```shell
+ a=20
+ b=20
+ if [$a == $b]
+ then
+ # if they are equal print this
+ echo "a is equal to b"
+ else
+ #else print this 
+ echo "a is not equal to b"
+ fi
+ ```
+ Output :
+ `a is equal to b`
+
+ We can use if..elif statement but not all the
+ time Especially when the value of the single
+ variable depends on multiple statements.
 
 
 
