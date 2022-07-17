@@ -618,7 +618,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  First Method: Joy Ray John Sam Clay
  Second Method: Joy Ray John Sam Clay
  
-## Basic Shell Operates
+## Basic Shell Operators
  Operaters in programming language operate on
  variables following are the operators:
  - Arithmetic Operators
