@@ -974,7 +974,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  "kiwi") echo "New Zealand is famous for kiwi."
  ;;
  esac
-
+ ```
  Here the variable FRUIT has value kiwi
  Therefore it will check all cases until kiwi
  is found.
