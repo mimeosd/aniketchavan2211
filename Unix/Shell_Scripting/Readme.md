@@ -949,7 +949,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  Default condition to be executed.
  ;;
  esac
-
+ ```
  Here the string word is compared with every
  pattern until the match is found.
  The statement following the matching pattern
