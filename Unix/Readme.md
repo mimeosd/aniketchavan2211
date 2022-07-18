@@ -1,3 +1,18 @@
+
+## What is Unix?
+
+  Unix is a portable, multitasking, multiuser, time-sharing
+  operating system OS).
+
+  The Unix opearting system is a set of programs that act as a
+  link between the computer and the user.
+
+  Unix was originally deveploped in 1969 by a group of
+  employees at AT&T.
+
+  Unix was first programmed in assembly language but was
+  reprogrammed in C in 1973.
+
 ![linux logo]( https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/linux.png)
 # Linux
 
