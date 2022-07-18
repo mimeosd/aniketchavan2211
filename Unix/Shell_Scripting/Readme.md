@@ -986,3 +986,170 @@ In Bourne-type shell, the `$` character is the default prompt.
  ```
  New Zealand is famous for kiwi.
  ```
+
+## Loops
+ 
+ It enables you to execute a set of commands
+ repeatedly.
+ Types of loop
+ - while loop
+ - for loop
+ - until loop
+ - select loop
+ 
+ **While loop**
+ 
+ The while loop enables you to execute a set
+ of commands repeatedly until some condition
+ occurs. It is usually used when you need
+ to operate the value of a variable repeatedly.
+
+ **Syntax** :
+ ```shell
+ while command
+ do
+ statement to be executed if the command is
+ true
+ done
+ ```
+ 
+ Here the shell command is accessed if the 
+ resulting value is true, statement are 
+ executed.
+
+ If command is false then no statement will be
+ executed and the program will jump to the
+ next line after the done statement.
+ Example: 
+ ```sh
+ #!/bin/sh
+ a=0
+ while [$a -lt 5]
+ do
+ echo $a
+ a='expr $a + 1'
+ done
+ ```
+ 
+ Everytime the loop executes variables a is 
+ Checked if it is less than 5.
+
+ If it is less than 5, condition has an exit
+ status 0. Therefore variable a is displayed
+ and incremented by 1.
+ Output :
+ ```sh
+ 0
+ 1
+ 2
+ 3
+ 4
+ ```
+ 
+ **For loop**
+ The for loop operates on lists of items
+ It repeats a set of commands for every item
+ in a list.
+ Synatx: 
+ ```she
+ for var i word1 word2 .. wordN
+ do
+ statements to be executed for every word.
+ done
+ ```
+
+ Here var is a variable name.
+ word1 to wordN are sequences of characters 
+ separted by spaces(words).
+
+ For Example:
+ ```sh
+ #!/bin/sh
+ for var in 0 1 2 3 4 5
+ do
+ echo $var
+ done
+ ```
+
+ Each time the for loop executes, the value
+ of the variable var is set to the next word
+ in the list of 0.5.
+ Output :
+ ```sh
+ 0
+ 1
+ 2
+ 3
+ 4
+ 5
+ ```
+ 
+ **Unitl loop**
+ In some situations, we need the program to execute
+ until the condition is true.
+
+ Syntax: 
+ ```sh
+ until command
+ do
+ statements to be executed until command is
+ true
+ done
+ ```
+
+ Command variable will be accessed.
+ If the condition is false given statements
+ will be executed.
+ If it is true it will jump next to done.
+
+ Snippet:
+ ```sh
+ a=0
+ until [! $a -lt 5]
+ do
+ echo $a 
+ a='expr $a + 1'
+ done
+ ```
+
+ Here the variable will run from 0.5.
+ After hit will be terminated because we have
+ given the range till 5.
+ Output:
+ ```sh
+ 0
+ 1
+ 2
+ 3
+ 4
+ ```
+
+ **Select loop**
+ Select loop provides an easy way to create a 
+ numbered menu from which users can select options.
+ The select loop is usefull when we have to
+ make a choice from a list of items.
+ Syntax:
+ ```sh
+ select var in word1 word2...wordN
+ do
+ statements to be executed for every word.
+ done
+ ```
+
+ Here, var is the name of a variable and 
+ word1 to wordN are sequences of characters
+ separted by spaces (words).
+ 
+ For every selection, a set of commands will
+ be executed within the loop.
+
+
+
+
+
+
+
+
+
+
