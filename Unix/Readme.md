@@ -13,9 +13,11 @@
   Unix was first programmed in assembly language but was
   reprogrammed in C in 1973.
 
-![linux logo]( https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/linux.png)
+
 # Linux
 
+![linux logo]( https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/linux.png)
+ 
  Linux is a free, open-source, and community-developed operating
  system.
  
