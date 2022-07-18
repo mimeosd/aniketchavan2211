@@ -1173,6 +1173,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  - Break
  - Continue
 
+ **Break statement**
  The break statement is used to terminate 
  the execution of the entrie loop.
 
@@ -1180,7 +1181,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  
  The break command can also be used to exit 
  from a nested loop using : break n
- N specifies nth enclosing loop.
+ N specifies nth enclosing loop.       
  Example:
  ```sh
  #!/bin/sh
@@ -1196,9 +1197,31 @@ In Bourne-type shell, the `$` character is the default prompt.
  done
  ```
 
+ This code says it will stop after the value of
+ variable a becomes 5.
+ Output :
+ ```sh
+ 1
+ 2
+ 3
+ 4
+ 5
+ ```
 
+ **Continue statement**
+ The continue statement is similar to the break
+ command.
+ Except that it causes the current execution
+ of the loop to exit, rather than the entire
+ loop.
+ Syntax:
+ ```sh
+ continue
+ Like with the break statement, an integer
+ argument can be given to the continue command
+ to skip command from nested loops
+ continue n
+ ```
 
-
-
-
-
+ Here n specifies the nth enclosing loop to 
+ continue from.
