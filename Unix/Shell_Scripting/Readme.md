@@ -1217,9 +1217,9 @@ In Bourne-type shell, the `$` character is the default prompt.
  Syntax:
  ```sh
  continue
- Like with the break statement, an integer
- argument can be given to the continue command
- to skip command from nested loops
+ Like with the break statement,
+ an integer argument can be given to the continue 
+ command to skip command from nested loops
  continue n
  ```
 
