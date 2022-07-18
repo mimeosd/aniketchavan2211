@@ -997,7 +997,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  - until loop
  - select loop
  
- **While loop**
+### **While loop**
  
  The while loop enables you to execute a set
  of commands repeatedly until some condition
@@ -1046,7 +1046,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  4
  ```
  
- **For loop**
+### **For loop**
  The for loop operates on lists of items
  It repeats a set of commands for every item
  in a list.
@@ -1084,7 +1084,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  5
  ```
  
- **Unitl loop**
+### **Unitl loop**
  In some situations, we need the program to execute
  until the condition is true.
 
@@ -1124,7 +1124,7 @@ In Bourne-type shell, the `$` character is the default prompt.
  4
  ```
 
- **Select loop**
+### **Select loop**
  Select loop provides an easy way to create a 
  numbered menu from which users can select options.
  The select loop is usefull when we have to
@@ -1144,8 +1144,57 @@ In Bourne-type shell, the `$` character is the default prompt.
  For every selection, a set of commands will
  be executed within the loop.
 
+### Nested Loop
 
+ We can use if loop inside another if loop.
+ It is known as nesting of loops.
+ All loops support the nested concept.
+ That means you can put one loop inside another
+ similar one or different loops.
+ We can use unlimited loops as per the requirement.
 
+ **Nested while loop**
+ ```sh
+ while command; # this is loop 1, the outer loop.
+ do
+ statements to be executed if command 1 is true
+ while command 2 ; # this is loop 2, the inner loop
+ do
+ statements to be executed if command 2 is true
+ done 
+ statements to be executed if command 1 is true
+ done
+ ```
+
+ **Controlling loop**
+ Some loops run infinite times.
+ So to stop it from running infinite times
+ we have to loop controls
+ - Break
+ - Continue
+
+ The break statement is used to terminate 
+ the execution of the entrie loop.
+
+ If is used to come out of the loop.
+ 
+ The break command can also be used to exit 
+ from a nested loop using : break n
+ N specifies nth enclosing loop.
+ Example:
+ ```sh
+ #!/bin/sh
+ a=0
+ while [$a -lt 10]
+ do
+ echo $a 
+ if [$a -eq 5]
+ then
+ break 
+ fi
+ a="expr $a + 1"
+ done
+ ```
 
 
 
