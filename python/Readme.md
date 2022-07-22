@@ -87,8 +87,12 @@
  tuple = ("a", "b") # tuple()
  set = {"C", "D"} # set()
  dictionary = { "key":"value" , "key1":1 } #dict()
+ 
+ print(type(string))
  ```
-
+ 
+ **Output**:
+ ```py <class str> ```
 ## User Input
 
 ## Strings
