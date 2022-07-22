@@ -55,13 +55,20 @@
 
  A variable is created the moment you first assign a value to it.
 
- ```python
+ ```py
  Variable_Name = "Variable_Value"
  # Double Quotes ""
  Variable_Name = 'Variable_Value'
  # Single Quotes ''
  ```
 
+ Variables do not need to be declared with any particular type, and can even change type after they have been set.
+ 
+ ```py
+ x = str(3) # x will be string '3'
+ y = int(3) # y will be integer 3
+ z = float(3) # z will be floating-point number 3.0
+ ```
 ## User Input
 
 ## Strings
