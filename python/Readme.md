@@ -79,24 +79,14 @@
 
  ```py
  # DataType
- string = "value"
- integer = 2 # Don't use Quotes for Numbers
- float = 2.1
- boolean = True
- list = ["A", "B"]
- tuple = ("a", "b")
- set = {"C", "D"}
- dictionary = { "key":"value" , "key1":1 }
-
- # Print DataType
- print (string)
- print (integer)
- print (float)
- print (boolean)
- print (list)
- print (tuple)
- print (set)
- print (dictionary)
+ string = "value" # str()
+ integer = 2 # Don't use quotes for Numbers int()
+ float = 2.1 # Don't use quotes for Numbers float()
+ boolean = True # bool()
+ list = ["A", "B"] # list()
+ tuple = ("a", "b") # tuple()
+ set = {"C", "D"} # set()
+ dictionary = { "key":"value" , "key1":1 } #dict()
  ```
 
 ## User Input
