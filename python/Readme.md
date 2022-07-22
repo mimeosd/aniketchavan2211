@@ -92,12 +92,6 @@
  ```
  
  **Output**:
- ```py <class str> ```
-## User Input
-
-## Strings
-## 
-## 
-## 
-## 
-## 
+ ```py 
+ <class str> 
+ ```
