@@ -93,5 +93,25 @@
  
  **Output**:
  ```py 
- <class str> 
+ <class 'str'> 
  ```
+
+## User Input
+ `input()` function takes input from user and
+ stores in Variable
+
+ ```py
+ Variable = input("Enter your value: ")
+ 
+ print (Variable)
+ ```
+ **Output**:
+ ```py
+ Enter your value:
+ ```
+
+
+
+
+
+
