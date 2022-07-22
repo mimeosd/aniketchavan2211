@@ -64,11 +64,41 @@
 
  Variables do not need to be declared with any particular type, and can even change type after they have been set.
  
+ If you want to specify the data type of a variable, this can be done with casting.
+
  ```py
  x = str(3) # x will be string '3'
  y = int(3) # y will be integer 3
  z = float(3) # z will be floating-point number 3.0
  ```
+
+### Get the Type()
+
+ You can get the data type of a variable with 
+ the `type()` function.
+
+ ```py
+ # DataType
+ string = "value"
+ integer = 2 # Don't use Quotes for Numbers
+ float = 2.1
+ boolean = True
+ list = ["A", "B"]
+ tuple = ("a", "b")
+ set = {"C", "D"}
+ dictionary = { "key":"value" , "key1":1 }
+
+ # Print DataType
+ print (string)
+ print (integer)
+ print (float)
+ print (boolean)
+ print (list)
+ print (tuple)
+ print (set)
+ print (dictionary)
+ ```
+
 ## User Input
 
 ## Strings
