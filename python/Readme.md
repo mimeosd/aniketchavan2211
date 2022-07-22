@@ -47,6 +47,21 @@
 
 ## Variables
 
+ Variables are containers for storing data values.
+
+### Creating Variables
+
+ Python has no command for declaring a variable.
+
+ A variable is created the moment you first assign a value to it.
+
+ ```python
+ Variable_Name = "Variable_Value"
+ # Double Quotes ""
+ Variable_Name = 'Variable_Value'
+ # Single Quotes ''
+ ```
+
 ## User Input
 
 ## Strings
