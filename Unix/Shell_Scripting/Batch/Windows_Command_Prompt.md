@@ -1,44 +1,54 @@
 
 ## Introduction to Command Prompt 
  
-  In CLI(Command Line Interface) also known as CUI(Command User
-  Interface)or Terminal(SHELL),the user has to type all the commands using the 
-  keyword to interact with the computer.There is only text in
-  CLI.
+ In CLI (**Command Line Interface**) also known 
+ as CUI (**Command User Interface**) or 
+ Terminal (**shell**), The user has to type all the commands 
+ using the keyword to interact with the 
+ computer. There is only text in CLI.
 
 
 ## Basic Commands and Operations Regarding Files, Folders & Locations 
   
-  `dir` - directory {to list directory & Files}
+  `dir` - directory to list directory & Files.
+        
   `cd [location/directory/path]` - change directory {used to change 
-   the directory.} 
-    Sub-Commands:- `cd ..`: {Back <-}
-                   `cd /` : {to change directory to /root or return
-                           to home}
-  `mkdir [Foldername/directory name]` - make directory        
+   the directory.}       
+   
+   
+   - `cd ..`: Back.      
+   - `cd /` : to change directory to /root or return to home.
+
+  `mkdir [Foldername/directory name]` - make directory 
+                    
   `ren [directoryname/foldername]` - rename rename/label a 
-                                   folder/directory
-  `type nul> [filename]` - {to create new files}
-  `copy [filename] [location/directory/path]` - copy {used to copy
-                                             folder/directory}
-  `del [filename]` - delete {delete/remove a files}
-  `move [filename] [directory]` - {used to move files to folders}
-  `rmdir [foldername/directory]` - {to delete a folder }
+                                   folder/directory.      
+
+  `type nul> [filename]` - to create new files.    
+
+  `copy [filename] [location/directory/path]` - copy used to copy
+                                             folder/directory.     
+
+  `del [filename]` - delete delete/remove a files. 
+   
+  `move [filename] [directory]` - used to move files to folders.   
+  
+  `rmdir [foldername/directory]` - to delete a folder .     
   
 ## Start & Stop Tasks and Services using CMD
   
   Task - Apps
   Service - System process
   
-  `tasklist` - {listing tasks running.}
-  `taskkill /pid [pid number]`- {to stop tasks}
-  `cls` - {clearing the terminal}
-  `netstart` - {listing running services}
-  `netstop [pid]` - {stop service}
-  `driverquery` - {opening list of installed drivers}
+  `tasklist` - listing tasks running.     
+  `taskkill /pid [pid number]`- to stop tasks.     
+  `cls` - clearing the terminal.    
+  `netstart` - listing running services.     
+  `netstop [pid]` - stop service.    
+  `driverquery` - opening list of installed drivers.    
 
 ## Getting Information about system and Programs using CMD
-  `wmic > /output:[path]` - {to get name, version,...}
+  `wmic > /output:[path]` - to get name, version,...      
   `wmic > cpu` - detailed description
   vol D: 
   `dispart` > `list disk` > `select disk [1]` > `detail disk`
@@ -48,28 +58,28 @@
 
 ## Managing User Account
 
-  `net user` - {To check/list accounts}
-  `net user [username] /add `- {to add accounts}
-  `net user [username] /add [password]` - {to add password}
-  `net user [username] /del` - {to delete account}
+  `net user` - To check/list accounts.    
+  `net user [username] /add `- to add accounts.   
+  `net user [username] /add [password]` - to add password.  
+  `net user [username] /del` - to delete account.    
   `net user [Administrator/Guest] /active:yes`
   `net user [Administrator/Guest] /active:no`
-  `net user "username"*` {for password}
+  `net user "username"*` -  for password.    
  
 ## Hide & Encrypt files
   
-  `attrib +h +r +s` - {for hiding files} 
-  `attrib -h -r -s` - {for unhiding files}
-  `cipher /e` - {for encryting files}
-  `cipher /d` - {for decryting files}
-  `cipher /c` - {for seeing the files in directory}
-  `cipher /rekey` - {for update efs key}
-  `assoc.[extension]` - {to know the about installed extension}
+  `attrib +h +r +s` - for hiding files.   
+  `attrib -h -r -s` - for unhiding files.  
+  `cipher /e` - for encryting files. 
+  `cipher /d` -  for decryting files.  
+  `cipher /c` - for seeing the files in directory.  
+  `cipher /rekey` - for update efs key.     
+  `assoc.[extension]` - to know the about installed extension.   
   
 ## Creating & Exporting files using CMD (Admin Privileges needed)
    
-  `tasklist > [filename.extension]` - {to save in file} 
-  `echo [type_text] > [filename.extension] `- {to save text in file}
+  `tasklist > [filename.extension]` - to save in file.   
+  `echo [type_text] > [filename.extension] `- to save text in file.  
   `copy con [filename.extension]`
     => write here {to exit press ctrl+z}
   `type [filename.ext]` - {to create new files}
