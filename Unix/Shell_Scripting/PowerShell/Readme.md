@@ -124,7 +124,7 @@
  `md` [directory name] : making directory.   
  `mkdir [directory name]` : making directory.    
  `rmdir [directory name]` : removing/deleting Folder/directory.     
- `type nul > [filename] : to create a file.    
+ `type nul > [filename]` : to create a file.    
  `del [filename]` : delete files.   
  `xcopy [filename] [folder name]` : copy files.   
  `xcopy *.extension [foldername]` : copy all files with same extensions.    
