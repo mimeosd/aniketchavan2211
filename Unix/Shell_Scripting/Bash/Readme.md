@@ -1,6 +1,6 @@
-## Shell Scripting
+## Bash Shell Scripting
   
-  Shell scripting is a series of commands.
+  bash shell scripting is a series of commands.
   It makes a lengthy sequence of commands
   into a single am simple script.
 
