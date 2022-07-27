@@ -113,23 +113,23 @@
 
 ### Basic Files & Directories Operation | Create, Move and Copy Commands
 
- `NOTE : ALWAYS open POWERSHELL with ROOT privilege.`
+ `NOTE : ALWAYS open POWERSHELL with ROOT privilege.`.   
 
- `pwd` : print working directory, current directory.
- `cd` : change directory.
- `cd \` : change directory to root directory.
- `cd .. ` : back one directory.
- `cd ..\..` : back two directory.
- `dir | ft --"name"` : ft means filter, display only name.
- `md` [directory name] : making directory.
- `mkdir [directory name]` : making directory.
- `rmdir [directory name]` : removing/deleting Folder/directory.
- `type nul > [filename] : to create a file.
- `del [filename]` : delete files.
- `xcopy [filename] [folder name]` : copy files.
- `xcopy *.extension [foldername]` : copy all files with same extensions.
- `move [filename] [folder name]` : move files.
- `move *.extension [path/Folder name]` : move all files with same extensions.
+ `pwd` : print working directory, current directory.       
+ `cd` : change directory.      
+ `cd \` : change directory to root directory.     
+ `cd .. ` : back one directory.    
+ `cd ..\..` : back two directory.    
+ `dir | ft --"name"` : ft means filter, display only name.   
+ `md` [directory name] : making directory.   
+ `mkdir [directory name]` : making directory.    
+ `rmdir [directory name]` : removing/deleting Folder/directory.     
+ `type nul > [filename] : to create a file.    
+ `del [filename]` : delete files.   
+ `xcopy [filename] [folder name]` : copy files.   
+ `xcopy *.extension [foldername]` : copy all files with same extensions.    
+ `move [filename] [folder name]` : move files.   
+ `move *.extension [path/Folder name]` : move all files with same extensions.    
 
 
 
