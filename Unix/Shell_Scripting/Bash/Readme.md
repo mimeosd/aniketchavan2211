@@ -1,3 +1,5 @@
+![bash](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/bash%20background.jpeg)
+
 ## Bash Shell Scripting
   
   bash shell scripting is a series of commands.
