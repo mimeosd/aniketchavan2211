@@ -1,3 +1,4 @@
+![Windows PowerShell](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/windows%20powershell.png)
 # PowerShell
 
 ## Introduction to Windows PowerShell
