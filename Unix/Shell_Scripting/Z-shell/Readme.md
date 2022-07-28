@@ -44,4 +44,4 @@
  - Restrictive licensing (customs scripts for commericial projects)
  - No longer the default shell on the latest OS X systems.
 
-
+![oh-my-zsh](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/oh-my-zsh.png)
