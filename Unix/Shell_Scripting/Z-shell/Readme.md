@@ -1,3 +1,4 @@
+![ZSH](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/zsh%25.jpeg)
 # Z-shell (macos terminal)
 
  `Shell` : The program that communicates between computer user and
