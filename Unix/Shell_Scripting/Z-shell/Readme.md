@@ -47,7 +47,7 @@
 
 #
 
-## Oh-my-zsh 
+## Oh-My-ZSH        
 
 ![oh-my-zsh](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/oh-my-zsh.png)
 
