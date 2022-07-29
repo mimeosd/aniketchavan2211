@@ -45,3 +45,15 @@
  - No longer the default shell on the latest OS X systems.
 
 
+#
+
+## Oh-My-ZSH        
+
+![oh-my-zsh](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/oh-my-zsh.png)
+
+  ***What is Oh My Zsh?***    
+ Oh My Zsh is an open source, community-driven
+ framework for managing your Zsh configuration.
+
+ - Webpage : https://ohmyz.sh/
+ - github : https://github.com/ohmyzsh/ohmyzsh
