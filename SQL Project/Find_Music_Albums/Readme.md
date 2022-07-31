@@ -1,6 +1,6 @@
 ## Find Music Albums
 
-## Database
+### Database
 
  `albums`
  | title | artist |
@@ -11,7 +11,7 @@
  | Horses | Patti Smith |
  
  
-## Query 
+### Query 
  ```sql
  SELECT title 
  FROM albums
@@ -19,7 +19,7 @@
  ORDER BY title;
  ```
  
-## Query Result
+### Query Result
  | title |
  | --- |
  | Horses | 
