@@ -1,4 +1,4 @@
-![Activity Booking](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/Activity%20Bookings.jpg)
+
 ## Activity Booking
 
  When booking activities our a websites, filtering, out a specific
