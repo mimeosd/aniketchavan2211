@@ -1,4 +1,6 @@
 ## Find Music Albums
+ We'll browse through a table of music albums
+ looking for titles by Patti Smith or Miles Davis.
 
 ### Database
 
