@@ -10,7 +10,7 @@ Table Name : albums
 | Horses | Patti Smith |
 
  query : script.sql
- ```sqlite3
+ ```sqlite
  SELECT title 
  FROM albums
  WHERE artist IN ('Miles Davis ','Patti Smith')
