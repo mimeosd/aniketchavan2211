@@ -1,7 +1,8 @@
 ## Find Music Ablums
 
-  `albums` :
+## Table 
 
+ `albums`
  | title | artist |
  | ------ | ------ |
  | Kind of Blue | Miles Davis |
@@ -10,7 +11,7 @@
  | Horses | Patti Smith |
  
  
-## script:
+## Query 
  ```sql
  SELECT title 
  FROM albums
@@ -18,7 +19,7 @@
  ORDER BY title;
  ```
  
-## Result:
+## Result
  | title |
  | --- |
  | Horses | 
