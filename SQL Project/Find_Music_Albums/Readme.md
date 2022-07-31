@@ -1,6 +1,6 @@
-## Find Music Ablums
+## Find Music Albums
 
-## Table 
+## Database
 
  `albums`
  | title | artist |
@@ -19,7 +19,7 @@
  ORDER BY title;
  ```
  
-## Result
+## Query Result
  | title |
  | --- |
  | Horses | 
