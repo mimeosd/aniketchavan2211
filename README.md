@@ -10,7 +10,7 @@
 - 💬 Ask me about `Cybersecurity`  `Ethical Hacking`  `Penetration Testing`  `Python`  `Web Development`
 - 📫 Contact us       
    
-     [![Gmail](https://img.shields.io/badge/GMAIL-grey?style=for-the-badge&logo=gmail)](aniketchavan2211@gmail.com)
+     [![Gmail](https://img.shields.io/badge/GMAIL-grey?style=for-the-badge&logo=gmail)](@aniketchavan2211@gmail.com)
      [![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/aniket_chavan_2211/)
      [![Twitter](https://img.shields.io/badge/TWITTER-FOLLOW-blue?style=for-the-badge&logo=Twitter)](https://mobile.twitter.com/Aniket86002211)
      <a href="https://gitHub.com/aniketchavan2211"><img title="Github" src="https://img.shields.io/badge/aniketchavan2211-Follow-brightgreen?style=for-the-badge&logo=github"></a>
