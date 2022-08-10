@@ -58,7 +58,8 @@
    Output.
 
    ```bash
-   /root/home```
+   /root/home
+   ```
 
 ### Variables
 
