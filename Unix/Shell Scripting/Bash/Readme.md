@@ -170,6 +170,19 @@
    read -p " Msg here " variable_name   #-p stands for prompt
    ```
 
+#### Timeout
+
+   ```bash
+   read -t 2  # -t stands for time 2 means 2 seconds
+   ```
+
+#### Password Handling
+
+   ```bash
+   read -s -p "Enter password: " passwd  # -s stands for silent
+   ```
+   user input will not been display on terminal.
+
 ### Operators
 
  - Arithmetic Operators
@@ -208,3 +221,208 @@
 #### File Test Operators
 
 ![File Test Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/File%20Test%20Operators.jpg)
+
+### Condtional Statements
+
+ Conditional Statements allows us to performs different actions
+ based on different conditions.
+
+#### Types Of Conditional Statements
+
+ - if statements
+ - if .. else statements
+ - if .. elif statemnts
+ - Nested if statements
+ - Case statements
+
+#### If statements
+
+ Syntax
+ ```sh
+ if [ Condition ]; then
+ command(s)
+ fi
+ ```
+ always end the statements with `fi`.
+
+#### If-Else statements
+
+ Syntax
+ ```sh
+ if [ Condtion ]; then
+   command(s)
+ else
+   command(s)
+ fi
+ ```
+
+#### If-Elif-Else statements
+
+ Syntax
+ ```sh
+ if (( Condition && Condition )); then
+   command(s)
+ elif (( Condition && Condtion )); then
+   command(s)
+ elif [ Condition ]; then
+   command(s)
+ else
+   command(s)
+ fi
+ ```
+
+#### Nested-If statements
+
+ Syntax
+ ```sh
+ if [[ Condition ]]; then
+   if [[ Condition ]]; then
+     command(s)
+   else
+     command(s)
+   fi
+ else
+   if [[ Condition ]]; then
+     command(s)
+   else
+     command(s)
+   fi
+ fi
+ ```
+
+#### Case Statements
+
+ Syntax
+ ```bash
+ case $var in
+ 1)
+  command(s);;
+ 2)
+  command(s);;
+ 3)
+  command(s);;
+ [yY] | [yY][eE][sS])
+  command(s);;
+ [nN] | [nN][oO])
+  command(s);;
+ *)
+  command(d);;
+ esac
+ ```
+
+### Loops
+
+ It is use to performs repetitive tasks.
+
+#### Types of loops
+
+ - for loop
+ - while loop
+ - until loop
+ - nested loop
+ - infinite loop
+
+#### For loop
+
+ Syntax
+ ```bash
+ for var in 0 1 2 3 4 5 # array
+ do
+   command(s)
+ done
+ ```
+ var is variable, array stores muliple values
+
+##### Range
+
+ ```sh
+ for i in {1..5};
+ do
+   echo "number: $i";
+ done
+
+ # OR in one-line
+ for i in {1..5}; do echo "number: $i"; done
+
+ # OR
+ for ((i=1; i<=5; i++)); do echo "number: $i"; done
+ ```
+
+ {range} & i stands for index.
+
+#### While loop
+
+ ```sh
+ while [ $a -lt 10 ] # OR Conditions / Commands
+ do
+   echo $a  # statements
+   a='expr $a + 1'
+ done
+ ```
+#### Until loop
+
+ ```sh
+ until [ ! $a -lt 10 ]# OR Command / Condition
+ do
+   echo $a # statements
+   a='expr $a + 1'
+ done
+ ```
+
+#### Nested loop
+
+ ```sh
+ a=0
+ while [ "$a -lt 10 ]  # loop 1
+ do
+   b="$a"
+   while [ "$b" -ge 0 ] # loop 2
+   do
+     echo -n "$b "
+     b='expr $b - 1'
+ done
+ echo
+ a='expr $a + 1'
+ ```
+
+#### Infinite loop
+
+ ```sh
+ a=10
+ until [ $a -gt 0 ]
+ do
+   echo $a
+   a='expr $a + 1'
+ done
+ ```
+
+#### Break statement
+
+ ```bash
+ a=0
+ while [ $a -lt 10 ]
+ do
+   echo $a
+   if [ $a -eq 5 ]
+   then
+     break
+   fi
+   a='expr $a + 1'
+ done
+ ```
+
+#### Continue statment
+
+ ```bash
+ NUMS="1 2 3 4 5 6 7"
+ for NUM in $NUMS
+ do
+   Q='expr $NUM % 2'
+   if [ $Q -eq 0 ]
+   then
+     echo "Number is an even number!!"
+     continue
+   fi
+   echo "Found odd number"
+ done
+ ```
