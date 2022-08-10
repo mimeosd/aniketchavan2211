@@ -171,7 +171,8 @@
    ```
 
 ### Operators
-   - Arithmetic Operators
+
+ - Arithmetic Operators
 
 #### Arithmetic Operators
 
@@ -188,10 +189,26 @@
 
 ![Arithmetic Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/Arithmetic%20Operators.jpg)
 
+#### Relational Operators
+
+ - Relational Operators
+
 ![Relational Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/Relational%20Operators.jpg)
+
+#### Booleans Operators
+
+  - Booleans Operators
 
 ![Booleans Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/Boolean%20Operators.jpg)
 
+#### String Operators
+
+ - String Operators
+
 ![String Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/String%20Operators.jpg)
+
+#### File Test Operators
+
+ - File Test Operators
 
 ![File Test Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/File%20Test%20Operators.jpg)
