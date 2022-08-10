@@ -186,10 +186,12 @@
 | == (Equality) | Compares two numbers, if both are same then returns true. | `[ $a == $b ]` would returns false |
 | != (Not Equality) | Compares two numbers, if both are different then returns true. | `[ $a != $b ]` would returns true. |
 
+![Arithmetic Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/Arithmetic%20Operators.jpg)
 
+![Relational Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/Relational%20Operators.jpg)
 
+![Booleans Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/Boolean%20Operators.jpg)
 
+![String Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/String%20Operators.jpg)
 
-
-
-
+![File Test Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/File%20Test%20Operators.jpg)
