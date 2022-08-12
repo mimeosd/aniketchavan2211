@@ -494,6 +494,30 @@
  variables by default are defined as global,
  even if declared inside the function.
 
+#### Return Value
+
+ Bash functions don’t allow you to return a 
+ value when called. When a bash function 
+ completes, its return value is the status of 
+ the last statement executed in the function, 
+ 0 for success and non-zero decimal number in
+ the 1 - 255 range for failure.
+ 
+ The return status can be specified by using
+ the return keyword, and it is assigned to 
+ the variable $?. The return statement 
+ terminates the function.
+
+ ```bash
+ my_function() {
+  echo "some result"
+  return 55
+ }
+
+ my_function
+ echo $?
+ ```
+
 ### Debugging
 
  `Debugging` is a very important part of programming
