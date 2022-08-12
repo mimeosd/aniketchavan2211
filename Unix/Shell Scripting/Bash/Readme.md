@@ -468,16 +468,21 @@
  ./script.sh arg1 arg2 argn
  ```
 
-#### Variable Scopes
+#### Types of Variable Scopes
 
  - Local Scope
+ - Global Scope 
+
+##### Local Scope
+
  Local variables are only accessible within
  the section of code in which they are 
  declared. For example, if we declare a 
  variable inside our Bash script, it will 
  not be accessible outside of that script.
  
- - Global Scope
+##### Global Scope
+
  Global Scope also known as environment 
  variables, that are available to all shells.
  You can recall global variables within your
