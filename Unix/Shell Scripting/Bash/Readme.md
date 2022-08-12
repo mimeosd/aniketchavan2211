@@ -426,3 +426,34 @@
    echo "Found odd number"
  done
  ```
+
+### Debugging
+
+ `Debugging` is a very important part of programming
+ so we should get used to problem solving and
+ fixing errors as early as possible.
+
+ ```sh
+ bash -x ./filename.sh
+ ```
+ If this is script,
+ ```bash
+ echo "Hello World"
+ whoami
+ ```
+ 
+ running the script on terminal
+ ```sh
+ bash -x ./example.sh
+ ```
+
+ 
+ ```bash
+ + echo "Hello World"
+ Hello World
+ + whoami
+ u0_a722
+ ```
+
+ `+` command successful executable, `-` command
+ throw an errors
