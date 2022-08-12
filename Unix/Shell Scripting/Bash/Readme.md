@@ -439,7 +439,7 @@
  Syntax
  ```bash
  function_name() {
- Commands
+   Commands
  }
  
  function_name  # Calling function with name
@@ -449,8 +449,26 @@
  ```bash
  function_name() {commands; }
  ```
+#### Passing Arugments
 
+ ```bash
+ pass_args() {
+   echo "This is 1st Arugment: $1"
+   echo "This is 2nd Argument: $2"
+   echo "This is nth Argument: $n.."
+ }
+ ```
+ `$1` `$2 `$3` `$n` .. are parameters in script 
+ which users input using Arugments then 
+ store in `$1` ..
 
+ On terminal,
+ running script with passing arguments
+ ```bash
+ ./script.sh arg1 arg2 argn
+ ```
+
+#### Variable Scopes
 
 ### Debugging
 
