@@ -427,12 +427,12 @@
  done
  ```
 
-### Function
+### Functions
 
  Sets of commands which can be call several times
  within script.
 
-#### Advantage
+#### Advantages
 
  - Avoid to write same code again
 
@@ -469,6 +469,25 @@
  ```
 
 #### Variable Scopes
+
+ - Local Scope
+ Local variables are only accessible within
+ the section of code in which they are 
+ declared. For example, if we declare a 
+ variable inside our Bash script, it will 
+ not be accessible outside of that script.
+ 
+ - Global Scope
+ Global Scope also known as environment 
+ variables, that are available to all shells.
+ You can recall global variables within your
+ Bash scripts.
+
+ Global variables are variables that can 
+ be accessed from anywhere in the script 
+ regardless of the scope. In Bash, all 
+ variables by default are defined as global,
+ even if declared inside the function.
 
 ### Debugging
 
