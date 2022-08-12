@@ -427,6 +427,31 @@
  done
  ```
 
+### Function
+
+ Sets of commands which can be call several times
+ within script.
+
+#### Advantage
+
+ - Avoid to write same code again
+
+ Syntax
+ ```bash
+ function_name() {
+ Commands
+ }
+ 
+ function_name  # Calling function with name
+ ```
+
+ Compact (in one-line)
+ ```bash
+ function_name() {commands; }
+ ```
+
+
+
 ### Debugging
 
  `Debugging` is a very important part of programming
