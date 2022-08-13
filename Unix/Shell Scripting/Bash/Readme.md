@@ -616,6 +616,81 @@
  )
  ```
 
+#### Reference Elements
+
+ Any element can be referenced using the 
+ following syntax:
+
+ ```bash
+ ${array_name[index]}
+ ```
+
+ > The syntax for accessing an array element 
+ > is similar to the syntax of most of the 
+ > programming languages. The curly braces 
+ > `${}` are required to avoid shell’s 
+ > filename expansion operators.
+
+ Let’s print the element with index of 1:
+ ```bash
+ ## declare the array
+ declare -a my_array=( "Hydrogen" "Helium" "Lithium" "Beryllium" )
+
+ ## print element
+ echo ${my_array[1]}
+ ```
+
+ Output:
+ ```bash
+ Helium
+ ```
+ 
+ If you use `@` or `*` as an index, the word 
+ expands to all members of the array. To 
+ print all elements you would use:
+
+ ```bash
+ ## declare the array
+ declare -a my_array=( "Hydrogen" "Helium" "Lithium" "Beryllium" )
+
+ ## print all elements
+ echo "${my_array[@]}"
+ ```
+
+ Output:
+ ```bash
+ Hydrogen Helium Lithium Beryllium
+ ```
+
+ The only difference between @ and * is when 
+ the form `${my_array[x]}` is surrounded 
+ with double-quotes. In this case, `*` expands
+ to a single word where array elements are 
+ separated with space. `@` expands each array 
+ element to a separate word. This is 
+ especially important when using the form to 
+ illiterate through array elements.
+
+ To print the keys of the array add the `!` 
+ operator before the array name:
+ ```bash
+ ${!array_name[index]}
+ ```
+
+ Example:
+ ``` bash
+ ## declare the array
+ declare -a my_array=( "Hydrogen" "Helium" "Lithium" "Beryllium" )
+
+ ## print all elements
+ echo "${!my_array[@]}"
+ ```
+
+ Output:
+ ```bash
+ 0 1 2 3
+ ```
+
 ### Debugging
 
  `Debugging` is a very important part of programming
