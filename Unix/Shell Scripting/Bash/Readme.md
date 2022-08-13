@@ -518,6 +518,104 @@
  echo $?
  ```
 
+### Arrays
+
+ An array is a variable that can store 
+ multiple variables within it.
+
+ Bash supports one-dimensional numerically 
+ indexed and associative arrays types. 
+ Numerical arrays are referenced using 
+ integers, and associative are referenced 
+ using strings.
+
+ Numerically indexed arrays can be accessed 
+ from the end using negative indices, 
+ the index of -1 references the last element.
+ The indices do not have to be contiguous.
+
+ You can create an array that contains both
+ strings and numbers.
+
+ There is no limit on the maximum number of 
+ elements that can be stored in an array.
+
+#### Creating numerically indexed arrays 
+
+ Bash variables are untyped, any variable 
+ can be used as an indexed array without 
+ declaring it.
+
+ To explicitly declare an array, use the 
+ declare builtin:
+
+ ```bash
+ declare -a array_name
+ ```
+ 
+ One way to create an indexed array is by 
+ using the following form:
+ 
+ ```bash
+ array_name[index_1]=value_1
+ array_name[index_2]=value_2
+ array_name[index_n]=value_n
+ ```
+
+ Where index_* is a positive integer.
+
+ Another way to create a numeric array is 
+ to specify the list of the elements within 
+ parentheses, separated by empty space:
+
+ ```bash
+ array_name=( element_1 element_2 element_N )
+ ```
+
+ When the array is created using the form
+ above, indexing starts at zero i.e. the 
+ first element have an index of `0`.
+
+#### Creating associative arrays
+
+ Unlike numerically indexed, the associative
+ arrays must be declared before they can 
+ be used.
+
+ To declare an associative array use the 
+ `declare` builtin with the `-A` (uppercase) 
+ option:
+
+ ```bash
+ declare -A array_name
+ ```
+
+ Associative arrays can be created using the 
+ following form:
+
+ ```bash
+ declare -A array_name
+
+ array_name[index_foo]=value_foo
+ array_name[index_bar]=value_bar
+ array_name[index_xyz]=value_xyz
+ ```
+
+ Where index_* can be any string.
+
+ You can also create an associative array
+ using the form below:
+
+ ```bash
+ declare -A array_name
+
+ array_name=( 
+   [index_foo]=value_foo 
+   [index_bar]=value_bar 
+   [index_xyz]=value_xyz 
+ )
+ ```
+
 ### Debugging
 
  `Debugging` is a very important part of programming
