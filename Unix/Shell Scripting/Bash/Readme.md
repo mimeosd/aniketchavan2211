@@ -691,6 +691,59 @@
  0 1 2 3
  ```
 
+#### Add a new element
+
+ To add a new element to a bash array and 
+ specify its index use the following form:
+
+ ```bash
+ my_array[index_n]="New Element"
+ ```
+
+ Here is an example:
+
+ ```bash
+ declare -a my_array=( "Hydrogen" "Helium" "Lithium" "Beryllium" )
+
+ ## add new element
+ my_array[9]="Aluminum"
+
+ ## print all elements
+ echo "${my_array[@]}"
+ ```
+
+ Output:
+ ```bash
+ Hydrogen Helium Lithium Beryllium Aluminum
+ ```
+
+#### Delete an element 
+
+ To delete a single element, you’ll need to 
+ know the element index. An element can be 
+ removed using the `unset` command:
+
+ ```bash
+ unset my_array[index]
+ ```
+
+ Example:
+
+ ```bash
+ declare -a my_array=( "Hydrogen" "Helium" "Lithium" "Beryllium" )
+
+ ## remove element
+ unset my_array[2]
+
+ ## print all elements
+ echo "${my_array[@]}"
+ ```
+
+ Output:
+ ```bash
+ Hydrogen Helium Beryllium
+ ```
+
 ### Debugging
 
  `Debugging` is a very important part of programming
