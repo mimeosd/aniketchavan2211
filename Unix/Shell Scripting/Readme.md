@@ -226,8 +226,8 @@ In Bourne-type shell, the `$` character is the default prompt.
 #### Vim modes 
 
  `i` : insert mode press 'i' for insert mode from normal mode.  
- `:' : Command mode press 'Esc' you will on normal then press ':'.  
- `v' : Visual mode.  
+ `:` : Command mode press 'Esc' you will on normal then press ':'.  
+ `v` : Visual mode.  
 
  `H` : ← Left key.  
  `J` : ↓ Down key.   
