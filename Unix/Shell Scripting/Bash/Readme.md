@@ -841,6 +841,34 @@ $ grep “ba?b” file6
 
 the string bb or bab as with ‘?’ multiplier we can have one or zero occurrences of the character.
 
+#### Escape Character \
+
+***\ or Escape characters***
+
+`\` is used when we need to include a character that is a metacharacter or has special meaning to regex. For example, we need to locate all the words ending with a dot, so we can use
+
+```bash
+$ grep “S.*\.” file8
+```
+
+This will search and match all the words that ends with a dot character.
+
+#### Start and end
+
+```bash
+$ grep “S.*l” file7
+```
+
+And we get results with ‘small’, silly & than we also got ‘Shane is a little to play ball’. But why did we get ‘Shane is a little to play ball’, we were only looking to words in our search so why did we get the complete sentence as our output.
+
+That’s because it satisfies our search criteria, it starts with letter ‘S’, has any number of characters in the middle & ends with letter ‘l’. So what can we do to correct our regex, so that we only get words instead of whole sentences as our output.
+
+We need to add Meta character in the regex,
+
+```bash
+$ grep “S.*?l” file7
+```
+
 ### Debugging
 
  `Debugging` is a very important part of programming
