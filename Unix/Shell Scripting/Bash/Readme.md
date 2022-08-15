@@ -870,6 +870,129 @@ We need to add Meta character in the regex,
 $ grep “S.*?l” file7
 ```
 
+#### ShortHand Characters
+
+`\s`      will match whitespaces i.e. space, a tab or line break,
+
+`\d`    will match digits i.e. 0-9, we can also use [0-9] instead
+
+`\w`     will match all the word characters(A-z a-z) also includes _ (underscore)
+
+`\S`      opposite of \s, will match all that are not whitespaces
+
+`\D`      opposite of \d, will match all that are not digits
+
+`\W`    opposite of \w, will match all that is not word characters.
+
+#### Word Boundaries
+
+These identify the boundaries associated with words.
+
+`\<`    used for the beginning of the word
+
+`\>`    used for end of the word
+
+`\b`    used for either beginning or end of the word
+
+#### Anchor
+
+Similar to word boundaries, these are associated with lines.
+
+`^` used to beginning of the line
+
+`$ `   used for end of the line
+
+#### \s & \S
+
+As mentioned above, \s will locate all the whitespaces from the file. To use it,
+
+```bash 
+$ grep “\s” file1
+```
+
+& to locate all that are not whitespaces, we use \S
+
+```bash
+$ grep “\S” file1
+```
+
+#### \d & \D
+
+Now, these are interesting metacharacters to use. We have been using range metacharacter i.e. [0-9], whenever we needed to have a search related to numbers. Instead, we can use \d to locate all the words that have numbers in them.
+
+```bash
+$ grep -p “\d” file2
+```
+
+You can also use the following regex for the same search term,
+
+```bash
+$ grep “[0-9]” file2
+```
+
+Now if we need to locate opposite of above i.e. search all that are not digits,
+
+```bash
+$ grep -p “\D” file2
+```
+
+Note:-- You might have noticed that we used ‘-p’ option with grep. That is because ‘\d’ is a pcre (Pearl compatible regular expression) term & grep does not identify it by default, so we need to use ‘-p ’ option with grep to make is understand ‘\d’.
+
+#### \w & \W
+
+\w is used to locate all the word characters i.e. a-z, A-Z & it also includes _ (underscore). Underscore is included with \w, as it’s commonly used in programming especially for defining a variable or function name. To use it
+
+```bash 
+$ grep “\w” file3
+```
+
+& to do the opposite, search all the non-word characters,
+
+```bash
+$ grep “\W” file3
+```
+
+#### Word Boundaries
+To locate a word with a character at the start, use
+
+```bash
+$ grep “\<S” file4
+```
+
+To locate a word with a character at the end, use
+
+```bash
+$ grep “\>t” file4
+```
+
+& to locate a word with a character either at the start or at the end of the word, use
+
+```bash
+$ grep “\bt” file4
+```
+
+#### Anchors
+
+These work in the same way as word boundaries but they are used to lines rather than words. To search for a word with the particular character at the start of the line, use
+
+```bash
+$ grep “^s” file5
+```
+
+Another example would be
+
+```bash
+$ grep -P “^\d” file5
+```
+
+This will locate the lines that are starting with digits. To search for all the lines that end with a particular character at the end, use
+
+```bash
+$ grep “y$” file5
+```
+
+This will locate all the lines that end with the letter y.
+
 ### Debugging
 
  `Debugging` is a very important part of programming
