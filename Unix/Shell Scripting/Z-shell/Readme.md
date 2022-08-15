@@ -57,3 +57,5 @@
 
  - Webpage : https://ohmyz.sh/
  - github : https://github.com/ohmyzsh/ohmyzsh
+
+Reference : [Scripting OS X](https://scriptingosx.com/zsh/)
