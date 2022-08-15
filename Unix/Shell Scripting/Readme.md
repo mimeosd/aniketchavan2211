@@ -223,6 +223,33 @@ In Bourne-type shell, the `$` character is the default prompt.
  come to the command mode to understand the
  difference.
 
+#### Vim modes 
+
+ `i` : insert mode press 'i' for insert mode from normal mode.  
+ `:' : Command mode press 'Esc' you will on normal then press ':'.  
+ `v' : Visual mode.  
+
+ `H` : ← Left key.  
+ `J` : ↓ Down key.   
+ `K` : ↑ Up key.   
+ `L` : → Right key.  
+
+ `X` : Delete character.   
+ `dd` : delete line.    
+ `u` : undo.   
+
+ `:set number` : line numbers
+
+ `:n` : goto line number `n`.   
+ `:2` : goto line number 2.   
+
+ `i` : insert mode.  
+ `esc` : exit to normal mode.  
+ `tp` : paste from system clipboard.  
+ `:w` : save.   
+ `:!` : run command.  
+ `:! sh file.sh` : running file with shell and filename.    
+
 #### Save && Exit command 
 
  let's see commands to save file
