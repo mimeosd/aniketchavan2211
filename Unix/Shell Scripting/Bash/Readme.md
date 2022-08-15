@@ -743,6 +743,30 @@
  ```bash
  Hydrogen Helium Beryllium
  ```
+ 
+### Regex
+
+ Regular expression or regex or regexp are basically string of character that define a search pattern, they can be used for performing `search` or `search & replace` operation.
+ 
+ ```bash
+ $ grep "regex_search_term" file_loction
+ ```
+
+#### Regex Basics
+
+ Special characters a.k.a. metacharcters.
+
+`. or Dot` will match any character
+`[]` will match a range of characters
+`^` will match all characters except for the one mentioned in braces
+`*`  will match zero or more of the preceding items
+`+` will match one or more of the preceding items
+`?` will match zero or one of the preceding items
+`{n}` will match `n` numbers of preceding items
+`{n, }` will match `n` numbers of or more of preceding items
+`{n m}` will match between `n` & `m` number of items
+`{, m}` will match less than or equal tto`m` number of items
+`\` is an escape character, used when we need to include one of the metacharacters in our search.
 
 ### Debugging
 
