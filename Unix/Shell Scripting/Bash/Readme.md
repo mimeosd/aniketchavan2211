@@ -768,6 +768,79 @@
 `{, m}` will match less than or equal tto`m` number of items
 `\` is an escape character, used when we need to include one of the metacharacters in our search.
 
+#### Dot .
+
+***. or Dot***
+It is used to match any character that occurs in our search term. For example, we can use dot-like,
+
+```bash
+$ grep “d.g” file1
+```
+
+This regex means we are looking for a word that starts with ‘d’, ends with ‘g’ & can have any character in the middle in the file named ‘file_name’. Similarly, we can use dot character any number of times for our search pattern, like
+
+```bash
+T…...h
+```
+
+This search term will look for a word that starts with ‘T’, ends with ‘h’ & can have any six characters in the middle.
+
+#### Square Brackets []
+
+Square braces are used to define a range of characters. For example, we need to search for some words in particular rather than matching any character,
+
+```bash
+$ grep “N[oen]n” file2
+```
+
+here, we are looking for a word that starts with ‘N’, ends with ‘n’ & can only have either of ‘o’ or ‘e’ or ‘n’ in the middle. We can mention from a single to any number of characters inside the square braces.
+
+We can also define ranges like ‘a-e’ or ‘1-18’ as the list of matching characters inside square braces.
+
+#### [^]
+
+This is like the not operator for regex. While using [^ ], it means that our search will include all the characters except the ones mentioned inside the square braces. Example,
+
+```bash
+$ grep “St[^1-9]d” file3
+```
+
+This means that we can have all the words that start with ‘St’, ends with letter ‘d’ & must not contain any number from 1 to 9.
+
+Now up until now, we were only using examples of regex that only need to look for single character in middle but what if we need to look to more than that. Let’s say we need to locate all words that start & ends with a character & can have any number of characters in the middle. That’s where we use multiplier metacharacters i.e. `+```*``&``?`.
+
+`{n}`, `{n. m}`, `{n , }` or `{ ,m}` are also some other multipliers metacharacters that we can use in our regex terms.
+
+#### Asterisk *
+
+The following example matches any number of occurrences of the letter k, including none:
+
+```bash
+$ grep “lak*” file4
+```
+
+it means we can have a match with ‘lake’ or ‘la’ or ‘lakkkkk’
+
+#### Plus +
+
+The following pattern requires that at least one occurrence of the letter k in the string be matched:
+
+```bash
+$ grep “lak+” file5
+```
+
+here, k at least should occur once in our search, so our results can be ‘lake’ or ‘lakkkkk’ but not ‘la’.
+
+#### Questions mark ?
+
+In the following pattern matches
+
+```bash
+$ grep “ba?b” file6
+```
+
+the string bb or bab as with ‘?’ multiplier we can have one or zero occurrences of the character.
+
 ### Debugging
 
  `Debugging` is a very important part of programming
