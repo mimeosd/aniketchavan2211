@@ -222,7 +222,7 @@
 
 ![File Test Operators](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/File%20Test%20Operators.jpg)
 
-### Condtional Statements
+### Condtional Statements [Decision Making]
 
  Conditional Statements allows us to performs different actions
  based on different conditions.
@@ -384,8 +384,8 @@
  echo
  a='expr $a + 1'
  ```
-
-#### Infinite loop
+#### Loop Control
+##### Infinite loop
 
  ```sh
  a=10
@@ -396,7 +396,7 @@
  done
  ```
 
-#### Break statement
+##### Break statement
 
  ```bash
  a=0
@@ -411,7 +411,7 @@
  done
  ```
 
-#### Continue statment
+##### Continue statment
 
  ```bash
  NUMS="1 2 3 4 5 6 7"
@@ -743,7 +743,8 @@
  ```bash
  Hydrogen Helium Beryllium
  ```
- 
+## Advanced
+
 ### Regex
 
  Regular expression or regex or regexp are basically string of character that define a search pattern, they can be used for performing `search` or `search & replace` operation.
