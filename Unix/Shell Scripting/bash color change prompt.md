@@ -60,3 +60,5 @@ WHITE="\[\033[0;37m\]"
 WHITEB="\[\033[1;37m\]"
 RESET="\[\033[0;0m\]"
  ```
+
+link: [bash/prompt customization](https://wiki.archlinux.org/title/Bash/Prompt_customization#:~:text=Bash%20has%20four%20prompt%20strings,a%20multi%2Dline%20command).)
