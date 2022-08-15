@@ -743,6 +743,110 @@
  ```bash
  Hydrogen Helium Beryllium
  ```
+
+### Substitution
+
+**What is Substitution?**
+The shell performs substitution when it encounters an expression that contains one or more special characters.
+
+**Example**
+the printing value of the variable is substituted by its value. Same time, "\n" is substituted by a new line.
+
+```bash
+ a=10
+echo -e "Value of a is $a \n"
+```
+You will receive the following result. Here the `-e` option enables the interpretation of backslash escapes.
+
+```sh
+Value of a is 10
+```
+Following is the result without -e option 
+```sh
+Value of a is 10\n
+```
+| Expression | Description|
+| ---------- | ---------- |
+|`\\`| backslash |
+|`\a` | alert (BEL) |
+|`\b` | backspace |
+|`\c` | suppress trailing newline |
+|`\f` | form feed |
+|`\n` | new line |
+|`\r` | carriage return |
+|`\t` | horizontal tab |
+|`\v` | vertical tab |
+
+You can use the `-E` option to disable the interpretation of the backslash escapes (default).
+
+You can use the `-n` option to disable the insertion of a new line.
+
+#### Command substitution
+
+Command substitution is the mechanism by which the shell performs a given set of commands and then substitutes their output in the place of the commands.
+
+**Syntax**
+```bash
+\`command\`
+```
+
+When performing the command substitution make sure that you use the backquote, not the single quote character.
+
+**Example**
+Command substitution is generally used to assign the output of a command to a variable. Each of the following examples demonstrates the command substitution
+
+```bash
+DATE=\`date\`
+echo "Date is $DATE"
+
+USERS=`who | wc -l`
+echo "Logged in user are $USERS"
+```
+
+#### Variable Substitution
+Variable substitution enables the shell programmer to manipulate the value of a variable based on its state.
+
+| Forms | Description |
+| ----- | ----------- |
+|`${var}`| Substitute the value of var |
+|`${var:-word}`| If var is null or unset, word is substituted for `var`. The value of var does not change. |
+|`${var:=word}` | If var is null or unset, var is set to the value of `word`.|
+|`${var:?message}` | If var is null or unset, message is printed to standard error. This checks that variables are set correctly. |
+|`${var:+word}`| If var is set, word is substituted for var. The value of var does not change. |
+
+**Example**
+```bash
+echo ${var:-"Variable is not set"}
+echo "1 - Value of var is ${var}"
+
+echo ${var:="Variable is not set"}
+echo "2 - Value of var is ${var}"
+
+unset var
+echo ${var:+"This is default value"}
+echo "3 - Value of var is $var"
+
+var="Prefix"
+echo ${var:+"This is default value"}
+echo "4 - Value of var is $var"
+
+echo ${var:?"Print this message"}
+echo "5 - Value of var is ${var}"
+```
+
+Output:
+```
+Variable is not set
+1 - Value of var is
+Variable is not set
+2 - Value of var is Variable is not set
+3 - Value of var is
+This is default value
+4 - Value of var is Prefix
+Prefix
+5 - Value of var is Prefix
+```
+
 ## Advanced
 
 ### Regex
