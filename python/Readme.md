@@ -45,11 +45,47 @@
  - Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
  - Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
 
+## Comments 
+
+Comments can be used to explain Python code.
+Comments can be used to make the code more readable
+Comments can be used to prevent execution when testing code
+
+### Single-Line Comments
+
+Comments starts with a `#` (hash), amd python
+will ignore them :
+```python
+# This is a Comment
+# This is ignore python interpreter
+```
+
+Comments can be placed at the end of a line, and Python will ignore the rest of the line
+```python
+print ("Hello") # This is a comment
+```
+
+Output:
+```
+Hello
+```
+
+### Multi-Line Comments
+
+Python will ignore string literals that are not assigned to a variable, you can add a multiline string ` """ ` (triple quotes) in your code, and 
+place your comment inside it.
+
+```python
+"""
+This is a 
+Multi line
+Comment
+"""
+```
+
 ## Variables
 
  Variables are containers for storing data values.
-
-### Creating Variables
 
  Python has no command for declaring a variable.
 
@@ -95,6 +131,50 @@
  ```py 
  <class 'str'> 
  ```
+ 
+### Datatypes
+
+Variables can store data of different types, and different types can do different things.
+
+| DataTypes |  Types |
+| --------- | ------ |
+| Text Type |	`str` |
+| Numeric Types |	`int`, `float`, `complex`|
+| Sequence Types	|`list`, `tuple`, `range`|
+| Mapping Type |	`dict`|
+| Set Types	|`set`, `frozenset`|
+| Boolean Type |`bool`|
+| Binary Types|`bytes`, `bytearray`, `memoryview`|
+
+#### Strings
+
+String in python are surrounded by either single quotation marks or double quotation marks.
+
+`'hello'` is the same as `"hello"`
+
+Assigning a string to a variable is done with the variable name followed by an equal sign and the string
+
+```Python
+a = "Hello"
+print (a)
+```
+
+##### Multiline String
+You can assign a multiline string to a variable by using three quotes:
+```Python
+a = """ This is a 
+        Multi line 
+        String """
+```
+OR three single quotes:
+```Python
+a = ''' Name 
+        Age
+        Number'''
+print (a)
+```
+
+#### 
 
 ## User Input
  `input()` function takes input from user and
