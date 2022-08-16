@@ -160,37 +160,6 @@ Variables can store data of different types, and different types can do differen
 | Boolean Type |`bool`|
 | Binary Types|`bytes`, `bytearray`, `memoryview`|
 
-#### Strings
-
-String in python are surrounded by either single quotation marks or double quotation marks.
-
-`'hello'` is the same as `"hello"`
-
-Assigning a string to a variable is done with the variable name followed by an equal sign and the string
-
-```Python
-a = "Hello"
-
-print (a)
-```
-
-##### Multiline String
-You can assign a multiline string to a variable by using three quotes:
-```Python
-a = """ This is a 
-        Multi line 
-        String """
-```
-OR three single quotes:
-```Python
-a = ''' Name 
-        Age
-        Number'''
-print (a)
-```
-
-#### 
-
 ## User Input
  `input()` function takes input from user and
  stores in Variable
@@ -304,3 +273,32 @@ Bitwise operators are used to compare (binary) numbers:
 | `~` | `NOT`|	Inverts all the bits |
 | `<<` | `Zero fill left shift	`|Shift left by pushing zeros in from the right and let the leftmost bits fall off |
 | `>>` |`Signed right shift`|	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off |
+
+## String
+
+String in python are surrounded by either single quotation marks or double quotation marks.
+
+`'hello'` is the same as `"hello"`
+
+Assigning a string to a variable is done with the variable name followed by an equal sign and the string
+
+```Python
+a = "Hello"
+
+print (a)
+```
+
+### Multiline String
+You can assign a multiline string to a variable by using three quotes:
+```Python
+a = """ This is a 
+        Multi line 
+        String """
+```
+OR three single quotes:
+```Python
+a = ''' Name 
+        Age
+        Number'''
+print (a)
+```
