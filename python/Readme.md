@@ -216,8 +216,8 @@ Operators are used to perform operations on variable and values.
 
 Arithmetic operators are used with numeric values to perform common mathematical operations:
 
-| Operator | Name	| Example	 | Try it |
-| -------- | ---- | -------- | ------ |
+| Operator | Name	| Example	 |
+| -------- | ---- | -------- |
 | `+` |	Addition |	`x + y`	|
 |`-`	| Subtraction	| `x - y`	|
 |`*`	| Multiplication |	`x * y`	|
@@ -257,7 +257,7 @@ Comparison operators are used to compare two values:
 | `>` | Greater than	| x > y	|
 | `<` | Less than |	x < y	|
 | `>=` |	Greater than or equal to	| x >= y	|
-| `<= `|	Less than or equal to	x | <= y |
+| `<= `|	Less than or equal to	 | x <= y |
 
 ### Logical Operators
 
