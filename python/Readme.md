@@ -448,6 +448,74 @@ Expression value is less than 200
 Which is 100
 ```
 
+## Loops 
+
+A loop statement allows us to execute a statement or group of statements multiple times.
+
+### While loop
+
+A while loop statement in Python programming language repeatedly executes a target statement as long as a given condition is true.
+
+**Syntax**:
+```python
+while expression:
+   statement(s)
+```
+
+**Example**:
+```python
+count = 0
+while (count < 9):
+   print 'The count is:', count
+   count = count + 1
+```
+
+**Output**:
+```
+The count is: 0
+The count is: 1
+The count is: 2
+The count is: 3
+The count is: 4
+The count is: 5
+The count is: 6
+The count is: 7
+The count is: 8
+```
+
+### For loops
+
+If a sequence contains an expression list, it is evaluated first. Then, the first item in the sequence is assigned to the iterating variable iterating_var.
+
+**Syntax**:
+```python
+for iterating_var in sequence:
+   statements(s)
+```
+
+**Example**:
+```
+for letter in 'Python':     # First Example
+   print 'Current Letter :', letter
+
+fruits = ['banana', 'apple',  'mango']
+for fruit in fruits:        # Second Example
+   print 'Current fruit :', fruit
+
+```
+**Output**:
+```
+Current Letter : P
+Current Letter : y
+Current Letter : t
+Current Letter : h
+Current Letter : o
+Current Letter : n
+Current fruit : banana
+Current fruit : apple
+Current fruit : mango
+```
+
 ## String
 
 String in python are surrounded by either single quotation marks or double quotation marks.
