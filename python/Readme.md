@@ -1150,3 +1150,38 @@ Inside the function local total :  30
 Outside the function global total :  0
 ```
 
+## Modules
+
+**What is a Module?**
+Consider a module to be the same as a code library.
+
+A file containing a set of functions you want to include in your application.
+
+### Create a Module
+
+To create a module just save the code you want in a file with the file extension .py:
+
+**Example**:
+Save this code in a file named mymodule.py
+
+```py
+def greeting(name):
+  print("Hello, " + name)
+```
+
+### Use a Module
+
+Now we can use the module we just created, by using the import statement:
+
+**Example**:
+```py
+Import the module named mymodule, and call the greeting function:
+
+import mymodule
+
+mymodule.greeting("Jonathan")
+```
+**Output** :
+```
+Hello, Jonathan
+```
