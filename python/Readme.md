@@ -330,7 +330,7 @@ if var1:
    print var1
 ```
 **Output**:
-```python
+```
 1 - Got a true expression value
 100
 ```
@@ -360,7 +360,7 @@ else:
    print var1
 ```
 **Output**:
-```python
+```
 1 - Got a true expression value
 100
 ```
@@ -400,7 +400,7 @@ else:
    print var
 ```
 **Output**:
-```python
+```
 3 - Got a true expression value
 100
 ```
