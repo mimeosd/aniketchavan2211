@@ -405,6 +405,28 @@ else:
 100
 ```
 
+### Nested - If statement
+
+There may be a situation when you want to check for another condition after a condition resolves to true. In such a situation, you can use the nested if construct.
+
+In a nested if construct, you can have an if...elif...else construct inside another if...elif...else construct.
+
+**Syntax**
+```python
+if expression1:
+   statement(s)
+   if expression2:
+      statement(s)
+   elif expression3:
+      statement(s)
+   elif expression4:
+      statement(s)
+   else:
+      statement(s)
+else:
+   statement(s)
+```
+
 ## String
 
 String in python are surrounded by either single quotation marks or double quotation marks.
