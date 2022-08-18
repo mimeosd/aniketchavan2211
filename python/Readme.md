@@ -505,6 +505,39 @@ You entered : Entered a number  :
 
 Loops never ends, And crashed the program
 
+#### Using else Statement with While loops
+
+If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
+
+The following example illustrates the combination of an else statement with a while statement that prints a number as long as it is less than 5, otherwise else statement gets executed.
+
+```python
+count = 0
+while count < 5:
+   print count, " is  less than 5"
+   count = count + 1
+else:
+   print count, " is not less than 5"
+```
+**Output** :
+```python
+0 is less than 5
+1 is less than 5
+2 is less than 5
+3 is less than 5
+4 is less than 5
+5 is not less than 5
+```
+
+#### On-line While
+
+Similar to the if statement syntax, if your while clause consists only of a single statement, it may be placed on the same line as the while header.
+
+**Example** :
+```python
+flag = 1
+while (flag): print 'Given flag is really true!'
+```
 
 
 ### For loops
