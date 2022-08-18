@@ -1273,7 +1273,7 @@ print(x)
 ```
 ['DEV_NULL', '_UNIXCONFDIR',...
 ```
-**Note:_The dir() function can be used on all modules, also the ones you create yourself._**
+**`Note`:The dir() function can be used on all modules, also the ones you create yourself.**
 
 ### Import From Module
 
@@ -1305,4 +1305,4 @@ print (person1["age"])
 36
 ```
 
-**Note: _When importing using the from keyword, do not use the module name when referring to elements in the module. Example: person1["age"], not ~~ mymodule.person1["age"] ~~_`**
+**`Note`: When importing using the from keyword, do not use the module name when referring to elements in the module. Example: person1["age"], not ~~ mymodule.person1["age"] ~~`**
