@@ -483,6 +483,30 @@ The count is: 7
 The count is: 8
 ```
 
+#### Infinite loops
+
+A loop becomes infinite loop if a condition never becomes FALSE.
+
+**Example** :
+```python
+var = 1
+while var == 1 :  # This constructs an infinite loop
+   num = ("Enter a number  :")
+   print ("You entered : ", num)
+```
+**Output**:
+```
+You entered : Entered a number  :
+You entered : Entered a number  :
+You entered : Entered a number  :
+You entered : Entered a number  :
+...
+```
+
+Loops never ends, And crashed the program
+
+
+
 ### For loops
 
 If a sequence contains an expression list, it is evaluated first. Then, the first item in the sequence is assigned to the iterating variable iterating_var.
@@ -576,7 +600,7 @@ while(i < 100):
 89 is prime
 97 is prime
 ```
-
+a
 ## String
 
 String in python are surrounded by either single quotation marks or double quotation marks.
