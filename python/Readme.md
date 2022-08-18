@@ -685,7 +685,7 @@ while(i < 100):
 97 is prime
 ```
 
-### Loops Controls statements
+### Loops Controls
 
 Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
 
