@@ -1273,7 +1273,7 @@ print(x)
 ```
 ['DEV_NULL', '_UNIXCONFDIR',...
 ```
-**`Note`:The dir() function can be used on all modules, also the ones you create yourself.**
+**`Note`: The dir() function can be used on all modules, also the ones you create yourself.**
 
 ### Import From Module
 
