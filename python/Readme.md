@@ -1093,7 +1093,7 @@ Value of total :  30
 Value of total :  40
 ```
 
-#### The Return statement
+### The Return statement
 
 The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
 
@@ -1117,7 +1117,7 @@ Inside the function :  30
 Outside the function :  30
 ```
 
-#### Variables Scope
+### Variables Scope
 
 All variables in a program may not be accessible at all locations in that program. This depends on where you have declared a variable.
 
