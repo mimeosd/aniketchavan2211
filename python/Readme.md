@@ -433,3 +433,9 @@ a = ''' Name
         Number'''
 print (a)
 ```
+**Output**:
+```
+ Name
+ Age 
+ Number
+```
