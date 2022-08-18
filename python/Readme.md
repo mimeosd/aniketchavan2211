@@ -1163,7 +1163,8 @@ A file containing a set of functions you want to include in your application.
 To create a module just save the code you want in a file with the file extension `.py`:
 
 **Example**:
-Save this code in a file named mymodule.py
+
+Save this code in a file named `mymodule.py`
 
 ```py
 def greeting(name):
@@ -1172,9 +1173,10 @@ def greeting(name):
 
 ### Use a Module
 
-Now we can use the module we just created, by using the import statement:
+Now we can use the module we just created, by using the `import` statement:
 
 **Example**:
+
 Import the module named mymodule, and call the greeting function:
 
 ```py
@@ -1186,6 +1188,7 @@ mymodule.greeting("Jonathan")
 ```
 Hello, Jonathan
 ```
+**`Note`: When using a function from a module, use the syntax: module_name.function_name.**
 
 #### Variables in Module
 
@@ -1193,7 +1196,7 @@ The module can contain functions, as already described, but also variables of al
 
 **Example** :
 
-Save this code in the file mymodule.py
+Save this code in the file `mymodule.py`
 ```py
 person1 = {
   "name": "John",
@@ -1218,15 +1221,15 @@ print(a)
 
 ### Naming a Module
 
-You can name the module file whatever you like, but it must have the file extension .py
+You can name the module file whatever you like, but it must have the file extension `.py`
 
-***Re-naming a Module***
+### Re-naming a Module
 
-You can create an alias when you import a module, by using the as keyword:
+You can create an alias when you import a module, by using the `as` keyword:
 
 **Example**:
 
-Create an alias for mymodule called mx:
+Create an alias for `mymodule` called `mx`:
 ```py
 import mymodule as mx
 
@@ -1244,7 +1247,7 @@ There are several built-in modules in Python, which you can import whenever you 
 
 **Example**:
 
-Import and use the platform module:
+Import and use the `platform` module:
 ```py
 import platform
 
@@ -1277,11 +1280,11 @@ print(x)
 
 ### Import From Module
 
-You can choose to import only parts from a module, by using the from keyword.
+You can choose to import only parts from a module, by using the `from` keyword.
 
 **Example**
 
-The module named mymodule has one function and one dictionary:
+The module named `mymodule` has one function and one dictionary:
 ```py
 def greeting(name):
   print("Hello, " + name)
