@@ -83,7 +83,7 @@ Comment
 """
 ```
 
-## Reserved Words
+## Reserved Keywords
 |   |   |   | 
 | - | - | - |
 | and | exec	| not |
