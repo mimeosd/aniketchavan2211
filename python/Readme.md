@@ -452,7 +452,7 @@ Which is 100
 
 A loop statement allows us to execute a statement or group of statements multiple times.
 
-### While loop
+### While loops
 
 A while loop statement in Python programming language repeatedly executes a target statement as long as a given condition is true.
 
