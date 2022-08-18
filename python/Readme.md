@@ -516,6 +516,67 @@ Current fruit : apple
 Current fruit : mango
 ```
 
+### Nested Loops
+
+Python programming language allows to use one loop inside another loop. Following section shows few examples to illustrate the concept.
+
+
+**Syntax for For loops** :
+```python
+for iterating_var in sequence:
+   for iterating_var in sequence:
+      statements(s)
+   statements(s)
+```
+
+**Syntax for while loops** :
+```python
+while expression:
+   while expression:
+      statement(s)
+   statement(s)
+```
+
+**Example** :
+```python
+i = 2
+while(i < 100):
+   j = 2
+   while(j <= (i/j)):
+      if not(i%j): break
+      j = j + 1
+   if (j > i/j) : print i, " is prime"
+   i = i + 1
+```
+**Output**:
+```
+2 is prime
+3 is prime
+5 is prime
+7 is prime
+11 is prime
+13 is prime
+17 is prime
+19 is prime
+23 is prime
+29 is prime
+31 is prime
+37 is prime
+41 is prime
+43 is prime
+47 is prime
+53 is prime
+59 is prime
+61 is prime
+67 is prime
+71 is prime
+73 is prime
+79 is prime
+83 is prime
+89 is prime
+97 is prime
+```
+
 ## String
 
 String in python are surrounded by either single quotation marks or double quotation marks.
