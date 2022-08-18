@@ -329,6 +329,11 @@ if var1:
    print "1 - Got a true expression value"
    print var1
 ```
+**Output**:
+```python
+1 - Got a true expression value
+100
+```
 
 ### If - Else statement
 
@@ -353,6 +358,11 @@ if var1:
 else:
    print "1 - Got a false expression value"
    print var1
+```
+**Output**:
+```python
+1 - Got a true expression value
+100
 ```
 
 ### If - Elif - Else statement
@@ -388,6 +398,11 @@ elif var == 100:
 else:
    print "4 - Got a false expression value"
    print var
+```
+**Output**:
+```python
+3 - Got a true expression value
+100
 ```
 
 ## String
