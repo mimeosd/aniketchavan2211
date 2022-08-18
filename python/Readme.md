@@ -1174,9 +1174,9 @@ def greeting(name):
 Now we can use the module we just created, by using the import statement:
 
 **Example**:
-```py
 Import the module named mymodule, and call the greeting function:
 
+```py
 import mymodule
 
 mymodule.greeting("Jonathan")
