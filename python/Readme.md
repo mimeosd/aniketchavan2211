@@ -520,7 +520,7 @@ else:
    print count, " is not less than 5"
 ```
 **Output** :
-```python
+```
 0 is less than 5
 1 is less than 5
 2 is less than 5
@@ -610,7 +610,7 @@ for num in range(10,20):     #to iterate between 10 to 20
 ```
 
 **Output** :
-```Python
+```
 10 equals 2 * 5
 11 is a prime number
 12 equals 2 * 6
