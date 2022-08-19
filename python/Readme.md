@@ -1583,6 +1583,15 @@ if os.path.exists("demofile.txt"):
 else:
   print("The file does not exist")
 ```
+
+### Create a folder
+
+The `os` module has serveral methods that helps you create, remove, and change directories.
+
+```py
+os.mkdir("newdir")
+```
+
 ### Delete Folder
 
 To delete an entire folder, use the `os.rmdir()` method:
@@ -1595,3 +1604,16 @@ import os
 os.rmdir("myfolder")
 ```
 ***`Note`: You can only remove empty folders.***
+
+### Change a directory
+
+**Syntax**:
+```py
+import os
+# os.chdir("path")
+os.chdir("/home")
+```
+
+Check more methods 
+***Reference:***
+[os module methods](https://www.tutorialspoint.com/python/os_file_methods.htm)
