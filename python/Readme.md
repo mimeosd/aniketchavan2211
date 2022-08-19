@@ -685,7 +685,7 @@ while(i < 100):
 97 is prime
 ```
 
-### Loops Controls
+## Loops Controls
 
 Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
 
@@ -1309,3 +1309,67 @@ print (person1["age"])
 ```
 
 **`Note`: When importing using the from keyword, do not use the module name when referring to elements in the module. Example: person1["age"], not ~~mymodule.person1["age"]~~`**
+
+## Opening and Closing Files
+
+Python provides basic functions and methods necessary to manipulate files by default. You can do most of the file manipulation using a file object.
+
+### The ***open*** Function
+
+Before you can read or write a file, you have to open it using Python's built-in open() function. This function creates a file object, which would be utilized to call other support methods associated with it.
+
+**Syntax**:
+```py
+file object = open(file_name [, access_mode][, buffering])
+```
+
+**parameters**:
+
+- file_name − The file_name argument is a string value that contains the name of the file that you want to access.
+
+- access_mode − The access_mode determines the mode in which the file has to be opened, i.e., read, write, append, etc. A complete list of possible values is given below in the table. This is optional parameter and the default file access mode is read (r).
+
+- buffering − If the buffering value is set to 0, no buffering takes place. If the buffering value is 1, line buffering is performed while accessing a file. If you specify the buffering value as an integer greater than 1, then buffering action is performed with the indicated buffer size. If negative, the buffer size is the system default(default behavior).
+
+| Modes | Description |
+| ----- | ----------- |
+| r | Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode. |
+| rb | Opens a file for reading only in binary format. The file pointer is placed at the beginning of the file. This is the default mode. |
+| r+ | Opens a file for both reading and writing. The file pointer placed at the beginning of the file. |
+| rb+ | Opens a file for both reading and writing in binary format. The file pointer placed at the beginning of the file. |
+| w | Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing. |
+| wb | Opens a file for writing only in binary format. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing. |
+| w+ | Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing. |
+| wb+ | Opens a file for both writing and reading in binary format. Overwrites the existing file if the file exists. If the file does not exist, creates a new file for reading and writing. |
+| a | Opens a file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing. |
+| ab | Opens a file for appending in binary format. The file pointer is at the end of the file if the file exists. That is, the file is in the append mode. If the file does not exist, it creates a new file for writing. |
+| a+ | Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing. |
+| ab+ | Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing. |
+
+### The file Object Attributes
+
+Once a file is opened and you have one file object, you can get various information related to that file.
+
+| Attribute | Description |
+| --------- | ------------- |
+| file.closed | Returns true if file is closed, false otherwise. |
+| file.mode | Returns access mode with which file was opened. |
+| file.name | Returns name of the file. |
+| file.softspace | Returns false if space explicitly required with print, true otherwise. |
+
+**Example** :
+```py
+# Open a file
+fo = open("foo.txt", "wb")
+print "Name of the file: ", fo.name
+print "Closed or not : ", fo.closed
+print "Opening mode : ", fo.Modes
+```
+
+**Output**:
+```
+Name of the file:  foo.txt
+Closed or not :  False
+Opening mode :  wb
+Softspace flag :  0
+```
