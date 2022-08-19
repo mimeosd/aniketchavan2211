@@ -1614,6 +1614,10 @@ import os
 os.chdir("/home")
 ```
 
-Check more methods 
+Check more methods
+
 ***Reference:***
+
+[file methods](https://www.tutorialspoint.com/python/file_methods.htm)
+
 [os module methods](https://www.tutorialspoint.com/python/os_file_methods.htm)
