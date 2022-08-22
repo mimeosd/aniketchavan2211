@@ -1,12 +1,12 @@
-﻿**Three Write-up![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.001.png)**
+﻿# **Three Write-up!**
 
-Prepared by: dotguy![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.002.png)
+Prepared by: dotguy!
 
-**Introduction![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.003.png)**
+## **Introduction!**
 
 Organizations of every type, size, and industry are using the cloud for a wide variety of use cases, such as data backup, storage, disaster recovery, email, virtual desktops, software development and testing, etc. Thus, it is crucial to have a secure configuration for a company's cloud infrastructure in order to protect against any attacks. Three is a Linux box that includes a website, which utilizes an AWS S3 bucket as its cloud-storage device. We can exploit this poorly configured S3 bucket and upload a reverse shell on it. We can then visit the corresponding URL to execute the reverse file and ultimately retrieve the flag.![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.004.png)
 
-**Enumeration![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.005.png)**
+## **Enumeration!**
 
 To start with, we will check for open ports using a Nmap scan:
 
