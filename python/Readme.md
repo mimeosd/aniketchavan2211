@@ -817,6 +817,10 @@ a = "Hello"
 
 print (a)
 ```
+**Output:**
+```
+Hello
+```
 
 ### Multiline String
 You can assign a multiline string to a variable by using three quotes:
@@ -895,7 +899,7 @@ a
 
 ### String Length
 
-To get the length of a string, use the `len()`` function.
+To get the length of a string, use the `len()` function.
 
 Example
 The `len()` function returns the length of a string:
@@ -914,7 +918,7 @@ To check if a certain phrase or character is present in a string, we can use the
 
 **Example:**
 
-Check if "free" is present in the following text:
+Check if `free` is present in the following text:
 
 ```py
 txt = "The best things in life are free!"
@@ -929,7 +933,7 @@ Use it in an `if` statement:
 
 **Example:**
 
-Print only if "free" is present:
+Print only if `free` is present:
 
 ```python
 txt = "The best things in life are free!"
@@ -939,11 +943,11 @@ if "free" in txt:
 
 ### Check if NOT
 
-To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
+To check if a certain phrase or character is NOT present in a string, we can use the keyword `not in`.
 
 **Example:**
 
-Check if "expensive" is NOT present in the following text:
+Check if `expensive` is NOT present in the following text:
 
 ```python
 txt = "The best things in life are free!"
@@ -984,6 +988,10 @@ Get the characters from position 2 to position 5 (not included):
 b = "Hello, World!"
 print(b[2:5])
 ```
+**Output:**
+```
+llo
+```
 
 ***`Note`: The first character has index 0.***
 
@@ -999,6 +1007,10 @@ Get the characters from the start to position 5 (not included):
 b = "Hello, World!"
 print(b[:5])
 ```
+**Output:**
+```
+Hello
+```
 
 ### Slice To the End
 
@@ -1011,6 +1023,10 @@ Get the characters from position 2, and all the way to the end:
 ```python
 b = "Hello, World!"
 print(b[2:])
+```
+**Output:**
+```
+llo World
 ```
 
 ### Negative Indexing
@@ -1029,6 +1045,10 @@ To, but not included: "d" in "World!" (position -2):
 b = "Hello, World!"
 print(b[-5:-2])
 ```
+**Output:**
+```
+orl
+```
 
 ### Upper Case
 
@@ -1040,6 +1060,10 @@ The `upper()` method returns the string in upper case:
 a = "Hello, World!"
 print(a.upper())
 ```
+**Output:**
+```
+HELLO WORLD!
+```
 
 ### Lower Case
 
@@ -1050,6 +1074,10 @@ The `lower()` method returns the string in lower case:
 ```python
 a = "Hello, World!"
 print(a.lower())
+```
+**Output:**
+```
+hello world
 ```
 
 ### Remove Whitespace
@@ -1064,7 +1092,10 @@ The `strip()` method removes any whitespace from the beginning or the end:
 a = " Hello, World! "
 print(a.strip()) # returns "Hello, World!"
 ```
-
+**Output:**
+```
+Hello, World!
+```
 ### Replace String
 
 **Example:**
@@ -1075,27 +1106,34 @@ The `replace()` method replaces a string with another string:
 a = "Hello, World!"
 print(a.replace("H", "J"))
 ```
+**Output:**
+```
+Jello, World
+```
 
 ### Split String
 
-The split() method returns a list where the text between the specified separator becomes the list items.
+The `split()` method returns a list where the text between the specified separator becomes the list items.
 
 **Example:**
 
-The `split()`` method splits the string into substrings if it finds instances of the separator:
+The `split()` method splits the string into substrings if it finds instances of the separator:
 
 ```python
 a = "Hello, World!"
 print(a.split(",")) # returns ['Hello', ' World!']
 ```
-
+**Output:**
+```
+['Hello', ' World!']
+```
 ### String Concatenation
 
 To concatenate, or combine, two strings you can use the + operator.
 
 **Example:**
 
-Merge variable a with variable b into variable c:
+Merge variable `a` with variable `b` into variable `c`:
 
 ```python
 a = "Hello"
@@ -1103,16 +1141,24 @@ b = "World"
 c = a + b
 print(c)
 ```
+**Output:**
+```
+HelloWorld
+```
 
 **Example:**
 
-To add a space between them, add a " ":
+To add a space between them, add a `" "`:
 
 ```python
 a = "Hello"
 b = "World"
 c = a + " " + b
 print(c)
+```
+**Output:**
+```
+Hello World
 ```
 
 ### String Format
@@ -1125,6 +1171,10 @@ age = 36
 txt = "My name is John, I am " + age
 print(txt)
 ```
+**Output:**
+```
+TypeError: ...
+```
 
 But we can combine strings and numbers by using the `format()` method!
 
@@ -1132,12 +1182,16 @@ The `format()` method takes the passed arguments, formats them, and places them 
 
 **Example:**
 
-Use the format() method to insert numbers into strings:
+Use the `format()` method to insert numbers into strings:
 
 ```python
 age = 36
 txt = "My name is John, and I am {}"
 print(txt.format(age))
+```
+**Output:**
+```
+My name is john, and am 36
 ```
 
 The `format()` method takes unlimited number of arguments, and are placed into the respective placeholders:
@@ -1150,8 +1204,12 @@ price = 49.95
 myorder = "I want {} pieces of item {} for {} dollars."
 print(myorder.format(quantity, itemno, price))
 ```
+**Output:**
+```
+I want 3 pieces of item 567 for 49.95 dollars.
+```
 
-You can use index numbers {0} to be sure the arguments are placed in the correct placeholders:
+You can use index numbers `{0}` to be sure the arguments are placed in the correct placeholders:
 
 **Example:**
 ```python
@@ -1160,6 +1218,10 @@ itemno = 567
 price = 49.95
 myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
 print(myorder.format(quantity, itemno, price))
+```
+**Output:**
+```
+I want to pay 49.95 dollars for 3 pieces of item 567
 ```
 
 ### Escape Character
@@ -1176,8 +1238,14 @@ You will get an error if you use double quotes inside a string that is surrounde
 
 ```python
 txt = "We are the so-called "Vikings" from the north."
-To fix this problem, use the escape character \":
 ```
+**Output:**
+```
+SyntaxError: invalid syntax
+```
+
+To fix this problem, use the escape character `\"`:
+
 
 **Example:**
 The escape character allows you to use double quotes when you normally would not be allowed:
@@ -1185,7 +1253,12 @@ The escape character allows you to use double quotes when you normally would not
 ```python
 txt = "We are the so-called \"Vikings\" from the north."
 ```
-Escape Characters
+**Output:**
+```
+We are the so-called "Vikings" from the north.
+```
+
+### Escape Characters
 
 Other escape characters used in Python:
 
@@ -1991,6 +2064,6 @@ Check more methods
 
 ***Reference:***
 
-[file methods](https://www.tutorialspoint.com/python/file_methods.htm)
+[File Methods](https://www.tutorialspoint.com/python/file_methods.htm)
 
-[os module methods](https://www.tutorialspoint.com/python/os_file_methods.htm)
+[OS Module Methods](https://www.tutorialspoint.com/python/os_file_methods.htm)
