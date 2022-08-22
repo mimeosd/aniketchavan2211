@@ -186,7 +186,7 @@ There are several built-in functions to perform conversion from one data type to
 | hex(x) | Converts an integer to a hexadecimal string. |
 | oct(x) | Converts an integer to an octal string. |
 
-## User Input and Output
+## User Input / Output
  `input()` function takes input from user and
  stores in Variable.
 
