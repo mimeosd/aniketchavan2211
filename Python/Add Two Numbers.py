@@ -1,6 +1,6 @@
 #!/bin/python
 
-# With Pre-denfined Variables
+# (With Pre-denfined Variables)
 
 # num1 = 40
 # num2 = 30
@@ -10,7 +10,7 @@
 # print ("The sum of two number is:", sum)
 
 
-# With User-Input(s)
+# (With User-Input(s))
 
 num1 = float(input("Enter first number here: "))
 num2 = float(input("Enter second number here: "))
