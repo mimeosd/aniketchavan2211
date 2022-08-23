@@ -808,9 +808,9 @@ Current Letter : n
 
 There are three numeric types in Python:
 
-- int
-- float
-- complex
+- `int`
+- `float`
+- `complex`
 
 Variables of numeric types are created when you assign a value to them:
 
@@ -829,6 +829,12 @@ print(type(x))
 print(type(y))
 print(type(z))
 ```
+**Output:**
+```
+<class 'int'>
+<class 'float'>
+<class 'complex'>
+```
 
 ### Int
 
@@ -844,6 +850,12 @@ z = -3255522
 print(type(x))
 print(type(y))
 print(type(z))
+```
+**Output:**
+```
+<class 'int'>
+<class 'int'>
+<class 'int'>
 ```
 
 ### Float
@@ -861,6 +873,12 @@ print(type(x))
 print(type(y))
 print(type(z))
 ```
+**Output
+```
+<class 'float'>
+<class 'float'>
+<class 'float'>
+```
 
 Float can also be scientific numbers with an "e" to indicate the power of 10.
 
@@ -874,6 +892,12 @@ z = -87.7e100
 print(type(x))
 print(type(y))
 print(type(z))
+```
+**Output:**
+```
+<class 'float'>
+<class 'float'>
+<class 'float'>
 ```
 
 ### Complex
@@ -890,6 +914,12 @@ z = -5j
 print(type(x))
 print(type(y))
 print(type(z))
+```
+**Output:**
+```
+<class 'complex'>
+<class 'complex'>
+<class 'complex'>
 ```
 
 ### Type Conversion
@@ -920,12 +950,21 @@ print(type(a))
 print(type(b))
 print(type(c))
 ```
+**Output:**
+```
+1.0
+2
+(1+0j)
+<class 'float'>
+<class 'int'>
+<class 'complex'>
+```
 
 ***`Note`: You cannot convert complex numbers into another number type.***
 
 ### Random Number
 
-Python does not have a `random()` function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
+Python does not have a `random()` function to make a random number, but Python has a built-in module called `random` that can be used to make random numbers:
 
 Example
 Import the random module, and display a random number between 1 and 9:
@@ -933,6 +972,10 @@ Import the random module, and display a random number between 1 and 9:
 import random
 
 print(random.randrange(1, 10))
+```
+**Output:**
+```
+9
 ```
 
 ## String
