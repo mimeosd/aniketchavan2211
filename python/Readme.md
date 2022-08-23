@@ -997,6 +997,12 @@ print(10 > 9)
 print(10 == 9)
 print(10 < 9)
 ```
+**Output:**
+```
+True
+False
+False
+```
 
 When you run a condition in an if statement, Python returns `True` or `False`:
 
@@ -1012,6 +1018,10 @@ if b > a:
 else:
   print("b is not greater than a")
 ```
+**Output:**
+```
+b is not greater than a
+```
 
 ### Evaluate Values and Variables
 
@@ -1024,6 +1034,11 @@ Evaluate a string and a number:
 print(bool("Hello"))
 print(bool(15))
 ```
+**Output:**
+```
+True
+True
+```
 
 **Example:**
 
@@ -1034,6 +1049,11 @@ y = 15
 
 print(bool(x))
 print(bool(y))
+```
+**Output:**
+```
+True
+True
 ```
 
 ### Most Values are True
@@ -1047,12 +1067,17 @@ Any number is `True`, except `0`.
 Any list, tuple, set, and dictionary are `True`, except empty ones.
 
 **Example:**
-
 The following will return True:
-```python_strings_methods
+```python
 bool("abc")
 bool(123)
 bool(["apple", "cherry", "banana"])
+```
+**Output:**
+```
+True
+True
+True
 ```
 
 ### Some Values are False
@@ -1070,6 +1095,16 @@ bool(())
 bool([])
 bool({})
 ```
+**Output:**
+```
+False
+False
+False
+False
+False
+False
+False
+```
 
 One more value, or object in this case, evaluates to `False`, and that is if you have an object that is made from a class with a `__len__` function that returns `0` or `False`:
 
@@ -1081,6 +1116,10 @@ class myclass():
 
 myobj = myclass()
 print(bool(myobj))
+```
+**Output:**
+```
+False
 ```
 
 ### Functions can Return a Boolean
@@ -1095,11 +1134,15 @@ def myFunction() :
 
 print(myFunction())
 ```
+**Output:**
+```
+True
+```
 
 You can execute code based on the Boolean answer of a function:
 
 **Example:**
-Print "YES!" if the function returns True, otherwise print "NO!":
+Print `YES!` if the function returns True, otherwise print `NO!`:
 ```python
 def myFunction() :
   return True
@@ -1109,6 +1152,10 @@ if myFunction():
 else:
   print("NO!")
 ```
+**Output:**
+```
+YES!
+```
 
 Python also has many built-in functions that return a boolean value, like the `isinstance()` function, which can be used to determine if an object is of a certain data type:
 
@@ -1117,6 +1164,10 @@ Check if an object is an integer or not:
 ```python
 x = 200
 print(isinstance(x, int))
+```
+**Output:**
+```
+True
 ```
 
 ## String
