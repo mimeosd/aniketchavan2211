@@ -1922,6 +1922,106 @@ Python has a set of built-in methods that you can use on lists.
 | `sort()` | Sorts the list |
 
 
+### Tuples 
+
+Tuples are used to store multiple items in a single variable.
+
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+
+A tuple is a collection which is ordered and unchangeable.
+
+Tuples are written with round brackets.
+
+**Example:**
+```Python
+tuple1 = ( 1, 2, 3)
+
+print(tuple1)
+print(tuple1[0])
+print(tuple1[1])
+print(tuple1[2])
+```
+**Output:**
+```
+( 1, 2, 3)
+1
+2
+3
+```
+
+***'Note': You can't change values, So to update Convert tuple to list by using `list()` function and update as list then convert back to tuple using `tuple()` function.***
+
+***Example:**
+```
+tuple1 = (1, 2)
+list1 = list(tuple1)
+# update the list
+updated_tuple= tuple(list1)
+```
+
+you can use `len()`, `max()`, `min()` function also.
+```Python
+tuple1 = (1, 2, 3, 4)
+
+print(len(tuple1)) # length 4
+print(max(tuple1)) # maximum value = 4
+print(min(tuple1)) # minimum value = 1
+```
+
+
+## Dictionary 
+
+Dictionaries are used to store data values in key:value pairs.
+
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+Dictionaries are written with curly brackets, and have keys and values:
+
+**Example:**
+```Python
+dict_name = {
+  "key1" : "value1",
+  "key2" : 1,
+}
+
+print(dict_name('key1')) # prints value1
+print(dict_name.keys()) # prints all keys
+print(dict_name.values()) # prints all values
+```
+
+### Updating 
+
+**Example:**
+```Python
+dict_name['key1] = val
+print(dict_name[key1]) # prints val
+```
+
+## Sets 
+
+Sets are used to store multiple items in a single variable.
+
+Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+
+A set is a collection which is unordered, unchangeable, ,unindexed and not allow duplicate values.
+
+***`Note`: Set items are unchangeable, but you can remove items and add new items.***
+
+Sets are written with curly brackets.
+
+**Example:**
+```Python
+set = { 'value1', 'value2' }
+
+numbers = [1, 1, 2, 3, 4]
+set1 = set(numbers)  # {1, 2, 3, 4}
+set1.add(5) # add 5 in sets
+set1.remove(5) # remove 5 from sets
+len(set1) # 4
+```
+
+
+
 ## Functions
 
 A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.
