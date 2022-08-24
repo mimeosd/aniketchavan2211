@@ -251,100 +251,99 @@
  
 ## Important Operations & Commands | Understanding Environment 
 
-`date` - to display date.   
+`date` - to display date.      
 
-`sudo date --set 10 Jan 2000 00:00` - setting date with superuser permission.   
+`sudo date --set 10 Jan 2000 00:00` - setting date with superuser permission.       
 
-`cal` - calender.   
+`cal` - calender.         
 
-`figlet` - to display highlights text [figlet <text>].   
-`yes` - looping text [yes <text>] to stop use ctrl + c.  
-`factor` - factorize number [factor <number>]. 
+`figlet` - to display highlights text [figlet <text>].        
+`yes` - looping text [yes <text>] to stop use ctrl + c.       
+`factor` - factorize number [factor <number>].      
 
-`ps` - process, PID process ID.  
+`ps` - process, PID process ID.         
 
-`ps aux` - display all process. 
+`ps aux` - display all process.        
 
-`top` - display task.  
+`top` - display task.         
 
-`kill` - to kill or stop process or task[kill /pid <number>].   
+`kill` - to kill or stop process or task[kill /pid <number>].        
 
 `dpkg --list` - listing package [dpkg Debian package]
-use for Installing, Removing,etc for package.   
+use for Installing, Removing,etc for package.          
 
-`sudo apt install vlc` - installing vlc media player.  
+`sudo apt install vlc` - installing vlc media player.      
 
 `vlc` - media player use to olay audio and video files.
-[vlc <path>].   
+[vlc <path>].          
 
-`sudo apt install imagemagick` - installing imagemagick use for photo viewer.   
+`sudo apt install imagemagick` - installing imagemagick use for photo viewer.             
 
-`display` - command use to display photos/images [display <path>].  
+`display` - command use to display photos/images [display <path>].        
 
-`sudo shutdown now` - shutdown command -r (restart) -c (cancel).
+`sudo shutdown now` - shutdown command -r (restart) -c (cancel).        
 
 ## Text Logs Related Commands | Text Processing Operations in Kali
 
-`touch` - to create a blank file[touch (filename).   
+`touch` - to create a blank file[touch (filename).        
 
-`type` - to create a blank file [type > filename]. 
+`type` - to create a blank file [type > filename].     
 
-`echo` - [ text > filename ] text will store in file also work with command output will in the file.  
+`echo` - [ text > filename ] text will store in file also work with command output will in the file.       
 
-`cat` - display the content of the file.[cat filename].
+`cat` - display the content of the file.[cat filename].         
 
-`head` - display top or upper or first lines of code or text [head filename].  
+`head` - display top or upper or first lines of code or text [head filename].          
 
-`tail` - display down or lower or last lines of code or text [ tail filenmae].  
+`tail` - display down or lower or last lines of code or text [ tail filenmae].           
 
-`tail -2` - -2 is a parameter display two line of text file from last line of text.   
+`tail -2` - -2 is a parameter display two line of text file from last line of text.         
 
-`more` - display text on same terminal Windows [more file name].   
+`more` - display text on same terminal Windows [more file name]. 
 
-`less` - display text on separate terminal windows.press ESC to exit.   
+`less` - display text on separate terminal windows.press ESC to exit.            
 
-`nano` - nano is a text editor.   
+`nano` - nano is a text editor.          
 
-`vim` - vim is text editor.  
+`vim` - vim is text editor.          
 
 
 ## Getting System info in Linux | Gathering Specifications in Kali
 
-`df` - disk info.   
+`df` - disk info.          
 
-`free` - memory and swap information.   
+`free` - memory and swap information.         
 
-`du` - disk usage.   
+`du` - disk usage.            
 
-`du -sh` - -s stands for size -h means human readable (bytes/KB/MB/GB).   
+`du -sh` - -s stands for size -h means human readable (bytes/KB/MB/GB).               
+  
+`cat /proc/cpuinfo)` - cpu info.        
 
-`cat /proc/cpuinfo)` - cpu info.    
+`cat /proc/cpuinfo | grep (modelname)` - show mode name `|` pipeline, grep will filter and display.           
+  
+`ls cpu` - list cpu info.          
 
-`cat /proc/cpuinfo | grep (modelname)` - show mode name `|` pipeline, grep will filter and display.   
+`lsblk` - partition.         
 
-`ls cpu` - list cpu info.   
+`lsusb` - listing usb devices connected to machines.          
+`lspci` - graphics card, network card, etc.          
 
-`lsblk` - partition.   
+`sudo dmidecode -t system` - system info.         
 
-`lsusb` - listing usb devices connected to machines.  
+`sudo dmidecode -t memory ` - RAM info.        
 
-`lspci` - graphics card, network card, etc.  
+`sudo dmidecode -t bios` - bios info.          
 
-`sudo dmidecode -t system` - system info.  
+`sudo dmidecode -t processor` - processor info.       
 
-`sudo dmidecode -t memory ` - RAM info.   
+`cat /etc/*release*` - *(asterisk), Os Release info version.         
 
-`sudo dmidecode -t bios` - bios info.  
+`lsb_release -a` - OS version release info.         
 
-`sudo dmidecode -t processor` - processor info.  
+`sudo apt install hardinfo` - installing hardinfo package.         
 
-`cat /etc/*release*` - *(asterisk), Os Release info version.  
-
-`lsb_release -a` - OS version release info.   
-
-`sudo apt install hardinfo` - installing hardinfo package.   
-
-`harinfo` - open hardinfo, all info related computers, display, devices, etc.
+`harinfo` - open hardinfo, all info related computers, display, devices, etc.       
 
 ## Users & Groups in Kali Linux 
 
@@ -356,38 +355,35 @@ Types of Users.
 2. Poweruser/ Adminstrator/ Rootuser/ Superuser 
 3. Guest
 
-`users` - lists users on machines.   
+`users` - lists users on machines.         
 
-`sudo adduser` - Add user [ suod adduser (username)]. 
+`sudo adduser` - Add user [ suod adduser (username)].        
+`sudo useradd` - same as adduser.          
 
-`sudo useradd` - same as adduser.   
+`sudo useradd -d [/home/username] -s[/bin/bash] -p [passwd] username` - `-d`directory `-s` shell `-p` passwd.            
 
-`sudo useradd -d [/home/username] -s[/bin/bash] -p [passwd] username` - `-d`directory `-s` shell `-p` passwd.  
+`passwd` - change passwd login user.          
 
-`passwd` - change passwd login user.  
+`sudo userdel` - delete existing user.          
 
-`sudo userdel` - delete existing user.  
+`sudo groupadd` - to add group.            
 
-`sudo groupadd` - to add group.  
+`groups` - to see user in which groups.          
 
-`groups` - to see user in which groups. 
+`sudo groupdel` - to delete group.          
 
-`sudo groupdel` - to delete group. 
+`sudo usermod -g (groupname) (username)` - to add user to groups.             
 
-`sudo usermod -g (groupname) (username)` - to add user to groups. 
+`cat /etc/passwd` - directory contains user and passwd.       
+`cat /etc/shadow` - passwd in encrypted form.          
 
-`cat /etc/passwd` - directory contains user and passwd.
+`cat /etc/group` - show groups,name,ID.         
 
-`cat /etc/shadow` - passwd in encrypted form.
+`cat /etc/gshadow` - group info, passwd.        
 
-`cat /etc/group` - show groups,name,ID.
+`passwd` - to change login user passwd.           
 
-`cat /etc/gshadow` - group info, passwd.
-
-`passwd` - to change login user passwd.
-
-`sudo passwd root` - to set new passwd for root user.
-
+`sudo passwd root` - to set new passwd for root user.     
 ## File Permission in Kali Linux 
 On a linux system, each file and directory is assigned access rights for the owner of file, the members of a groups of related users, and everybody else.Rights can be assigned to read a file, to write a file, and to execute a file(i.e., run file as a program).
 
