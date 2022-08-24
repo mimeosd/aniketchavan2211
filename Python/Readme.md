@@ -2095,7 +2095,7 @@ set = { 'value1', 'value2' }
 
 ***`Note`: Sets are unordered, so you cannot be sure in which order the items will appear
 
-## length, type & set() constructor
+### length, type & set() constructor
 
 ```Python
 set = { 'a', 'b', 'c', 'd', 'e' }
