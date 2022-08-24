@@ -416,13 +416,54 @@ On a linux system, each file and directory is assigned access rights for the own
 
 ## Networking Commands in Linux | Network Management in Kali Linux
 
+`sudo` :- root user.      
+`ifconfig` - ip, mac, boradcast, etc info.      
+`ifconfig [interface/adapter] [ip] netmask [netmask]`-  to change ip and netmask, netmask - subnetmask.         
+`ping` - to check connection between you and other machine or website.              
+`nslookup` :- server address [nslookup (website/ipaddress)].        
+`host (website)` :- host address.     
+`arp -e` :- address, mac address, hardware type.      
+`hostname` :- name of machine in network.      
+`netstat -r` :- ip address, gateway, etc network card info         
 
 ## Package in Linux | Tool Packages in Kali Linux
 
+`sudo apt install cmatrix` :- cmatrix is a matrix screen to start type cmatrix on terminal, to exit press ctrl + c.         
+
+`sudo apt install libreoffice` :- libreoffice pkg for Documents viewing, editing, etc alternative of MS office but on Linux.      
+
+`sudo apt install sl` :- train animation . 
+
+`sudo apt install espeak` :- speaking pkg espeak (text-to-speech).  
+
+`sudo apt install gimp` :- gimp pkg for photo editing. 
+
+`dpkg --list` :- listing package.           
+`sudo apt remove cmatrix` :- to remove cmatrix from machine.        
+`sudo apt remove [package name]` :- to remove any package installed on machine.       
+
 ## SSH Server in Kali Linux 
 
+SSH Secure Shell, The Secure Shell Protocol is a cryptographic network protocol for operating network services securely over an unsecured network.It's most notable application are remote login and command-line execution.
 
+`apt install ssh server` :- installing ssh server.       
+`service ssh start` :- ssh service start.                 
+`username@ipaddress` :- username and ipaddress/hostname.       
+```
+apt list
+apt list openssh-server
+```  
 
+`sudo service ssh start` :- start ssh server.      
+`sudo service ssh status` :- to check ssh status.      
+`ifconfig` :- check ip address.           
+`ping` :- check connection between two machines.      
 
-
- 
+### Commands
+```
+apt list openssh-server
+sudo apt upgrade && apt upgrade openssh-server
+sudo service ssh start
+sudo service ssh status
+ssh username@ipaddress
+```
