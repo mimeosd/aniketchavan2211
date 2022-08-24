@@ -387,9 +387,9 @@ Types of Users.
 ## File Permission in Kali Linux 
 On a linux system, each file and directory is assigned access rights for the owner of file, the members of a groups of related users, and everybody else.Rights can be assigned to read a file, to write a file, and to execute a file(i.e., run file as a program).
 
-**r** :- read, only see not have permission to write and execute.
-**w** :- write, have read and write access, but not to execute file.
-**x** :- execute, file can be run, you have access to run the program.
+**r** :- read, only see not have permission to write and execute.             
+**w** :- write, have read and write access, but not to execute file.            
+**x** :- execute, file can be run, you have access to run the program.               
 
 | users | groups | others |
 | ----- | ------ | ------ |
@@ -406,7 +406,16 @@ On a linux system, each file and directory is assigned access rights for the own
 | 6 | 110 | rw- | read & write only |
 | 7 | 111 | rwx | read, write & execute |
 
+`sudo chmod 777 filename` :- change permission 
+`+` `-` [adding, removing permission, giving access]     
+
+**Example:**
+`sudo chmod +777 file` - giving full access.       
+`sudo chmod -777 file` - giving no access.         
+`sudo chmod +rwx file` - gives the user read, write & execute permission.      
+
 ## Networking Commands in Linux | Network Management in Kali Linux
+
 
 ## Package in Linux | Tool Packages in Kali Linux
 
