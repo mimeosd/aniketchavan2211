@@ -2093,7 +2093,7 @@ Sets are written with curly brackets.
 set = { 'value1', 'value2' }
 ```
 
-***`Note`: Sets are unordered, so you cannot be sure in which order the items will appear
+***`Note`: Sets are unordered, so you cannot be sure in which order the items will appear***
 
 ### length, type & set() constructor
 
