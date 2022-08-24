@@ -1,5 +1,6 @@
 ![Kali Linux logo](https://github.com/aniketchavan2211/Journey-start-from-here/blob/master/Images/images.png)
-# Introduction, Downloading, Installing of the Kali Linux
+
+## Introduction, Downloading, Installing of the Kali Linux
 
 ## Kali Linux 
   Kali Linux is a Debian- derived Linux distributions
@@ -188,24 +189,138 @@
  `man` - manual [man (command)].   
  `pwd` - print working directory, display where are you
   in file system, which directory are in.      
- `whereis` - locate or find the directories or files.    
- `&&` - This will execute multiple commands one by one in sequencial manner. [ls && pwd]      
+ `whereis` - locate or find the directories or files.   
+ 
+ `&` - This will execute Command in background.
+ `&&` - This will execute multiple commands one by one in sequencial manner. [ls && pwd]     
+ `>` - **Redirector operator** Takes output from a command.( overwrite/replace )
+ `>>` - same as `>` operator, appends the outputs rather than replacing (nothing is overwritten)
+ `<` - takes file as input in command
+ 
  `apt update -y && apt upgrade -y` - update list and upgrades and install packages -y means yes and -n means no.   
  `pkg update -y && pkg upgrade -y` - update & upgrades packages.            
  `su` - superuser/Administrator/poweruser/rootuser has full access to machine, by you will login as superuser.     
  `sudo` - superuser do command or operation will done by super user privileges.    
  `touch` - To create any type of blank file [touch (file1.txt)].   
  `cat` - display the file content on terminal screen [cat files.txt].   
- `` -
- `` - 
-# Important Operations & Commands | Understanding Environment 
-# Text Logs Related Commands | Text Processing Operations in Kali
-# Getting System info in Linux | Gathering Specifications in Kali
-# Users & Groups in Kali Linux 
-# File Permission in Kali Linux 
-# Networking Commands in Linux | Network Management in Kali Linux
-# Package in Linux | Tool Packages in Kali Linux
-# SSH Server in Kali Linux 
+ 
+ Operations 
+ `touch` - To create file(s).  
+ `mkdir` -  To Make Directories.  
+ `cp` - To copy files and directories.  
+ `mv` - To move files and directories.    
+ `rm` - To delete files.
+ `rmdir` - To delete empty directory.
+ `rm -rf` - To delete directory with recursive and forcefully.
+ 
+## Important Operations & Commands | Understanding Environment 
+
+`date` - to display date.
+`sudo date --set 10 Jan 2000 00:00` - setting date with superuser permission.
+`cal` - calender.
+`figlet` - to display highlights text [figlet <text>]
+`yes` - looping text [yes <text>] to stop use ctrl + c.
+`factor` - factorize number [factor <number>]
+`ps` - process, PID process ID.
+`ps aux` - display all process.
+`top` - display task.
+`kill` - to kill or stop process or task[kill /pid <number>]
+`dpkg --list` - listing package [dpkg Debian package]
+use for Installing, Removing,etc for package.
+`sudo apt install vlc` - installing vlc media player.
+`vlc` - media player use to olay audio and video files.
+[vlc <path>].
+`sudo apt install imagemagick` - installing imagemagick use for photo viewer.
+`display` - command use to display photos/images [display <path>].
+`sudo shutdown now` - shutdown command -r (restart) -c (cancel).
+
+## Text Logs Related Commands | Text Processing Operations in Kali
+`touch` - to create a blank file[touch (filename)].
+`type` - to create a blank file [type > filename]
+`echo` - [ text > filename ] text will store in file also work with command output will in the file.
+`cat` - display the content of the file.[cat filename].
+`head` - display top or upper or first lines of code or text [head filename].
+`tail` - display down or lower or last lines of code or text [ tail filenmae].
+`tail -2` - -2 is a parameter display two line of text file from last line of text.
+`more` - display text on same terminal Windows [more file name].
+`less` - display text on separate terminal windows.press ESC to exit.
+`nano` - nano is a text editor.
+`vim` - vim is text editor.
+
+## Getting System info in Linux | Gathering Specifications in Kali
+`df` - disk info.
+`free` - memory and swap information.
+`du` - disk usage.
+`du -sh` - -s stands for size -h means human readable (bytes/KB/MB/GB).
+`cat /proc/cpuinfo)` - cpu info.
+`cat /proc/cpuinfo | grep (modelname)` - show mode name `|` pipeline, grep will filter and display.
+`ls cpu` - list cpu info.
+`lsblk` - partition.
+`lsusb` - listing usb devices connected to machine.
+`lspci` - graphics card, network card, etc.
+`sudo dmidecode -t system` - system info.
+`sudo dmidecode -t memory ` - RAM info.
+`sudo dmidecode -t bios` - bios info.
+`sudo dmidecode -t processor` - processor info.
+`cat /etc/*release*` - *(asterisk), Os Release info version.
+`lsb_release -a` - OS version release info.
+`sudo apt install hardinfo` - installing hardinfo package.
+`harinfo` - open hardinfo, all info related computers, display, devices, etc.
+
+## Users & Groups in Kali Linux 
+
+Users and Groups are used on GNU/Linux for access control - that is, to control access to the system's files, directories, and peripherals. linux offers relatively simple/coarse access control mechanisms by default.
+
+Types of Users.
+
+1. Standard User
+2. Poweruser/ Adminstrator/ Rootuser/ Superuser 
+3. Guest
+
+`users` - lists users on machines.
+`sudo adduser` - Add user [ suod adduser (username)].
+`sudo useradd` - same as adduser.
+`sudo useradd -d [/home/username] -s[/bin/bash] -p [passwd] username` - `-d`directory `-s` shell `-p` passwd.
+`passwd` - change passwd login user.
+`sudo userdel` - delete existing user.
+`sudo groupadd` - to add group.
+`groups` - to see user in which groups.
+`sudo groupdel` - to delete group.
+`sudo usermod -g (groupname) (username)` - to add user to groups.
+`cat /etc/passwd` - directory contains user and passwd.
+`cat /etc/shadow` - passwd in encrypted form.
+`cat /etc/group` - show groups,name,ID.
+`cat /etc/gshadow` - group info, passwd.
+`passwd` - to change login user passwd.
+`sudo passwd root` - to set new passwd for root user.
+
+## File Permission in Kali Linux 
+On a linux system, each file and directory is assigned access rights for the owner of file, the members of a groups of related users, and everybody else.Rights can be assigned to read a file, to write a file, and to execute a file(i.e., run file as a program).
+
+**r** :- read, only see not have permission to write and execute.
+**w** :- write, have read and write access, but not to execute file.
+**x** :- execute, file can be run, you have access to run the program.
+
+| users | groups | others |
+| ----- | ------ | ------ |
+| rwx | rwx | rwx |
+
+| Octal | Binary | File mode | Description |
+| ----- | ------ | --------- | ----------- |
+| 0 | 000 | --- | No access |
+| 1 | 001 | --x | execution |
+| 2 | 010 | -w- | write |
+| 3 | 011 | -wx | write & execute |
+| 4 | 100 | r-- | read only |
+| 5 | 101 | r-w | read & execute only |
+| 6 | 110 | rw- | read & write only |
+| 7 | 111 | rwx | read, write & execute |
+
+## Networking Commands in Linux | Network Management in Kali Linux
+
+## Package in Linux | Tool Packages in Kali Linux
+
+## SSH Server in Kali Linux 
 
 
 
