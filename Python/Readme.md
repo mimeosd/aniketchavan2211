@@ -3260,7 +3260,9 @@ TypeError: Only integers are allowed
 | RuntimeError | Raised when a generated error does not fall into any category. |
 | NotImplementedError | Raised when an abstract method that needs to be implemented in an inherited class is not actually implemented. |
 
-# Advanced
+-------------------------------------------------------
+
+# Advanced Python
 
 ## JSON
 
