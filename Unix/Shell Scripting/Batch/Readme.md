@@ -45,7 +45,7 @@
   is a list of the important commands that are used and their 
   definition.
 
-### Commands
+### Basics Commands
 
   `echo` - Display text on the screen.
 
