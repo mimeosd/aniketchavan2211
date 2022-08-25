@@ -3226,6 +3226,8 @@ if not type(x) is int:
 TypeError: Only integers are allowed
 ```
 
+### Exceptions & Description 
+
 | Exception Name | Description |
 | -------------- | ----------- |
 | Exception | Base class for all exceptions |
