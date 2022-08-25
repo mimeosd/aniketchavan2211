@@ -1,4 +1,4 @@
-![ Windows Commands Prompt](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/Windows%20Commands%20Prompt.png)
+
 ## Introduction to Command Prompt 
  
  In CLI (**Command Line Interface**) also known 
@@ -56,12 +56,18 @@
 ## Getting Information about system and Programs using CMD
 
   `wmic > /output:[path]` - to get name, version,... 
+
   `wmic > cpu` - detailed description
+
   vol D: 
-  `dispart` > `list disk` > `select disk [1]` > `detail disk`
-  `chkdsk`
-  `getmac` - used to show mac address.
-  `systeminfo`
+
+ `dispart` > 
+ `list disk` > 
+ `select disk [1]` > 
+ `detail disk`
+ `chkdsk`
+ `getmac` - used to show mac address.
+ `systeminfo`
 
 ## Managing User Account
 
@@ -109,11 +115,34 @@
  
 ## USB disk format,boot & label(rename) (Admin privileges needed)
  
-  `diskpart` > `list disk` > `select disk [number]` > `clean`
-  `create partition primary` > `select partition [number]` > `format fs=ntfs quick` > `active` > `assign` > `exit` - 
+  ```batch
+
+  diskpart 
+
+  list disk
+
+  select disk [number]
+
+  clean
+
+  create partition primary
+
+  select partition [number]
+
+  format fs=ntfs quick
+
+  active
+
+  assign
+
+  exit
+  ```
+
+
   format and creating partition in disk drive.
   `label [drive letter:] [rename]` - rename a disk drive.
- 
+
+
 ## Wireless Commands (Admin privileges)
  
   `netsh wlan show profile` - showing wifi connected.
@@ -127,45 +156,59 @@
  
 ## Networking Commands (Admin privileges)
  
-  `hostname` - to know the device name.
+  `hostname` - to know the device name.    
 
-  `ipconig` - to show ip address.
+  `ipconig` - to show ip address.     
 
-  `getmac` - to show mac address.
+  `getmac` - to show mac address.    
 
-  `ping` - to check connection b/w two system.
+  `ping` - to check connection b/w two system.      
 
-  `tracert` - to tract the network route.
+  `tracert` - to tract the network route.    
 
-  `netstat` - to check network statistics.
+  `netstat` - to check network statistics.    
 
   `nslookup` - to get ip address of any domain.
- 
+   
 ## Customization CMD Prompt Window Color changing,Resizing & Title Commands (Admin Privileges needed)
  
   Change properties by Right click on Title Bar and Properties 
-  will appear
-  color [number] - {Text color}
-  color help - Display the color and their numbers
-  mode [number] - Resize Window
-  title - Title Bar 
-  prompt [text]
+  will appear.     
+
+  `color [number]` - {Text color}.  
+
+  `color help` - Display the color and their numbers.  
+
+  `mode [number]` - Resize Window.   
+
+  `title` - Title Bar          
+
+  `prompt [text]`.   
  
 ## Best Utility Commands (Admin Privileges needed)
  
-  tree - {Listing the directories and Shb-directories}
-  date - {to change date}
-  time - {to change time}
-  doskey/history - {history of commands}
-  shutdown -s -t [000 in seconds] - {shutdown}
-  shutdown -r -t [000 in seconds] - {restart}
+  `tree` - {Listing the directories and Shb-directories}.     
+
+  `date` - {to change date}.   
+
+  `time` - {to change time}.   
+
+  `doskey/history` - {history of commands}.  
+
+  `shutdown -s -t [000 in seconds]` - {shutdown}.  
+
+  `shutdown -r -t [000 in seconds]` - {restart}.   
  
 ## Stars Wars Impressive Commands (Admin Privileges)
- 
-  enable telnet client by opening contol panel > Programs >
-   Windows Features on and off > enable telnet client
+
+ ```batch
+  enable telnet client by opening contol panel > 
+  Programs >
+  Windows Features on and off > 
+  enable telnet client >
   telnet towel.blinkenlights.nl.
- 
+ ```
+
 ## Batch scripting 
  
 ### What's a batch file?
@@ -202,25 +245,25 @@
 
 ### Commands
 
-  `echo` - Display text on the screen.
+  `echo` - Display text on the screen.    
 
-  `@echo off` - hides the text that is normally output.
+  `@echo off` - hides the text that is normally output.    
 
-  `start` - run a file with its default application.
+  `start` - run a file with its default application.    
 
-  `rem` - inserts a comments line in the progarm.
+  `rem` - inserts a comments line in the progarm.    
 
-  `mkdir`/`rmdir` - Make / Remove Directory
+  `mkdir`/`rmdir` - Make / Remove Directory.    
 
-  `del` - delete a files or file
+  `del` - delete a files or file.   
 
-  `copy` - copy a file or files
+  `copy` - copy a file or files.   
 
-  `copy con` - allows to type in
+  `copy con` - allows to type in.    
 
-  `for`/`in`/`do` - This commands lets you specify files
+  `for`/`in`/`do` - This commands lets you specify files.    
 
-  `title` - edit the title of the window.
+  `title` - edit the title of the window.    
  
 ### Batch Files: Creating and Executing
  
@@ -316,12 +359,12 @@
  Make sure you specify the filename and extension between.
  
 ###   Commands 
- 1. echo - to display text in terminal.
- 2. @echo off - {to hide unwanted text in terminal, adding @ will also hide path
- 3. goto - for executing a loop in terminal.
- 4. color - to change color of text in terminal.
- 5. set /p - to declare variable with user input.
- 6. if else - decision making statements.
- 7. pause - to hold output on screen.
- 8. cls - clear previous commands.
- 9. exit /b - for exiting the terminal.
+ 1. `echo` - to display text in terminal.
+ 2. `@echo off` - {to hide unwanted text in terminal, adding @ will also hide path
+ 3. `goto` - for executing a loop in terminal.
+ 4. `color` - to change color of text in terminal.
+ 5. `set /p` - to declare variable with user input.
+ 6. `if else` - decision making statements.
+ 7. `pause` - to hold output on screen.
+ 8. `cls` - clear previous commands.
+ 9. `exit /b` - for exiting the terminal.
