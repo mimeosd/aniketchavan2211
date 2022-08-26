@@ -2981,7 +2981,7 @@ print(a)
 
 You can name the module file whatever you like, but it must have the file extension `.py`
 
-### Re-naming a Module
+#### Re-naming a Module
 
 You can create an alias when you import a module, by using the `as` keyword:
 
@@ -3334,7 +3334,7 @@ Lorem Ipsum Dolor Sit Amet
 
 Find more packages at [pypi](https://pypi.org/).
 
-### Remove a Package
+#### Remove a Package
 
 Use the `uninstall` command to remove a package:
 
