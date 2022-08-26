@@ -2428,7 +2428,7 @@ A function is a block of organized, reusable code that is used to perform a sing
 - Built-in functions
 - User-defined functions
 
-### Defining a functions
+#### Defining a functions
 
 - Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).
 
