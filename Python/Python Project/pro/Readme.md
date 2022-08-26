@@ -46,3 +46,7 @@
 ## Using String
 
 ### Tip Calculator 
+
+## Functions
+
+### Calculator 
