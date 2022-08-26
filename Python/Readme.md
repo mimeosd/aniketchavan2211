@@ -1,9 +1,9 @@
 ![ Python ](https://github.com/aniketchavan2211/aniketchavan2211/blob/master/Images/python.png)
-# Python
+## Python
 
-## Introduction
+### Introduction
 
-### What is Python?
+#### What is Python?
 
  Python is a popular programming language. It was created by 
  Guido van Rossum, and released in 1991.
@@ -14,7 +14,7 @@
  -  mathematics,
  -  system scripting.
 
-### What can Python do?
+#### What can Python do?
 
  - Python can be used on a server to create web applications.
  - Python can be used alongside software to create workflows.
@@ -25,7 +25,7 @@
  - Python can be used for rapid prototyping, or for production-ready 
  software development.
 
-###  Why Python?
+####  Why Python?
 
  - Python works on different platforms (Windows, Mac, Linux, 
  Raspberry Pi, etc).
@@ -37,7 +37,7 @@
  - Python can be treated in a procedural way, an object-oriented 
  way or a functional way.
 
-###  Good to know
+####  Good to know
 
  - The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.
  - In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.
@@ -46,7 +46,7 @@
  - Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
  - Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
 
-## Comments 
+### Comments 
 
 Comments can be used to explain Python code.
 Comments can be used to make the code more readable
@@ -71,7 +71,7 @@ Output:
 Hello
 ```
 
-### Multi-Line Comments
+#### Multi-Line Comments
 
 Python will ignore string literals that are not assigned to a variable, you can add a multiline string ` """ ` (triple quotes) in your code, and 
 place your comment inside it.
@@ -84,7 +84,7 @@ Comment
 """
 ```
 
-## Reserved Keywords
+### Reserved Keywords
 |   |   |   | 
 | - | - | - |
 | and | exec	| not |
@@ -98,7 +98,7 @@ Comment
 | else |	is	| with | 
 | except	| lambda | yield |
 
-## Variables
+### Variables
 
  Variables are containers for storing data values.
 
@@ -123,7 +123,7 @@ Comment
  z = float(3) # z will be floating-point number 3.0
  ```
 
-### Get the Type()
+#### Get the Type()
 
  You can get the data type of a variable with 
  the `type()` function.
@@ -147,7 +147,7 @@ Comment
  <class 'str'> 
  ```
  
-### Datatypes
+#### Datatypes
 
 Variables can store data of different types, and different types can do different things.
 
@@ -161,7 +161,7 @@ Variables can store data of different types, and different types can do differen
 | Boolean Type |`bool`|
 | Binary Types|`bytes`, `bytearray`, `memoryview`|
 
-### Type Conversion
+#### Type Conversion
 
 To convert between types, you simply use the type name as a function.
 
@@ -187,7 +187,7 @@ There are several built-in functions to perform conversion from one data type to
 | hex(x) | Converts an integer to a hexadecimal string. |
 | oct(x) | Converts an integer to an octal string. |
 
-## User Input / Output
+### User Input / Output
  `input()` function takes input from user and
  stores in Variable.
 
@@ -204,7 +204,7 @@ There are several built-in functions to perform conversion from one data type to
  "Enter your value: "
  ```
 
-## Operators
+### Operators
 
 Operators are used to perform operations on variable and values.
 
@@ -216,7 +216,7 @@ Operators are used to perform operations on variable and values.
 - Membership operators
 - Bitwise operators
 
-### Arithmetic Operators
+#### Arithmetic Operators
 
 Arithmetic operators are used with numeric values to perform common mathematical operations:
 
@@ -230,7 +230,7 @@ Arithmetic operators are used with numeric values to perform common mathematical
 |`**`|	Exponentiation |	x ** y	|
 |`//`|	Floor division |	x // y|
 
-### Assignment Operators
+#### Assignment Operators
 
 Assignment operators are used to assign values to variables
 
@@ -250,7 +250,7 @@ Assignment operators are used to assign values to variables
 |`>>=`|x >>= 3|x = x >> 3	|
 |`<<=`|x <<= 3|	x = x << 3|
 
-### Comparison Operators
+#### Comparison Operators
 
 Comparison operators are used to compare two values:
 
@@ -263,7 +263,7 @@ Comparison operators are used to compare two values:
 | `>=` |	Greater than or equal to	| x >= y	|
 | `<= `|	Less than or equal to	 | x <= y |
 
-### Logical Operators
+#### Logical Operators
 
 Logical operators are used to combine conditional statements:
 
@@ -273,7 +273,7 @@ Logical operators are used to combine conditional statements:
 | `or` |	Returns True if one of the statements is true |	x < 5 or x < 4	|
 | `not` |	Reverse the result, returns False if the result is true	| not(x < 5 and x < 10) |
 
-### Identity Operators
+#### Identity Operators
 
 Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
 
@@ -282,7 +282,7 @@ Identity operators are used to compare the objects, not if they are equal, but i
 |`is` | Returns True if both variables are the same object |	x is y |	
 | `is not` |	Returns True if both variables are not the same object	| x is not y |
 
-### Membership Operators
+#### Membership Operators
 
 Membership operators are used to test if a sequence is presented in an object:
 
@@ -291,7 +291,7 @@ Membership operators are used to test if a sequence is presented in an object:
 | `in ` |	Returns True if a sequence with the specified value is present in the object |	x in y |	
 |`not in` |	Returns True if a sequence with the specified value is not present in the object |	x not in y |
 
-### Bitwise Operators
+#### Bitwise Operators
 
 Bitwise operators are used to compare (binary) numbers:
 
@@ -304,7 +304,7 @@ Bitwise operators are used to compare (binary) numbers:
 | `<<` | Zero fill left shift |Shift left by pushing zeros in from the right and let the leftmost bits fall off |
 | `>>` |Signed right shift|	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off |
 
-## Decision Making 
+### Decision Making 
 
 Decision making is anticipation of conditions occurring while execution of the program and specifying actions taken according to the conditions.
 
@@ -314,7 +314,7 @@ Python programming language assumes any non-zero and non-null values as TRUE, an
 
 Python programming language provides following types of decision making statements.
 
-### If statement
+#### If statement
 
 The `if` statement contains a logical expression using which data is compared and a decision is made based on the result of the comparison.
 
@@ -339,7 +339,7 @@ if var1:
 100
 ```
 
-### If - Else statement
+#### If - Else statement
 
 An else statement can be combined with an if statement. An else statement contains the block of code that executes if the conditional expression in the if statement resolves to 0 or a FALSE value.
 
@@ -369,7 +369,7 @@ else:
 100
 ```
 
-### If - Elif - Else statement
+#### If - Elif - Else statement
 
 The elif statement allows you to check multiple expressions for TRUE and execute a block of code as soon as one of the conditions evaluates to TRUE.
 
@@ -409,7 +409,7 @@ else:
 100
 ```
 
-### Nested - If statement
+#### Nested - If statement
 
 There may be a situation when you want to check for another condition after a condition resolves to true. In such a situation, you can use the nested if construct.
 
@@ -452,11 +452,11 @@ Expression value is less than 200
 Which is 100
 ```
 
-## Loops 
+### Loops 
 
 A loop statement allows us to execute a statement or group of statements multiple times.
 
-### While loops
+#### While loops
 
 A while loop statement in Python programming language repeatedly executes a target statement as long as a given condition is true.
 
@@ -487,7 +487,7 @@ The count is: 7
 The count is: 8
 ```
 
-#### Infinite loops
+##### Infinite loops
 
 A loop becomes infinite loop if a condition never becomes FALSE.
 
@@ -509,7 +509,7 @@ You entered : Entered a number  :
 
 Loops never ends, And crashed the program
 
-#### Using else Statement with While loops
+##### Using else Statement with While loops
 
 If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
 
@@ -533,7 +533,7 @@ else:
 5 is not less than 5
 ```
 
-#### On-line While
+##### On-line While
 
 Similar to the if statement syntax, if your while clause consists only of a single statement, it may be placed on the same line as the while header.
 
@@ -544,7 +544,7 @@ while (flag): print 'Given flag is really true!'
 ```
 
 
-### For loops
+#### For loops
 
 If a sequence contains an expression list, it is evaluated first. Then, the first item in the sequence is assigned to the iterating variable iterating_var.
 
@@ -577,7 +577,7 @@ Current fruit : apple
 Current fruit : mango
 ```
 
-#### Iterating by Sequence Index
+##### Iterating by Sequence Index
 
 An alternative way of iterating through each item is by index offset into the sequence itself.
 
@@ -595,7 +595,7 @@ Current fruit : apple
 Current fruit : mango
 ```
 
-#### Using else Statement with For Loop
+##### Using else Statement with For Loop
 
 If the else statement is used with a for loop, the else statement is executed when the loop has exhausted iterating the list.
 
@@ -628,7 +628,7 @@ for num in range(10,20):     #to iterate between 10 to 20
 ```
 
 
-### Nested Loops
+#### Nested Loops
 
 Python programming language allows to use one loop inside another loop. Following section shows few examples to illustrate the concept.
 
@@ -689,7 +689,7 @@ while(i < 100):
 97 is prime
 ```
 
-## Loops Controls
+### Loops Controls
 
 Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
 
@@ -805,7 +805,7 @@ Current Letter : o
 Current Letter : n
 ```
 
-## Numbers
+### Numbers
 
 There are three numeric types in Python:
 
@@ -837,7 +837,7 @@ print(type(z))
 <class 'complex'>
 ```
 
-### Int
+#### Int
 
 Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
 
@@ -859,7 +859,7 @@ print(type(z))
 <class 'int'>
 ```
 
-### Float
+#### Float
 
 Float, or `floating point number` is a number, positive or negative, containing one or more decimals.
 
@@ -901,7 +901,7 @@ print(type(z))
 <class 'float'>
 ```
 
-### Complex
+#### Complex
 
 Complex numbers are written with a "j" as the imaginary part:
 
@@ -923,7 +923,7 @@ print(type(z))
 <class 'complex'>
 ```
 
-### Type Conversion
+#### Type Conversion
 
 You can convert from one type to another with the `int()`, `float()`, and `complex()` methods:
 
@@ -963,7 +963,7 @@ print(type(c))
 
 ***`Note`: You cannot convert complex numbers into another number type.***
 
-### Random Number
+#### Random Number
 
 Python does not have a `random()` function to make a random number, but Python has a built-in module called `random` that can be used to make random numbers:
 
@@ -979,12 +979,12 @@ print(random.randrange(1, 10))
 9
 ```
 
-## Boolean
+### Boolean
 
 Booleans represent one of two values: `True` or `False`
 .
 
-### Boolean Values
+#### Boolean Values
 
 In programming you often need to know if an expression is `True` or `False`.
 
@@ -1024,7 +1024,7 @@ else:
 b is not greater than a
 ```
 
-### Evaluate Values and Variables
+#### Evaluate Values and Variables
 
 The `bool()` function allows you to evaluate any value, and give you `True` or `False` in return,
 
@@ -1057,7 +1057,7 @@ True
 True
 ```
 
-### Most Values are True
+#### Most Values are True
 
 Almost any value is evaluated to `True` if it has some sort of content.
 
@@ -1081,7 +1081,7 @@ True
 True
 ```
 
-### Some Values are False
+#### Some Values are False
 
 In fact, there are not many values that evaluate to `False`, except empty values, such as `()`, `[]`, `{}`, `""`, the number `0`, and the value `None`. And of course the value `False` evaluates to `False`.
 
@@ -1123,7 +1123,7 @@ print(bool(myobj))
 False
 ```
 
-### Functions can Return a Boolean
+#### Functions can Return a Boolean
 
 You can create functions that returns a Boolean Value:
 
@@ -1172,7 +1172,7 @@ print(isinstance(x, int))
 True
 ```
 
-## String
+### String
 
 String in python are surrounded by either single quotation marks or double quotation marks.
 
@@ -1190,7 +1190,7 @@ print (a)
 Hello
 ```
 
-### Multiline String
+#### Multiline String
 
 You can assign a multiline string to a variable by using three quotes:
 
@@ -1213,7 +1213,7 @@ print (a)
  Number
 ```
 
-### Assign String to a Variable
+#### Assign String to a Variable
 
 Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
 
@@ -1227,7 +1227,7 @@ Output:
 Hello
 ```
 
-### Strings are Arrays
+#### Strings are Arrays
 
 Python does not have a character data type, a single character is simply a string with a length of 1.
 
@@ -1246,7 +1246,7 @@ print(a[1])
 e
 ```
 
-### Looping Through a String
+#### Looping Through a String
 
 Since strings are arrays, we can loop through the characters in a string, with a `for` loop.
 
@@ -1267,7 +1267,7 @@ n
 a
 ```
 
-### String Length
+#### String Length
 
 To get the length of a string, use the `len()` function.
 
@@ -1282,7 +1282,7 @@ print(len(a))
 ```
 13
 ```
-### Check String
+#### Check String
 
 To check if a certain phrase or character is present in a string, we can use the keyword `in`.
 
@@ -1311,7 +1311,7 @@ if "free" in txt:
   print("Yes, 'free' is present.")
 ```
 
-### Check if NOT
+#### Check if NOT
 
 To check if a certain phrase or character is NOT present in a string, we can use the keyword `not in`.
 
@@ -1344,7 +1344,7 @@ if "expensive" not in txt:
 No, 'expensive' is NOT present.
 ```
 
-### Slicing
+#### Slicing
 
 You can return a range of characters by using the slice syntax.
 
@@ -1365,7 +1365,7 @@ llo
 
 ***`Note`: The first character has index 0.***
 
-### Slice From the Start
+#### Slice From the Start
 
 By leaving out the start index, the range will start at the first character:
 
@@ -1382,7 +1382,7 @@ print(b[:5])
 Hello
 ```
 
-### Slice To the End
+#### Slice To the End
 
 By leaving out the end index, the range will go to the end:
 
@@ -1399,7 +1399,7 @@ print(b[2:])
 llo World
 ```
 
-### Negative Indexing
+#### Negative Indexing
 
 Use negative indexes to start the slice from the end of the string:
 
@@ -1420,7 +1420,7 @@ print(b[-5:-2])
 orl
 ```
 
-### Upper Case
+#### Upper Case
 
 **Example:**
 
@@ -1435,7 +1435,7 @@ print(a.upper())
 HELLO WORLD!
 ```
 
-### Lower Case
+#### Lower Case
 
 **Example:**
 
@@ -1450,7 +1450,7 @@ print(a.lower())
 hello world
 ```
 
-### Remove Whitespace
+#### Remove Whitespace
 
 Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
 
@@ -1466,7 +1466,7 @@ print(a.strip()) # returns "Hello, World!"
 ```
 Hello, World!
 ```
-### Replace String
+#### Replace String
 
 **Example:**
 
@@ -1481,7 +1481,7 @@ print(a.replace("H", "J"))
 Jello, World
 ```
 
-### Split String
+#### Split String
 
 The `split()` method returns a list where the text between the specified separator becomes the list items.
 
@@ -1497,7 +1497,7 @@ print(a.split(",")) # returns ['Hello', ' World!']
 ```
 ['Hello', ' World!']
 ```
-### String Concatenation
+#### String Concatenation
 
 To concatenate, or combine, two strings you can use the + operator.
 
@@ -1531,7 +1531,7 @@ print(c)
 Hello World
 ```
 
-### String Format
+#### String Format
 
 As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:
 
@@ -1594,7 +1594,7 @@ print(myorder.format(quantity, itemno, price))
 I want to pay 49.95 dollars for 3 pieces of item 567
 ```
 
-### Escape Character
+#### Escape Character
 
 To insert characters that are illegal in a string, use an escape character.
 
@@ -1628,7 +1628,7 @@ txt = "We are the so-called \"Vikings\" from the north."
 We are the so-called "Vikings" from the north.
 ```
 
-### Escape Characters
+#### Escape Characters
 
 Other escape characters used in Python:
 
@@ -1644,7 +1644,7 @@ Other escape characters used in Python:
 | `\ooo` | Octal value	|
 | `\xhh` | Hex value |
 
-### String Methods
+#### String Methods
 
 Python has a set of built-in methods that you can use on strings.
 
@@ -1652,7 +1652,7 @@ Python has a set of built-in methods that you can use on strings.
 
 Checkout: [ String Methods](https://www.w3schools.com/python/python_strings_methods.asp)
 
-## Lists 
+### Lists 
 
 Lists are used to store multiple items in a single variable.
 
@@ -1663,7 +1663,7 @@ Lists are created using square brackets:
 list = [ 'value1', value2, 1]
 ```
 
-### Indexing items
+#### Indexing items
 
 list first items are indexed at `[0]` index, second `[1]`, etc.
 
@@ -1681,7 +1681,7 @@ b
 c
 ```
 
-### Negative Indexing
+#### Negative Indexing
 
 Negative indexing means start from the end
 
@@ -1698,7 +1698,7 @@ print(thislist[-1])
 cheery
 ```
 
-### Length
+#### Length
 
 To determine how many items a list has, use the `len()` function:
 
@@ -1716,7 +1716,7 @@ print(len(thislist))
 
 ### 
 
-### Check Datatype
+#### Check Datatype
 
 From Python's perspective, lists are defined as objects with the data type 'list':
 
@@ -1733,7 +1733,7 @@ print(type(mylist))
 <class 'list'>
 ```
 
-### The list() Constructor
+#### The list() Constructor
 
 It is also possible to use the `list()` constructor when creating a new list.
 
@@ -1749,7 +1749,7 @@ print(thislist)
 ['apple', 'banana', 'cherry']
 ```
 
-### Slicing 
+#### Slicing 
 
 You can specify a range of indexes by specifying where to start and where to end the range.
 
@@ -1770,7 +1770,7 @@ print(list[1:3])
 
 ***Remember that the first item has index 0.***
 
-### Append Items
+#### Append Items
 
 To add an item to the end of the list, use the append() method:
 
@@ -1786,7 +1786,7 @@ print(list)
 ['apple', 'banana', 'cherry', 'orange']
 ```
 
-### Insert Items
+#### Insert Items
 
 To insert a list item at a specified index, use the `insert()` method.
 
@@ -1806,7 +1806,7 @@ print(list)
 
 ***`Note`: As a result of the examples above, the lists will now contain 4 items.***
 
-### Remove 
+#### Remove 
 
 The `remove()` method removes the specified item.
 **Example:**
@@ -1820,7 +1820,7 @@ print(list)
 ['a', 'c']
 ```
 
-### Pop 
+#### Pop 
 
 If you do not specify the index, the `pop()` method removes the last item.
 
@@ -1835,7 +1835,7 @@ print(list)
 ["a", "b"]
 ```
 
-### To delete complete list
+#### To delete complete list
 
 The `del` keyword can also delete the list completely.
 
@@ -1845,7 +1845,7 @@ list = ["a", "b", "c"]
 del list
 ```
 
-### Clear list
+#### Clear list
 
 The `clear()` method empties the list.
 
@@ -1862,13 +1862,13 @@ print(list)
 []
 ```
 
-### Adding elements to lists
+#### Adding elements to lists
 
 ```python
 print(list + ["x", "y", "z"])
 ```
 
-### Join lists
+#### Join lists
 
 **Example:**
 ```python
@@ -1883,7 +1883,7 @@ print(list3)
 ['a', 'b', 'c', 'd']
 ```
 
-### Minimum & Maximum
+#### Minimum & Maximum
 
 ```Python
 list1 = ['a', 'b', 'z']
@@ -1904,7 +1904,7 @@ z
 9
 ```
 
-### lists methods
+#### lists methods
 
 Python has a set of built-in methods that you can use on lists.
 
@@ -1923,7 +1923,7 @@ Python has a set of built-in methods that you can use on lists.
 | `sort()` | Sorts the list |
 
 
-### Tuples 
+#### Tuples 
 
 Tuples are used to store multiple items in a single variable.
 
@@ -1970,7 +1970,7 @@ print(min(tuple1)) # minimum value = 1
 ```
 
 
-## Dictionary 
+### Dictionary 
 
 Dictionaries are used to store data values in key:value pairs.
 
@@ -1999,7 +1999,7 @@ value1
 
 Dictionaries cannot have two items with the same key:
 
-### Adding Items
+#### Adding Items
 
 Adding an item to the dictionary is done by using a new index key and assigning a value to it:
 
@@ -2014,7 +2014,7 @@ print(dict)
 { "key1" : "value1", "key2" : "value2", "key3" : "value3",}
 ```
 
-### Updating 
+#### Updating 
 
 The `update()` method will update the dictionary with the items from the given argument.
 
@@ -2030,7 +2030,7 @@ print(dict_name[key1])
 val
 ```
 
-### Removing Items
+#### Removing Items
 
 There are several methods to remove items from a dictionary:
 
@@ -2058,7 +2058,7 @@ The `clear()` method empties the dictionary:
 dict.clear()
 ```
 
-### Dictionary Methods
+#### Dictionary Methods
 
 Python has a set of built-in methods that you can use on dictionaries.
 
@@ -2076,7 +2076,7 @@ Python has a set of built-in methods that you can use on dictionaries.
 | `update()` |	Updates the dictionary with the specified key-value pairs |
 | `values()` |	Returns a list of all the values in the dictionary |
 
-## Sets 
+### Sets 
 
 Sets are used to store multiple items in a single variable.
 
@@ -2095,7 +2095,7 @@ set = { 'value1', 'value2' }
 
 ***`Note`: Sets are unordered, so you cannot be sure in which order the items will appear***
 
-### length, type & set() constructor
+#### length, type & set() constructor
 
 ```Python
 set = { 'a', 'b', 'c', 'd', 'e' }
@@ -2116,7 +2116,7 @@ print(set)
 { 'a',  'b' }
 ```
 
-### Access Items
+#### Access Items
 
 You cannot access items in a set by referring to an index or a key.
 
@@ -2149,7 +2149,7 @@ print("banana" in thisset)
 True
 ```
 
-### Add Items
+#### Add Items
 
 To add one item to a set use the add() method.
 
@@ -2167,7 +2167,7 @@ print(set)
 {'orange', 'banana', 'apple', 'cherry'}
 ```
 
-### Add Sets
+#### Add Sets
 
 To add items from another set into the current set, use the `update()` method.
 
@@ -2186,7 +2186,7 @@ print(thisset)
 {'apple', 'mango', 'cherry', 'pineapple', 'banana', 'papaya'}
 ```
 
-### Add Any Iterable
+#### Add Any Iterable
 
 The object in the `update()` method does not have to be a set, it can be any iterable object (tuples, lists, dictionaries etc.).
 
@@ -2205,7 +2205,7 @@ print(thisset)
 {'banana', 'cherry', 'apple', 'orange', 'kiwi'}
 ```
 
-### Remove Item
+#### Remove Item
 
 To remove an item in a set, use the `remove()`, or the `discard()` method.
 
@@ -2247,7 +2247,7 @@ The `del` keyword will delete the set completely:
 del set
 ```
 
-### Set Methods
+#### Set Methods
 
 Python has a set of built-in methods that you can use on sets.
 
@@ -2271,7 +2271,7 @@ Python has a set of built-in methods that you can use on sets.
 | `union()` |	Return a set containing the union of sets |
 | `update()` |	Update the set with the union of this set and others |
 
-## Arrays
+### Arrays
 
 Arrays are used to store multiple values in one single variable
 
@@ -2301,7 +2301,7 @@ The solution is an array!
 
 An array can hold many values under a single name, and you can access the values by referring to an index number.
 
-### Access the Elements of an Array
+#### Access the Elements of an Array
 
 You refer to an array element by referring to the index number.
 
@@ -2325,7 +2325,7 @@ cars[0] = "Toyota"
 ['Toyota', 'Volvo', 'BMW']
 ```
 
-### Length
+#### Length
 
 Use the `len()` method to return the length of an array (the number of elements in an array).
 
@@ -2341,7 +2341,7 @@ x = len(cars)
 
 ***`Note`: The length of an array is always one more than the highest array index.***
 
-### Looping Array Elements
+#### Looping Array Elements
 
 You can use the `for in` loop to loop through all the elements of an array.
 
@@ -2358,7 +2358,7 @@ Volvo
 BMW
 ```
 
-### Adding Array Elements
+#### Adding Array Elements
 
 You can use the `append()` method to add an element to an array.
 
@@ -2372,7 +2372,7 @@ cars.append("Honda")
 ['Ford', 'Volvo', 'BMW', 'Honda']
 ```
 
-### Removing Array Elements
+#### Removing Array Elements
 
 You can use the `pop()` method to remove an element from the array.
 
@@ -2400,7 +2400,7 @@ cars.remove("Volvo")
 
 ***`Note`: The list's `remove()` method only removes the first occurrence of the specified value.***
 
-### Array Methods
+#### Array Methods
 
 Python has a set of built-in methods that you can use on lists/arrays.
 
@@ -2419,7 +2419,7 @@ Python has a set of built-in methods that you can use on lists/arrays.
 | `sort()` | Sorts the list |
 
 
-## Functions
+### Functions
 
 A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.
 
@@ -2456,7 +2456,7 @@ def printme( str ):
    return
 ```
 
-### Calling a function
+#### Calling a function
 
 Defining a function only gives it a name, specifies the parameters that are to be included in the function and structures the blocks of code.
 
@@ -2479,7 +2479,7 @@ I'm first call to user defined function!
 Again second call to the same function
 ```
 
-### Pass by reference vs values
+#### Pass by reference vs values
 
 All parameters (arguments) in the Python language are passed by reference. It means if you change what a parameter refers to within a function, the change also reflects back in the calling function. 
 
@@ -2504,13 +2504,14 @@ Values inside the function:  [10, 20, 30, [1, 2, 3, 4]]
 Values outside the function:  [10, 20, 30, [1, 2, 3, 4]]
 ```
 
-### Function arguments
+#### Function arguments
+
 - Required arguments
 - Keyword arguments
 - Default arguments
 - Variable-length arguments
 
-#### Required arguments
+##### Required arguments
 
 Required arguments are the arguments passed to a function in correct positional order. Here, the number of arguments in the function call should match exactly with the function definition.
 
@@ -2535,7 +2536,7 @@ Traceback (most recent call last):
 TypeError: printme() takes exactly 1 argument (0 given)
 ```
 
-#### Keywords arguments
+##### Keywords arguments
 
 Keyword arguments are related to the function calls. When you use keyword arguments in a function call, the caller identifies the arguments by the parameter name.
 
@@ -2579,7 +2580,7 @@ Name:  miki
 Age:  50
 ```
 
-#### Default arguments 
+##### Default arguments 
 
 A default argument is an argument that assumes a default value if a value is not provided in the function call for that argument.
 
@@ -2605,7 +2606,7 @@ Name:  miki
 Age:  35
 ```
 
-#### Variable-length arguments
+##### Variable-length arguments
 
 You may need to process a function for more arguments than you specified while defining the function. These arguments are called variable-length arguments and are not named in the function definition, unlike required and default arguments.
 
@@ -2644,7 +2645,7 @@ Output is:
 50
 ```
 
-#### ***Anonymous*** function 
+##### ***Anonymous*** function 
 
 These functions are called anonymous because they are not declared in the standard manner by using the def keyword. You can use the lambda keyword to create small anonymous functions.
 
@@ -2676,7 +2677,7 @@ Value of total :  30
 Value of total :  40
 ```
 
-### The Return statement
+#### The Return statement
 
 The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
 
@@ -2700,7 +2701,7 @@ Inside the function :  30
 Outside the function :  30
 ```
 
-### Variables Scope
+#### Variables Scope
 
 All variables in a program may not be accessible at all locations in that program. This depends on where you have declared a variable.
 
@@ -2733,7 +2734,7 @@ Inside the function local total :  30
 Outside the function global total :  0
 ```
 
-## Classes / Objects
+### Classes / Objects
 
 Python is an object oriented programming language.
 
@@ -2741,7 +2742,7 @@ Almost everything in Python is an object, with its properties and methods.
 
 A Class is like an object constructor, or a "blueprint" for creating objects.
 
-### Create a Class
+#### Create a Class
 
 To create a class, use the keyword `class`:
 
@@ -2756,7 +2757,7 @@ class MyClass:
 <class '__main__.MyClass'>
 ```
 
-### Create Object
+#### Create Object
 
 Now we can use the class named MyClass to create objects:
 
@@ -2771,7 +2772,7 @@ print(p1.x)
 5
 ```
 
-### The __init__() Function
+#### The __init__() Function
 
 The examples above are classes and objects in their simplest form, and are not really useful in real life applications.
 
@@ -2802,7 +2803,7 @@ John
 
 ***`Note`: The __init__() function is called automatically every time the class is being used to create a new object.***
 
-### Object Methods
+#### Object Methods
 
 Objects can also contain methods. Methods in objects are functions that belong to the object.
 
@@ -2830,7 +2831,7 @@ Hello my name is John
 
 ***`Note`: The `self` parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.***
 
-### The self Parameter
+#### The self Parameter
 
 The `self` parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
 
@@ -2855,7 +2856,7 @@ p1.myfunc()
 Hello my name is John
 ```
 
-### Modify Object Properties
+#### Modify Object Properties
 
 You can modify properties on objects like this:
 
@@ -2869,7 +2870,7 @@ p1.age = 40
 40
 ```
 
-### Delete Object Properties
+#### Delete Object Properties
 
 You can delete properties on objects by using the `del` keyword:
 
@@ -2883,7 +2884,7 @@ del p1.age
 AttributeError: 'Person' object has no attribute 'age'
 ```
 
-### Delete Objects
+#### Delete Objects
 
 You can delete objects by using the `del` keyword:
 
@@ -2897,7 +2898,7 @@ del p1
 NameError: 'p1' is not defined
 ```
 
-### The pass Statement
+#### The pass Statement
 
 `class` definitions cannot be empty, but if you for some reason have a `class` definition with no content, put in the `pass` statement to avoid getting an error.
 
@@ -2907,7 +2908,7 @@ class Person:
   pass
 ```
 
-## Modules
+### Modules
 
 **What is a Module?**
 
@@ -2915,7 +2916,7 @@ Consider a module to be the same as a code library.
 
 A file containing a set of functions you want to include in your application.
 
-### Create a Module
+#### Create a Module
 
 To create a module just save the code you want in a file with the file extension `.py`:
 
@@ -2928,7 +2929,7 @@ def greeting(name):
   print("Hello, " + name)
 ```
 
-### Use a Module
+#### Use a Module
 
 Now we can use the module we just created, by using the `import` statement:
 
@@ -2947,7 +2948,7 @@ Hello, Jonathan
 ```
 **`Note`: When using a function from a module, use the syntax: module_name.function_name.**
 
-#### Variables in Module
+##### Variables in Module
 
 The module can contain functions, as already described, but also variables of all types (arrays, dictionaries, objects etc):
 
@@ -2976,7 +2977,7 @@ print(a)
 36
 ```
 
-### Naming a Module
+#### Naming a Module
 
 You can name the module file whatever you like, but it must have the file extension `.py`
 
@@ -2998,7 +2999,7 @@ print(a)
 36
 ```
 
-### Built-in Modules
+#### Built-in Modules
 
 There are several built-in modules in Python, which you can import whenever you like.
 
@@ -3016,7 +3017,7 @@ print(x)
 Windows 
 ```
 
-### Using the dir() Function
+#### Using the dir() Function
 
 There is a built-in function to list all the function names (or variable names) in a module. The `dir()` function:
 
@@ -3035,7 +3036,7 @@ print(x)
 ```
 **`Note`: The dir() function can be used on all modules, also the ones you create yourself.**
 
-### Import From Module
+#### Import From Module
 
 You can choose to import only parts from a module, by using the `from` keyword.
 
@@ -3067,7 +3068,7 @@ print (person1["age"])
 
 **`Note`: When importing using the from keyword, do not use the module name when referring to elements in the module. Example: person1["age"], not ~~mymodule.person1["age"]~~`**
 
-## Try Except Else Finally
+### Try Except Else Finally
 
 The `try` block lets you test a block of code for errors.
 
@@ -3077,7 +3078,7 @@ The `else` block lets you execute code when there is no error.
 
 The `finally` block lets you execute code, regardless of the result of the try- and except blocks.
 
-### Exception Handling
+#### Exception Handling
 
 When an error occurs, or exception as we call it, Python will normally stop and generate an error message.
 
@@ -3110,7 +3111,7 @@ print(x)
 NameError: name 'x' is not defined
 ```
 
-### Many Exceptions
+#### Many Exceptions
 
 You can define as many exception blocks as you want, e.g. if you want to execute a special block of code for a special kind of error:
 
@@ -3129,7 +3130,7 @@ except:
 Variable x is not defined
 ```
 
-### Else
+#### Else
 
 You can use the `else` keyword to define a block of code to be executed if no errors were raised:
 
@@ -3149,7 +3150,7 @@ Hello
 Nothing went wrong
 ```
 
-### Finally
+#### Finally
 
 The `finally` block, if specified, will be executed regardless if the try block raises an error or not.
 
@@ -3191,7 +3192,8 @@ Something went wrong when writing to the file
 
 The program can continue, without leaving the file object open.
 
-### Raise an exception
+#### Raise an exception
+
 As a Python developer you can choose to throw an exception if a condition occurs.
 
 To throw (or raise) an exception, use the `raise` keyword.
@@ -3226,7 +3228,7 @@ if not type(x) is int:
 TypeError: Only integers are allowed
 ```
 
-### Exceptions & Description 
+#### Exceptions & Description 
 
 | Exception Name | Description |
 | -------------- | ----------- |
@@ -3262,23 +3264,23 @@ TypeError: Only integers are allowed
 
 -------------------------------------------------------
 
-# Advanced Python
+## Advanced Python
 
-## PIP
+### PIP
 
-### What is PIP?
+#### What is PIP?
 
 PIP is a package manager for Python packages, or modules if you like.
 
 ***`Note`: If you have Python version 3.4 or later, PIP is included by default.***
 
-### What is a Package?
+#### What is a Package?
 
 A package contains all the files you need for a module.
 
 Modules are Python code libraries you can include in your project.
 
-### Check if PIP is Installed
+#### Check if PIP is Installed
 
 Navigate your command line to the location of Python's script directory, and type the following:
 
@@ -3288,11 +3290,11 @@ Check PIP version:
 pip --version
 ```
 
-### Install PIP
+#### Install PIP
 
 If you do not have PIP installed, you can download and install it from this page: [pypi.org](https://pypi.org/project/pip/)
 
-### Download a Package
+#### Download a Package
 
 Downloading a package is very easy.
 
@@ -3306,7 +3308,7 @@ Download a package named "camelcase":
 pip install camelcase
 ```
 
-### Using a Package
+#### Using a Package
 
 Once the package is installed, it is ready to use.
 
@@ -3328,7 +3330,7 @@ print(c.hump(txt))
 Lorem Ipsum Dolor Sit Amet
 ```
 
-### Find Packages
+#### Find Packages
 
 Find more packages at [pypi](https://pypi.org/).
 
@@ -3342,7 +3344,7 @@ Uninstall the package named "camelcase":
 pip uninstall camelcase
 ```
 
-### List Packages
+#### List Packages
 
 Use the `list` command to list all the packages installed on your system:
 
@@ -3352,13 +3354,13 @@ List installed packages:
 pip list
 ```
 
-## JSON
+### JSON
 
 JSON is a syntax for storing and exchanging data.
 
 JSON is text, written with JavaScript object notation.
 
-### JSON in Python
+#### JSON in Python
 
 Python has a built-in package called `json`, which can be used to work with JSON data.
 
@@ -3369,7 +3371,7 @@ import json
 ```
 
 
-### Parse JSON - Convert from JSON to Python
+#### Parse JSON - Convert from JSON to Python
 
 If you have a JSON string, you can parse it by using the `json.loads()` method.
 
@@ -3394,7 +3396,7 @@ print(y["age"])
 30
 ```
 
-### Convert from Python to JSON
+#### Convert from Python to JSON
 
 If you have a Python object, you can convert it into a JSON string by using the `json.dumps()` method.
 
@@ -3500,7 +3502,7 @@ print(json.dumps(x))
 {"name": "John", "age": 30, "married": true, "divorced": false, "children": ["Ann","Billy"], "pets": null, "cars": [{"model": "BMW 230", "mpg": 27.5}, {"model": "Ford Edge", "mpg": 24.1}]}
 ```
 
-### Format the Result
+#### Format the Result
 
 The example above prints a JSON string, but it is not very easy to read, with no indentations and line breaks.
 
@@ -3559,7 +3561,7 @@ json.dumps(x, indent=4, separators=(". ", " = "))
 }
 ```
 
-### Order the Result
+#### Order the Result
 
 The `json.dumps()` method has parameters to order the keys in the result:
 
@@ -3594,13 +3596,13 @@ json.dumps(x, indent=4, sort_keys=True)
 ```
 
 
-## File handling
+### File handling
 
 File handling is an important part of any web application.
 
 Python has several functions for creating, reading, updating, and deleting files.
 
-### Basics
+#### Basics
 
 The key function for working with files in Python is the open() function.
 
@@ -3639,7 +3641,7 @@ Because `r` for read, and `t` for text are the default values, you do not need t
 
 ***`Note`: Make sure the file exists, or else you will get an error.***
 
-### Modes & Description
+#### Modes & Description
 
 | Modes | Description |
 | ----- | ----------- |
@@ -3656,7 +3658,7 @@ Because `r` for read, and `t` for text are the default values, you do not need t
 | `a+` | Opens a file for both appending and reading. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing. |
 | `ab+` | Opens a file for both appending and reading in binary format. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing. |
 
-###  Open a File
+####  Open a File
 
 To open the file, use the built-in open() function.
 
@@ -3689,7 +3691,7 @@ This file is located in a folder named "myfiles", on the D drive.
 Good Luck!
 ```
 
-### Read Only Parts of the File
+#### Read Only Parts of the File
 
 By default the `read()` method returns the whole text, but you can also specify how many characters you want to return:
 
@@ -3707,7 +3709,7 @@ Hello
 ```
 
 
-### Read Lines
+#### Read Lines
 
 You can return one line by using the `readline()` method:
 
@@ -3756,7 +3758,7 @@ This file is for testing purposes.
 Good Luck!
 ```
 
-### Close Files
+#### Close Files
 
 It is a good practice to always close the file when you are done with it.
 
@@ -3772,7 +3774,7 @@ f.close()
 ***`Note`: You should always close your files, in some cases, due to buffering, changes made to a file may not show until you close the file.***
 
 
-### Write to an Existing File
+#### Write to an Existing File
 
 To write to an existing file, you must add a parameter to the `open()`` function:
 
@@ -3818,7 +3820,7 @@ Woops! I have deleted the content!
 
 ***`Note`: the `w` method will overwrite the entire file.***
 
-### Create a New File
+#### Create a New File
 
 To create a new file in Python, use the `open()`` method, with one of the following parameters:
 
@@ -3842,7 +3844,7 @@ Create a new file if it does not exist:
 f = open("myfile.txt", "w")
 ```
 
-### Delete a File
+#### Delete a File
 
 To delete a file, you must import the OS module, and run its `os.remove()`` function:
 
@@ -3853,7 +3855,7 @@ Remove the file `demofile.txt`:
 import os
 os.remove("demofile.txt")
 ```
-### Check if File exist
+#### Check if File exist
 
 To avoid getting an error, you might want to check if the file exists before you try to delete it:
 
@@ -3868,7 +3870,7 @@ else:
   print("The file does not exist")
 ```
 
-### Create a folder
+#### Create a folder
 
 The `os` module has serveral methods that helps you create, remove, and change directories.
 
@@ -3876,7 +3878,7 @@ The `os` module has serveral methods that helps you create, remove, and change d
 os.mkdir("newdir")
 ```
 
-### Delete Folder
+#### Delete Folder
 
 To delete an entire folder, use the `os.rmdir()` method:
 
@@ -3889,7 +3891,7 @@ os.rmdir("myfolder")
 ```
 ***`Note`: You can only remove empty folders.***
 
-### Change a directory
+#### Change a directory
 
 **Syntax**:
 ```py
