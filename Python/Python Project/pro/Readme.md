@@ -42,3 +42,7 @@
 ## Organizing Data
 
 ### Highest Score
+
+## Using String
+
+### Tip Calculator 
