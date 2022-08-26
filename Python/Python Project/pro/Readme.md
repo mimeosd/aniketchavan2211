@@ -34,3 +34,7 @@
 
 ### Collecting Data Points
  Let's 
+
+## Loops
+
+### Coupon Generator 
