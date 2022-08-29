@@ -118,3 +118,45 @@ from database with intent to prepare combined datasets for data processing.
 comes out an unauthorized data transfer from a computer. It 
 is also commonly called data extrusion or data exportation.
 Data exfiltration is also considered a form of data theft.
+
+- Information Gathering / Reconnaissance :- Information Gathering 
+means gathering different kinds of information
+about the target. It is basically, the first 
+step or the beginning stage of Ethical Hacking, 
+where the penetration testers or hackers 
+(both black hat or white hat) tries to gather 
+all the information about the target, in order
+to use it for Hacking.
+
+- Scaning :- This phase includes the usage of 
+tools like dialers, port scanners, network 
+mappers, sweepers, and vulnerability scanners
+to scan data.
+
+- Gaining Access :- This phase is where an 
+attacker breaks into the system/network using
+various tools or methods. After entering 
+into a system, he has to increase his 
+privilege to administrator level so he can 
+install an application he needs or modify 
+data or hide data.
+
+- Maintaining Access :- Hacker may just hack
+the system to show it was vulnerable or he 
+can be so mischievous that he wants to 
+maintain or persist the connection in 
+the background without the knowledge of the 
+user. This can be done using Trojans, 
+Rootkits or other malicious files. The aim is 
+to maintain the access to the target until he 
+finishes the tasks he planned to accomplish 
+in that target.
+
+- Clearing Tracks :- An intelligent hacker 
+always clears all evidence so that in the 
+later point of time, no one will find any 
+traces leading to him. This involves 
+modifying/corrupting/deleting the values of 
+Logs, modifying registry values and 
+uninstalling all applications he used and 
+deleting all folders he created.
