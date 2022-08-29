@@ -119,6 +119,34 @@ comes out an unauthorized data transfer from a computer. It
 is also commonly called data extrusion or data exportation.
 Data exfiltration is also considered a form of data theft.
 
+- Ethical Hackers / White Hat Hackers :- 
+- 
+- Grey Hat Hackers :- 
+- 
+- Black Hat Hackers :-
+- 
+- Red Hat Hackers :- 
+- 
+- Blue Hat Hackers :- 
+- 
+- Green Hat Hackers :- 
+- 
+- Cracker :- 
+- 
+- Script Kidde :- 
+- 
+- Phreakers :- 
+- 
+- Nation State Hacker :- 
+- 
+- Hackivist :- 
+- 
+- Social Engineer :- 
+- 
+- Malicious Insider or Whileblower :- 
+- 
+- Suicide Hackers :- 
+
 - Information Gathering / Reconnaissance :- Information Gathering 
 means gathering different kinds of information
 about the target. It is basically, the first 
@@ -160,3 +188,101 @@ modifying/corrupting/deleting the values of
 Logs, modifying registry values and 
 uninstalling all applications he used and 
 deleting all folders he created.
+
+## Attacks 
+
+- Malware :- 
+- Virus :- 
+- Trojan:- 
+- Worm :- 
+- Backdoor Programs :- 
+- Phishing :- 
+- MiTM :- 
+- DoS :- 
+- DDoS :- 
+- XSS :- 
+- SQL Injection:- 
+- Botnet Attack :- 
+- Password Attack :- 
+- Key logger Attack :- 
+- Eavesdropping Atatck :- 
+- Shouder Surfing :- 
+- Crytpjacking :- 
+- Social Engineering Attack :-
+- Brute-force Attack :- 
+- Dictionary Attack :- 
+- Rainbow Table Attack:- 
+- Buffer Overflow :- 
+- Code Injection:- 
+- Session Hijacking:- 
+- 
+
+## Networking
+
+- Network :- 
+- Data :- 
+- Information :- 
+- Transmission media :- 
+- Guided media :- 
+- Unguided media :- 
+- IP Address :-
+- IPv4 :- 
+- IPv6 :- 
+- MAC Address :-
+- DNS :-
+- Protocol:- 
+- Port :-
+- LAN :- 
+- PAN :- 
+- MAN :- 
+- WAN :- 
+- CAN :- 
+- SAN :- 
+- firewall :- 
+- Server - client model :- 
+- peer-to-peer model :- 
+- Ping :-
+- URL :-
+- TCP/IP Model :-
+- OSI Model :-
+- Application layer :- 
+- Presentation layer :- 
+- Session layer :- 
+- Transport layer :- 
+- Network layer :- 
+- Data Link layer :- 
+- Physical layer :- 
+- TCP :- 
+- UDP :- 
+- SMTP :- 
+- FTP :- 
+- Telnet :- 
+- TFTP :- 
+- HTTP :- 
+- HTTPS :- 
+- SSH :- 
+- VNC :- 
+- NIC Card :- 
+- Network Topology :-
+- Reapter:-
+- Hub :-
+- Bridge :-
+- Switch :-
+- Gateway :-
+- Router :-
+- Modern :-
+- wired :-
+- Wireless :-
+- Wifi :-
+- Bluetooth :-
+- IEEE Standard:-
+- RJ-45 :-
+- Cables :- 
+- Twisted-Pair Cable :- 
+- Unshielded Twisted Pair (UTP) :- 
+- Shielded Twisted Pair (STP) :- 
+- Co-axial Cable :- 
+- Fiber-Optic Cable :- 
+- Radio waves :- 
+- Microwaves :- 
+- Infrared :-
