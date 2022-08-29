@@ -119,33 +119,37 @@ comes out an unauthorized data transfer from a computer. It
 is also commonly called data extrusion or data exportation.
 Data exfiltration is also considered a form of data theft.
 
-- Ethical Hackers / White Hat Hackers :- 
-- 
-- Grey Hat Hackers :- 
-- 
-- Black Hat Hackers :-
-- 
-- Red Hat Hackers :- 
-- 
-- Blue Hat Hackers :- 
-- 
-- Green Hat Hackers :- 
-- 
-- Cracker :- 
-- 
-- Script Kidde :- 
-- 
-- Phreakers :- 
-- 
-- Nation State Hacker :- 
-- 
-- Hackivist :- 
-- 
-- Social Engineer :- 
-- 
-- Malicious Insider or Whileblower :- 
-- 
-- Suicide Hackers :- 
+- Ethical Hackers / White Hat Hackers :- is an ethical security hacker.[1] Ethical hacking is a term meant to imply a broader category than just penetration testing.
+
+- Grey Hat Hackers :- is a computer hacker or computer security expert who may sometimes violate laws or typical ethical standards, but usually does not have the malicious intent typical of a black hat hacker.
+
+- Black Hat Hackers :- is a hacker who violates computer security for their own personal profit or out of malice.
+
+- Elite hacker :- A social status among hackers, elite is used to describe the most skilled. Newly discovered exploits circulate among these hackers. Elite groups such as Masters of Deception conferred a kind of credibility on their members.
+
+- Red Hat Hackers :- A red hat hacker is a hacker who takes aggressive steps to stop black hat hackers. While red hat hackers are not inherently evil, they do everything they can to stop the bad guys, including taking matters into their own hands.
+
+- Blue Hat Hackers :- These hackers don’t necessarily care about money or fame. They hack to take personal revenge for a real — or perceived — sleight from a person, employer, institution, or government. Blue hat hackers use malware and deploy various cyber attacks on their enemies’ servers/networks to cause harm to their data, websites, or devices.
+
+- Noobs / Green Hat Hackers :- Green hat hackers are the newest kids on the block who are just starting to learn the craft. They don’t have a clear motivation at the stage they are in (i.e., they can either become a black or a white hat hacker). As has been said, they don’t intentionally want to cause harm but may do so. And since they don’t know that much yet about hacking, they may not be able to fix the damage they caused.
+
+- Cracker :- Crackers are kind of bad people who break or violate the system or a computer remotely with bad intentions to harm the data and steal it. Crackers destroy data by gaining unauthorized access to the network. 
+
+- Script Kidde :- is a relatively unskilled individual who uses scripts or programs, such as a web shell, developed by others to attack computer systems and networks and deface websites, according to the programming and hacking cultures.
+
+- Phreakers :- is someone who breaks into the telephone network illegally, typically to make free long-distance phone
+
+- Nation State Sponsored Hacker :- Nation state hackers are group of hackers that are sponsored by government for any purpose. The purpose might include gaining illicit access to other nation's data.
+
+- Hackivist :- a person who gains unauthorized access to computer files or networks in order to further social or political ends.
+
+- Social Engineer :- a person who uses deception to manipulate individuals into divulging confidential or personal information that may be used for fraudulent purposes.
+
+- Malicious Insider or Whileblower :- is a person, often an employee, who reveals information about activity within a private or public organization that is deemed illegal, immoral, illicit, unsafe or fraudulent.
+
+- Suicide Hackers :- Suicide hackers are individuals who aim to bring down critical infrastructure for a “cause” and are not worried about facing jail terms or any other kind of punishment. They are similar to suicide bombers, who sacrifice their life for an attack and are thus not concerned with the consequences of their actions.
+
+- Neophyte :- A neophyte ("newbie", or "noob") is someone who is new to hacking or phreaking and has almost no knowledge or experience of the workings of technology and hacking.
 
 - Information Gathering / Reconnaissance :- Information Gathering 
 means gathering different kinds of information
