@@ -63,4 +63,4 @@
  , and multiply numbers.
  
  [Snippet](https://raw.githubusercontent.com/aniketchavan2211/aniketchavan2211/master/Python/Python%20Project/pro/Calculator.py)
- [Repo test](aniketchavan2211/Python/Python Project/pro/Calculator.py)
+ [Repo test](Python/Python Project/pro/Calculator.py)
