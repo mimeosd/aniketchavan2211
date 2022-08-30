@@ -61,9 +61,5 @@
 
  Let's create a simple calculator that can add, substracts
  , and multiply numbers.
- 
- [Repo test](https://github.com/aniketchavan2211/aniketchavan2211/blob/1682e1f5da4cb1f5e8493d4ff9cd13a1f8404aeb/Python/Python%20Project/pro/Calculator.py)
- 
- test
- ```python:Python/Python Project/pro/Calculator.py
- ```
+
+ [Snippet: ](https://github.com/aniketchavan2211/aniketchavan2211/blob/1682e1f5da4cb1f5e8493d4ff9cd13a1f8404aeb/Python/Python%20Project/pro/Calculator.py)
