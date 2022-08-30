@@ -4,19 +4,21 @@ Prepared by: dotguy!
 
 ## **Introduction!**
 
-Organizations of every type, size, and industry are using the cloud for a wide variety of use cases, such as data backup, storage, disaster recovery, email, virtual desktops, software development and testing, etc. Thus, it is crucial to have a secure configuration for a company's cloud infrastructure in order to protect against any attacks. Three is a Linux box that includes a website, which utilizes an AWS S3 bucket as its cloud-storage device. We can exploit this poorly configured S3 bucket and upload a reverse shell on it. We can then visit the corresponding URL to execute the reverse file and ultimately retrieve the flag.![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.004.png)
+Organizations of every type, size, and industry are using the cloud for a wide variety of use cases, such as data backup, storage, disaster recovery, email, virtual desktops, software development and testing, etc. Thus, it is crucial to have a secure configuration for a company's cloud infrastructure in order to protect against any attacks. Three is a Linux box that includes a website, which utilizes an AWS S3 bucket as its cloud-storage device. We can exploit this poorly configured S3 bucket and upload a reverse shell on it. We can then visit the corresponding URL to execute the reverse file and ultimately retrieve the flag.
 
 ## **Enumeration!**
 
 To start with, we will check for open ports using a Nmap scan:
 
-sudo nmap -sV 10.129.227.248![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.006.png)
+```sh
+sudo nmap -sV 10.129.227.248
+```
 
 ![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.007.png)
 
-The scan shows that two ports are open -  port 80 (HTTP) and  port 22 (SSH). Let's enumerate![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.008.png)![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.009.png)
+The scan shows that two ports are open -  port 80 (HTTP) and  port 22 (SSH). Let's enumerate
 
-port 80 using our web browser.![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.010.png)
+port 80 using our web browser
 
 ![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.011.jpeg)
 
@@ -28,7 +30,7 @@ Once the Wappalyzer extension is installed, we can visit the website and then cl
 
 Wappalyzer identifies PHP as the programming language being used by the website.
 
-Upon scrolling down the webpage, we come across the "Contact" section, which has email information. The email given here has the domain  thetoppers.htb .![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.013.png)
+Upon scrolling down the webpage, we come across the "Contact" section, which has email information. The email given here has the domain  thetoppers.htb .
 
 ![](Aspose.Words.2b1f03b8-9d16-4c0b-bf4c-68c188d36e86.014.jpeg)
 
