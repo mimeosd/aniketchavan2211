@@ -33,6 +33,8 @@
  Let's use conditional to help create code that checks for
  outliers in some data.
 
+ Snippet: [Finding Outlier](https://github.com/aniketchavan2211/aniketchavan2211/blob/a5c425e30bda2ec8f9d582012d63ba46068c65ea/Python/Python%20Project/pro/Fining_Outliers.py)
+
 #### Collecting Data Points
 
  Let's create a program to check if there are enough data
@@ -76,4 +78,4 @@
  Let's create a simple calculator that can add, substracts
  , and multiply numbers.
 
- Snippet: [Calculator.py](https://github.com/aniketchavan2211/aniketchavan2211/blob/1682e1f5da4cb1f5e8493d4ff9cd13a1f8404aeb/Python/Python%20Project/pro/Calculator.py)
+ Snippet: [Calculator](https://github.com/aniketchavan2211/aniketchavan2211/blob/1682e1f5da4cb1f5e8493d4ff9cd13a1f8404aeb/Python/Python%20Project/pro/Calculator.py)
