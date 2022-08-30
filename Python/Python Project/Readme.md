@@ -180,15 +180,21 @@
  functions to find out if a user is a common
  friend amongst two other users.
 
+ Snippet: [Common Friends Checker](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Common-Friend-Checker.py)
+
 ### Classes Scheduler
 
  Let's use our knowledge of functions and loops
  to match a list of classes to available time
  slots.
 
+ Snippet: [Classes Scheduler](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Classes-Scheduler.py)
+
 ## List Comprehensions
 
 ### Real-time Quiz Marker
+
+ Snippet: [Real Time Quiz Maker](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Real-Time-Quiz-Marker.py)
 
 ### Activity Prioritiser
 
@@ -196,11 +202,15 @@
  users cut down their spending on hobbies!
  Here's a look at the final code.
 
+ Snippet: [Activity Prioritiser](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Activity-Prioritiser.py)
+
 ### Heart Rate Analyzer
 
  A boxer wants to analyze their heart rate
  monitor data during a training fight, Here
  a look at the code that will do it.
+
+ Snippet: [Heart Rate Analyzer](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Heart-Rate-Analyzer.py)
 
 ### Call Centre Allocator
 
@@ -208,6 +218,8 @@
  allocate call fairly between the workers
  Here's the system we'll code to do this
  automatically.
+
+ Snippet: [Call Centre Allocator](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Call-Centre-Allocator.py)
 
 ## Classes
 
@@ -218,11 +230,15 @@
  statements Here's a peek at the finished
  code.
 
+ Snippet: [Books Item](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Books-Item.py)
+
 ### Movie Listing
 
  Let's create a Movie class that will be used
  to display the current movie playing at a movie
  theater. Here's peek at the code.
+
+ Snippet: [Movie Listing](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Movie-listing.py)
 
 ### Character Creator
 
@@ -230,11 +246,15 @@
  will be used for a coding a game. Here's what
  it will look like.
 
+ Snippet: [Character Creator](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Character-Creator.py)
+
 ### Online Item
 
  Let's create a class to keep inventory of grocery
  items at a store. we'll create many items,
  customizing them using the constructor.
+
+ Snippet: [Online Item](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Online-Item.py)
 
 ## Errors and Exceptions
 
@@ -244,14 +264,20 @@
  to fix the code and create a working calorie
  calculator.
 
+ Snippet: [Calorie Calculator](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Calorie-Calculator.py)
+
 ### Department Store
 
  Someone has made a program to help direct
  people to the right floor in a department
  store.
 
+ Snippet: [Department Store](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Department-Store.py)
+
 ### Pizza Pricer
 
  A pizza shop wants to know how much the ingredients
  of each type of pizza costs. They have a program
  to help.
+
+ Snippet: [Pizza Pricer](https://github.com/aniketchavan2211/aniketchavan2211/blob/e47b7d5816f8a04fa71f18f5d413f8dfbfec18de/Python/Python%20Project/Pizza-Pricer.py)
