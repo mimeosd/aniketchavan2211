@@ -102,3 +102,10 @@ Snippet: [Archery Game](https://github.com/aniketchavan2211/aniketchavan2211/blo
  non-player characters.
 
 Snippet: [Role Playing Game](https://github.com/aniketchavan2211/aniketchavan2211/blob/a170082de623b6878ae8c40c4983bfefc069d4b5/Python/Python%20Project/pro/Role%20Playing%20Game.py)
+
+#### Automobile Racing Game
+
+ Let's create code that will be a part of a racing game.
+ Each player can choose a different automobile to race in.
+
+Snippet: [Automobile Racing Game](https://github.com/aniketchavan2211/aniketchavan2211/blob/ae7ea001ba6f0e7174bb4f582b2c84bfd69dae7e/Python/Python%20Project/pro/Automobile%20Racing%20Game.py)
