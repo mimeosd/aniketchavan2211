@@ -109,3 +109,10 @@ Snippet: [Role Playing Game](https://github.com/aniketchavan2211/aniketchavan221
  Each player can choose a different automobile to race in.
 
 Snippet: [Automobile Racing Game](https://github.com/aniketchavan2211/aniketchavan2211/blob/ae7ea001ba6f0e7174bb4f582b2c84bfd69dae7e/Python/Python%20Project/pro/Automobile%20Racing%20Game.py)
+
+#### Food Delivery App
+
+ Let's code part of a food delivery app. The app will
+ abstracts details so the class is easy to use.
+
+Snippet: [Food Delivery App]()
