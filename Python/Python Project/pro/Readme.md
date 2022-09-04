@@ -124,3 +124,10 @@ Snippet: [Food Delivery App](https://github.com/aniketchavan2211/aniketchavan221
  design program.
 
 Snippet: [Perimeter Calculator](https://github.com/aniketchavan2211/aniketchavan2211/blob/d741a5742515d5b867f5dcc63fd4bfba9ee45f3d/Python/Python%20Project/pro/Perimeter%20Calculator.py)
+
+#### Employee Database
+
+ Let's create code for a program that keeps track of
+ employee and their jobs in a database.
+
+Snippet: [Employee Database]()
