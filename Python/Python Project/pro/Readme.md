@@ -88,3 +88,10 @@
  same functionality and properties as a real-life soda machine.
 
 Snippet: [Vending Machine Code](https://github.com/aniketchavan2211/aniketchavan2211/blob/10bff116b01275c6b7d82faea8ab5ff23a042d99/Python/Python%20Project/pro/Vending%20Machine%20Code.py)
+
+#### Archery Game
+
+ Let's create an arcade game where users can practice archery
+ and shooting arrows.
+
+Snippet: [Archery Game]()
