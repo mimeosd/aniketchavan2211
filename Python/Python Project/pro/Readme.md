@@ -116,3 +116,11 @@ Snippet: [Automobile Racing Game](https://github.com/aniketchavan2211/aniketchav
  abstracts details so the class is easy to use.
 
 Snippet: [Food Delivery App](https://github.com/aniketchavan2211/aniketchavan2211/blob/970dffada7e457372f9f3ed26d1f9dee41ce7d5e/Python/Python%20Project/pro/Food%20Delivery%20App.py)
+
+#### Perimeter Calculator
+
+ Let's write code that calculates the perimter of different
+ polygons. The code will be part of an architectural
+ design program.
+
+Snippet: [Perimeter Calculator]()
