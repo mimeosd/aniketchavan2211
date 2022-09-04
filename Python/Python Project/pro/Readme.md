@@ -94,4 +94,4 @@ Snippet: [Vending Machine Code](https://github.com/aniketchavan2211/aniketchavan
  Let's create an arcade game where users can practice archery
  and shooting arrows.
 
-Snippet: [Archery Game]()
+Snippet: [Archery Game](https://github.com/aniketchavan2211/aniketchavan2211/blob/2eb9a50f80af7267b92355b292e6e68c8860d8d3/Python/Python%20Project/pro/Archery%20Game.py)
