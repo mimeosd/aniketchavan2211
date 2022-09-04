@@ -79,3 +79,12 @@
  , and multiply numbers.
 
  Snippet: [Calculator](https://github.com/aniketchavan2211/aniketchavan2211/blob/1682e1f5da4cb1f5e8493d4ff9cd13a1f8404aeb/Python/Python%20Project/pro/Calculator.py)
+
+### Object-oriented Programming
+
+#### Vending Machine Code
+
+ Using OOP, we'll create a virtual vending machine with the
+ same functionality and properties as a real-life soda machine.
+
+Snippet: [Vending Machine Code](https://github.com/aniketchavan2211/aniketchavan2211/blob/10bff116b01275c6b7d82faea8ab5ff23a042d99/Python/Python%20Project/pro/Vending%20Machine%20Code.py)
