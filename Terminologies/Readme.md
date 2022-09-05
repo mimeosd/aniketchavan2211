@@ -199,31 +199,32 @@ deleting all folders he created.
 
 ## Attacks 
 
-- Malware :- 
-- Virus :- 
-- Trojan:- 
-- Worm :- 
-- Backdoor Programs :- 
-- Phishing :- 
-- MiTM :- 
-- DoS :- 
-- DDoS :- 
-- XSS :- 
-- SQL Injection:- 
-- Botnet Attack :- 
-- Password Attack :- 
-- Key logger Attack :- 
-- Eavesdropping Atatck :- 
-- Shouder Surfing :- 
-- Crytpjacking :- 
-- Social Engineering Attack :-
-- Brute-force Attack :- 
-- Dictionary Attack :- 
-- Rainbow Table Attack:- 
-- Buffer Overflow :- 
-- Code Injection:- 
-- Session Hijacking:- 
-- Obfuscation:- Obfuscation means to make something difficult to understand. Programming code is often obfuscated to protect intellectual property or trade secrets, and to prevent an attacker from reverse engineering a proprietary software program.
+- **Malware** :- Malware (a portmanteau for malicious software) is any software intentionally designed to cause disruption to a computer, server, client, or computer network, leak private information, gain unauthorized access to information or systems, deprive users access to information or which unknowingly interferes with the user's computer security and privacy.
+- **Virus** :- Computer Virus is a type of computer program that, when executed, replicates itself by modifying other computer programs and inserting its own code. If this replication succeeds, the affected areas are then said to be "infected" with a computer virus, a metaphor derived from biological viruses.
+- **Trojan**:- Trojan horse is any malware that misleads users of its true intent. The term is derived from the Ancient Greek story of the deceptive Trojan Horse that led to the fall of the city of Troy.
+- **Worm** :- Computer Worm is a standalone malware computer program that replicates itself in order to spread to other computers.[1] It often uses a computer network to spread itself, relying on security failures on the target computer to access it. It will use this machine as a host to scan and infect other computers. When these new worm-invaded computers are controlled, the worm will continue to scan and infect other computers using these computers as hosts, and this behavior will continue.
+- **Backdoor Programs** :- Backdoor is a typically covert method of bypassing normal authentication or encryption in a computer, product, embedded device (e.g. a home router), or its embodiment (e.g. part of a cryptosystem, algorithm, chipset, or even a "homunculus computer" —a tiny computer-within-a-computer such as that found in Intel's AMT technology).
+- **Phishing** :- Phishing is a type of social engineering where an attacker sends a fraudulent (e.g., spoofed, fake, or otherwise deceptive) message designed to trick a person into revealing sensitive information to the attacker or to deploy malicious software on the victim's infrastructure like ransomware. 
+- **MiTM** :- man-in-the-middle, monster-in-the-middle, machine-in-the-middle, monkey-in-the-middle, meddler-in-the-middle, manipulator-in-the-middle (MITM), person-in-the-middle (PITM) or adversary-in-the-middle[8] (AiTM) attack is a cyberattack where the attacker secretly relays and possibly alters the communications between two parties who believe that they are directly communicating with each other, as the attacker has inserted themselves between the two parties.
+- **DoS** :- Denial-of-service (DoS) attack floods a server with traffic, making a website or resource unavailable.
+- **DDoS** :- Distributed denial-of-service (DDoS) attack is a DoS attack that uses multiple computers or machines to flood a targeted resource.
+- **XSS** :- Cross-site scripting (XSS) is a type of security vulnerability that can be found in some web applications. XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass access controls such as the same-origin policy. 
+- **SQL Injection** :- SQL injection is a code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g. to dump the database contents to the attacker).
+- **Botnet Attack** :- Botnet is a group of Internet-connected devices, each of which runs one or more bots. Botnets can be used to perform Distributed Denial-of-Service (DDoS) attacks, steal data,[1] send spam, and allow the attacker to access the device and its connection. The owner can control the botnet using command and control (C&C) software.
+- **Password Attack** :- Password attacks involve exploiting a broken authorization vulnerability in the system combined with automatic password attack tools that speed up the guessing and cracking of passwords. 
+- **Key logger Attack** :- Keylogger is an insidious form of spyware. You enter sensitive data onto your keyboard, believing nobody is watching. In fact, keylogging software is hard at work logging everything that you type.
+- **Eavesdropping Atatck** :- Eavesdropping attack, also known as a sniffing or snooping attack, is a theft of information as it is transmitted over a network by a computer, smartphone, or another connected device.
+- **Shouder Surfing** :- shoulder surfing is a type of social engineering technique used to obtain information such as personal identification numbers (PINs), passwords and other confidential data by looking over the victim's shoulder.
+- **Crytpjacking** :- Cryptojacking is the act of hijacking a computer to mine cryptocurrencies against the users will, through websites, or while the user is unaware.
+- **Social Engineering Attack** :- Social Engineering is the psychological manipulation of people into performing actions or divulging confidential information.
+- **Brute-force Attack** :- Brute-Force attack consists of an attacker submitting many passwords or passphrases with the hope of eventually guessing correctly. The attacker systematically checks all possible passwords and passphrases until the correct one is found. Alternatively, the attacker can attempt to guess the key which is typically created from the password using a key derivation function. This is known as an exhaustive key search.
+- **Dictionary Attack** :- Dictionary Attack is an attack using a restricted subset of a keyspace to defeat a cipher or authentication mechanism by trying to determine its decryption key or passphrase, sometimes trying thousands or millions of likely possibilities[1] often obtained from lists of past security breaches.
+- **Rainbow Table Attack** :- Rainbow Table partitions a function, whose domain is a set of values and whose codomain is a set of keys derived from those values, into chains such that each chain is an alternating sequence of values and keys, followed by a final value.
+- **Buffer Overflow** :-  Buffer Overflow, or buffer overrun, is an anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations.
+- **Code Injection** :- Code injection is the exploitation of a computer bug that is caused by processing invalid data. The injection is used by an attacker to introduce (or "inject") code into a vulnerable computer program and change the course of execution. The result of successful code injection can be disastrous, for example, by allowing computer viruses or computer worms to propagate.
+- **Session Hijacking** :- Session hijacking, sometimes also known as cookie hijacking, is the exploitation of a valid computer session—sometimes also called a session key—to gain unauthorized access to information or services in a computer system.
+- **Obfuscation** :- Obfuscation means to make something difficult to understand. Programming code is often obfuscated to protect intellectual property or trade secrets, and to prevent an attacker from reverse engineering a proprietary software program.
+- **LDAP injection** :- LDAP injection is a code injection technique used to exploit web applications which could reveal sensitive user information or modify information represented in the LDAP (Lightweight Directory Access Protocol) data stores.[1][2][3] LDAP injection exploits a security vulnerability in an application by manipulating input parameters passed to internal search, add or modify functions. When an application fails to properly sanitize user input, it is possible for an attacker to modify an LDAP statement.
 
 ## Networking
 
