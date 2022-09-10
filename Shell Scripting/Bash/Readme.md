@@ -1131,3 +1131,4 @@ This will locate all the lines that end with the letter y.
 
 
 ## Reference : [Tutorial Point](https://www.tutorialspoint.com/unix/index.htm)
+[Dev hints](https://devhints.io/bash)
