@@ -1,9 +1,9 @@
 ## How to Change BASH Prompt Color
 
- My Customized bash prompt
+Default Bash Prompt
 
 ```bash
-PS1='\033[1;99m┌──(\e[1;34m\u@\h\e[0m\033[1;99m) ~ [\[\e[1;32m\]\w\[\e[0m\]\033[1;99m] \n\033[1;99m└─\[\e[0;97m\]\$\[\e[0m\] '
+PS1='\033[1;99m┌──(\e[1;31m\u@\h\e[0m\033[1;99m)—[\[\e[1;34m\]\w\[\e[0m\]\033[1;99m] \n\033[1;99m└─\[\e[0;97m\]\$\[\e[0m\]  '
 ```
 
  You can change the text color of your BASH prompt. For example,
