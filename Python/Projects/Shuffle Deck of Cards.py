@@ -2,4 +2,9 @@
 
 import random, itertools
 
-deck = itertools.product(1, 14), []
+deck = list(itertools.product(range(1, 14), ["Spade", "Club", "Hearts", "Diamond"]))
+
+random.shuffle(deck)
+
+for i in range(5):
+  print(deck[i][0], 'of', deck[i][1])
