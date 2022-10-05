@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-import calender
+import calendar
 
 year = int(input('Enter year: '))
 month = int(input('Enter month: '))
 
-calender = calender.month(year, month)
+calendar = calendar.month(year, month)
 
-print(calender)
+print(calendar)
 
