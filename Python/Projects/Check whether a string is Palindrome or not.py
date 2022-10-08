@@ -5,7 +5,7 @@ a = input('Enter a string: ')
 rev = a[::-1]
 
 if a == rev:
-  print('It is palindrome number')
+  print('\033[1;32mIt is palindrome number\033[0m')
 
 else:
-  print('It is \033[1;32mNOT\033[0m palindorme number')
+  print('\033[1;31mIt is NOT palindorme number\033[0m')
